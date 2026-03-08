@@ -1,0 +1,21 @@
+# Ethereum Reports
+
+Research reports covering DEX markets, DeFi lending, and the Ethereum ecosystem.
+
+## DEXes
+
+- [Comprehensive DEX Market Report: 2022-2026](dexes/dex-market-report-2022-2026.md) — Historical analysis of DEX market evolution, volume trends, and protocol dynamics
+- [DEX Market Projections: 2026-2029](dexes/dex-projections-2026-2029.md) — Forward-looking projections for DEX market growth and structural shifts
+- [State of MEV: March 2026](dexes/state-of-mev-march-2026.md) — Current landscape of maximal extractable value across the Ethereum supply chain
+
+## Ethereum
+
+- [State of Ethereum: March 2026](ethereum/state-of-ethereum-march-2026.md) — Overview of Ethereum's network health, usage metrics, and roadmap progress
+- [State of the Ethereum L2 Ecosystem: March 2026](ethereum/state-of-ethereum-l2-ecosystem-march-2026.md) — Analysis of rollups, L2 adoption, and the scaling landscape
+- [The Sanctuary Thesis](ethereum/the-sanctuary-thesis.md) — Essay on Ethereum's evolution as credibly neutral infrastructure
+
+## Lending
+
+- [Comprehensive Lending & Borrowing Market Report: 2022-2026](lending/lending-borrowing-market-report-2022-2026.md) — Historical analysis of DeFi lending market growth, protocol competition, and market structure
+- [DeFi Lending & Borrowing Market Projections: 2026-2029](lending/lending-projections-2026-2029.md) — Forward-looking projections for DeFi lending market expansion
+- [The Future of DeFi Lending: Strategic Transformation Analysis](lending/future-of-defi-lending-2026.md) — Strategic analysis of lending protocol evolution, curator economics, and institutional adoption
