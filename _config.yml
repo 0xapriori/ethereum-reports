@@ -1,0 +1,27 @@
+title: Ethereum Reports
+description: Research reports on DEXes, lending markets, and Ethereum
+url: https://0xapriori.github.io
+baseurl: /ethereum-reports
+markdown: kramdown
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "dexes"
+    values:
+      layout: "report"
+      category: "DEXes"
+  - scope:
+      path: "ethereum"
+    values:
+      layout: "report"
+      category: "Ethereum"
+  - scope:
+      path: "lending"
+    values:
+      layout: "report"
+      category: "Lending"

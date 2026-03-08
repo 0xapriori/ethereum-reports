@@ -1,3 +1,7 @@
+---
+title: "Comprehensive Lending & Borrowing Market Report: 2022–2026"
+---
+
 # Comprehensive Lending & Borrowing Market Report: 2022–2026
 
 **Published:** March 4, 2026

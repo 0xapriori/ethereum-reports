@@ -1,3 +1,7 @@
+---
+title: "DeFi Lending & Borrowing Market Projections: 2026–2029"
+---
+
 # DeFi Lending & Borrowing Market Projections: 2026–2029
 
 **Published:** March 4, 2026

@@ -1,3 +1,7 @@
+---
+title: "The Sanctuary Thesis"
+---
+
 # The Sanctuary Thesis
 
 ---

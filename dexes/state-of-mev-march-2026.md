@@ -1,3 +1,7 @@
+---
+title: "State of MEV: March 2026"
+---
+
 # State of MEV: March 2026
 
 **Report Date**: March 3, 2026

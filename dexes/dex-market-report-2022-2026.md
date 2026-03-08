@@ -1,3 +1,7 @@
+---
+title: "Comprehensive DEX Market Report: 2022–2026"
+---
+
 # Comprehensive DEX Market Report: 2022–2026
 
 **Published:** March 3, 2026

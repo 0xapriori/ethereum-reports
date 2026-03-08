@@ -1,3 +1,7 @@
+---
+title: "State of the Ethereum L2 Ecosystem: March 2026"
+---
+
 # State of the Ethereum L2 Ecosystem: March 2026
 
 **Report Date**: March 6, 2026

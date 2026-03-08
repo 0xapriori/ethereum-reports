@@ -1,3 +1,7 @@
+---
+title: "DEX Market Projections: 2026–2029"
+---
+
 # DEX Market Projections: 2026–2029
 
 **Published:** March 3, 2026

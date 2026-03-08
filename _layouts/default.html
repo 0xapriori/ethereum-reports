@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-title">ethereum-reports</a>
+      <button class="burger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="{{ '/' | relative_url }}">Index</a>
+        <a href="{{ '/' | relative_url }}#dexes">DEXes</a>
+        <a href="{{ '/' | relative_url }}#ethereum">Ethereum</a>
+        <a href="{{ '/' | relative_url }}#lending">Lending</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>0xapriori</p>
+  </footer>
+
+  <script>
+    const burger = document.querySelector('.burger');
+    const nav = document.getElementById('nav');
+    burger.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      burger.classList.toggle('active');
+      burger.setAttribute('aria-expanded', open);
+    });
+    nav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        nav.classList.remove('open');
+        burger.classList.remove('active');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>

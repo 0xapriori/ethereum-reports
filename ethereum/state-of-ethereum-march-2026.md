@@ -1,3 +1,7 @@
+---
+title: "State of Ethereum: March 2026"
+---
+
 # State of Ethereum: March 2026
 
 **Report Date**: March 4, 2026
