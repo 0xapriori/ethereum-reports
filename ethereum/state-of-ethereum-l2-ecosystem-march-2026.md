@@ -1,5 +1,6 @@
 ---
 title: "State of the Ethereum L2 Ecosystem: March 2026"
+date: 2026-03-06
 ---
 
 # State of the Ethereum L2 Ecosystem: March 2026

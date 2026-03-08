@@ -1,5 +1,6 @@
 ---
 title: "DEX Market Projections: 2026–2029"
+date: 2026-03-03
 ---
 
 # DEX Market Projections: 2026–2029

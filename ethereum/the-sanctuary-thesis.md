@@ -1,5 +1,6 @@
 ---
 title: "The Sanctuary Thesis"
+date: 2026-03-04
 ---
 
 # The Sanctuary Thesis

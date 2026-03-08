@@ -1,5 +1,6 @@
 ---
 title: "State of MEV: March 2026"
+date: 2026-03-03
 ---
 
 # State of MEV: March 2026
