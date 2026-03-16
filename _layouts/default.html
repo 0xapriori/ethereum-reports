@@ -17,10 +17,11 @@
         <span></span>
       </button>
       <nav class="nav" id="nav">
-        <a href="{{ '/' | relative_url }}">Index</a>
-        <a href="{{ '/' | relative_url }}#dexes">DEXes</a>
-        <a href="{{ '/' | relative_url }}#ethereum">Ethereum</a>
-        <a href="{{ '/' | relative_url }}#lending">Lending</a>
+        <a href="{{ '/' | relative_url }}" data-tab="all">All</a>
+        <a href="{{ '/' | relative_url }}" data-tab="dexes">DEXes</a>
+        <a href="{{ '/' | relative_url }}" data-tab="ethereum">Ethereum</a>
+        <a href="{{ '/' | relative_url }}" data-tab="lending">Lending</a>
+        <a href="{{ '/' | relative_url }}" data-tab="tradfi">TradFi</a>
       </nav>
     </div>
   </header>

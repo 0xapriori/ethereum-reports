@@ -76,7 +76,8 @@ header {
   transition: color 0.15s;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   color: var(--fg-bright);
 }
 
@@ -140,6 +141,37 @@ main {
   font-size: 0.8rem;
 }
 
+/* --- Tabs --- */
+
+.tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: var(--fg-dim);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  margin-bottom: -1px;
+}
+
+.tab:hover {
+  color: var(--fg-bright);
+}
+
+.tab.active {
+  color: var(--fg-bright);
+  border-bottom-color: var(--fg-bright);
+}
+
 .section {
   margin-bottom: 2.5rem;
 }
@@ -175,10 +207,26 @@ main {
   color: var(--fg-bright);
 }
 
+.report-list .report-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.15rem;
+}
+
 .report-list .date {
   color: var(--fg-dim);
   font-size: 0.75rem;
-  margin-top: 0.15rem;
+}
+
+.report-list .category-tag {
+  color: var(--fg-dim);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border: 1px solid var(--border);
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
 }
 
 /* --- Report pages --- */
