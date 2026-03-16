@@ -148,12 +148,16 @@ main {
   gap: 0;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .tab {
+  -webkit-appearance: none;
+  appearance: none;
   background: none;
   border: none;
-  color: var(--fg-dim);
+  color: #707070;
   font-family: var(--mono);
   font-size: 0.8rem;
   padding: 0.6rem 1.2rem;
@@ -161,15 +165,16 @@ main {
   border-bottom: 2px solid transparent;
   transition: color 0.15s, border-color 0.15s;
   margin-bottom: -1px;
+  white-space: nowrap;
 }
 
 .tab:hover {
-  color: var(--fg-bright);
+  color: #fff;
 }
 
 .tab.active {
-  color: var(--fg-bright);
-  border-bottom-color: var(--fg-bright);
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 .section {
