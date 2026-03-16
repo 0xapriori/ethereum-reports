@@ -1,6 +1,10 @@
 # Ethereum Reports
 
-Research reports covering DEX markets, DeFi lending, and the Ethereum ecosystem.
+Research reports covering DEX markets, DeFi protocols, lending, and the Ethereum ecosystem.
+
+## DeFi
+
+- [Risk Labs Comprehensive Report: UMA Protocol, Across Protocol & ACX-to-Equity Conversion](defi/risk-labs-uma-across-report-march-2026.md) — Deep dive into Risk Labs (UMA + Across), Polymarket oracle controversies, bridge competitive landscape, and the precedent-setting ACX token-to-equity conversion proposal
 
 ## DEXes
 

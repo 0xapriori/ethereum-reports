@@ -5,18 +5,19 @@ title: Index
 
 <div class="index-header">
   <h1>Ethereum Reports</h1>
-  <p>Research on DEXes, lending markets, Ethereum infrastructure, and TradFi</p>
+  <p>Research on DEXes, DeFi, lending markets, Ethereum infrastructure, and TradFi</p>
 </div>
 
 <div class="tabs" id="tabs">
   <button class="tab active" data-filter="all">All</button>
+  <button class="tab" data-filter="defi">DeFi</button>
   <button class="tab" data-filter="dexes">DEXes</button>
   <button class="tab" data-filter="ethereum">Ethereum</button>
   <button class="tab" data-filter="lending">Lending</button>
   <button class="tab" data-filter="tradfi">TradFi</button>
 </div>
 
-{% assign categories = "dexes,ethereum,lending,tradfi" | split: "," %}
+{% assign categories = "defi,dexes,ethereum,lending,tradfi" | split: "," %}
 {% assign all_reports = "" | split: "" %}
 
 {% for cat in categories %}
@@ -76,7 +77,7 @@ title: Index
     });
 
     var hash = window.location.hash.replace('#', '');
-    if (hash && ['dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
+    if (hash && ['defi','dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
       setFilter(hash);
     }
   })();

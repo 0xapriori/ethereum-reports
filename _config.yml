@@ -1,5 +1,5 @@
 title: Ethereum Reports
-description: Research reports on DEXes, lending markets, Ethereum, and TradFi
+description: Research reports on DEXes, DeFi, lending markets, Ethereum, and TradFi
 url: https://ethreportseth.xyz
 baseurl: ""
 markdown: kramdown
@@ -25,6 +25,11 @@ defaults:
     values:
       layout: "report"
       category: "Lending"
+  - scope:
+      path: "defi"
+    values:
+      layout: "report"
+      category: "DeFi"
   - scope:
       path: "tradfi"
     values:
