@@ -17,12 +17,12 @@
         <span></span>
       </button>
       <nav class="nav" id="nav">
-        <a href="{{ '/' | relative_url }}" data-tab="all">All</a>
-        <a href="{{ '/' | relative_url }}" data-tab="defi">DeFi</a>
-        <a href="{{ '/' | relative_url }}" data-tab="dexes">DEXes</a>
-        <a href="{{ '/' | relative_url }}" data-tab="ethereum">Ethereum</a>
-        <a href="{{ '/' | relative_url }}" data-tab="lending">Lending</a>
-        <a href="{{ '/' | relative_url }}" data-tab="tradfi">TradFi</a>
+        <a href="#" data-tab="all">All</a>
+        <a href="#" data-tab="defi">DeFi</a>
+        <a href="#" data-tab="dexes">DEXes</a>
+        <a href="#" data-tab="ethereum">Ethereum</a>
+        <a href="#" data-tab="lending">Lending</a>
+        <a href="#" data-tab="tradfi">TradFi</a>
       </nav>
     </div>
   </header>
@@ -44,45 +44,40 @@
         burger.classList.toggle('active');
         burger.setAttribute('aria-expanded', open);
       });
-      nav.querySelectorAll('a').forEach(function(a) {
+      function filterReports(filter) {
+        var items = document.querySelectorAll('#report-list li');
+        if (!items.length) return false;
+        items.forEach(function(li) {
+          li.style.display = (filter === 'all' || li.dataset.category === filter) ? '' : 'none';
+        });
+        nav.querySelectorAll('a[data-tab]').forEach(function(l) {
+          l.classList.toggle('active', l.dataset.tab === filter);
+        });
+        if (filter !== 'all') {
+          history.replaceState(null, '', '#' + filter);
+        } else {
+          history.replaceState(null, '', window.location.pathname);
+        }
+        return true;
+      }
+
+      nav.querySelectorAll('a[data-tab]').forEach(function(a) {
         a.addEventListener('click', function(e) {
+          e.preventDefault();
           nav.classList.remove('open');
           burger.classList.remove('active');
           burger.setAttribute('aria-expanded', 'false');
           var tab = a.dataset.tab;
-          if (!tab) return;
-          var isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
-          if (isHome) {
-            e.preventDefault();
-            // Filter the report list
-            var items = document.querySelectorAll('#report-list li');
-            items.forEach(function(li) {
-              li.style.display = (tab === 'all' || li.dataset.category === tab) ? '' : 'none';
-            });
-            nav.querySelectorAll('a[data-tab]').forEach(function(l) {
-              l.classList.toggle('active', l.dataset.tab === tab);
-            });
-            if (tab !== 'all') {
-              history.replaceState(null, '', '#' + tab);
-            } else {
-              history.replaceState(null, '', window.location.pathname);
-            }
-          } else {
-            e.preventDefault();
+          if (!filterReports(tab)) {
             window.location.href = '/' + (tab === 'all' ? '' : '#' + tab);
           }
         });
       });
+
       // On page load, apply hash filter
       var hash = window.location.hash.replace('#', '');
       if (hash && ['defi','dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
-        var items = document.querySelectorAll('#report-list li');
-        items.forEach(function(li) {
-          li.style.display = (li.dataset.category === hash) ? '' : 'none';
-        });
-        nav.querySelectorAll('a[data-tab]').forEach(function(l) {
-          l.classList.toggle('active', l.dataset.tab === hash);
-        });
+        filterReports(hash);
       }
     })();
   </script>
