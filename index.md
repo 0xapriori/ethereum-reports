@@ -8,15 +8,6 @@ title: Index
   <p>Research on DEXes, DeFi, lending markets, Ethereum infrastructure, and TradFi</p>
 </div>
 
-<div class="tabs" id="tabs">
-  <button class="tab active" data-filter="all">All</button>
-  <button class="tab" data-filter="defi">DeFi</button>
-  <button class="tab" data-filter="dexes">DEXes</button>
-  <button class="tab" data-filter="ethereum">Ethereum</button>
-  <button class="tab" data-filter="lending">Lending</button>
-  <button class="tab" data-filter="tradfi">TradFi</button>
-</div>
-
 {% assign categories = "defi,dexes,ethereum,lending,tradfi" | split: "," %}
 {% assign all_reports = "" | split: "" %}
 
@@ -42,43 +33,3 @@ title: Index
   {% endfor %}
 </ul>
 
-<script>
-  (function() {
-    var tabs = document.querySelectorAll('.tab');
-    var items = document.querySelectorAll('#report-list li');
-    var navLinks = document.querySelectorAll('.nav a[data-tab]');
-
-    function setFilter(filter) {
-      tabs.forEach(function(t) { t.classList.toggle('active', t.dataset.filter === filter); });
-      items.forEach(function(li) {
-        li.style.display = (filter === 'all' || li.dataset.category === filter) ? '' : 'none';
-      });
-      navLinks.forEach(function(a) { a.classList.toggle('active', a.dataset.tab === filter); });
-      if (filter !== 'all') {
-        history.replaceState(null, '', '#' + filter);
-      } else {
-        history.replaceState(null, '', window.location.pathname);
-      }
-    }
-
-    tabs.forEach(function(tab) {
-      tab.addEventListener('click', function() { setFilter(tab.dataset.filter); });
-    });
-
-    navLinks.forEach(function(link) {
-      link.addEventListener('click', function(e) {
-        if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-          e.preventDefault();
-          setFilter(link.dataset.tab);
-        } else {
-          link.href = '/' + (link.dataset.tab === 'all' ? '' : '#' + link.dataset.tab);
-        }
-      });
-    });
-
-    var hash = window.location.hash.replace('#', '');
-    if (hash && ['defi','dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
-      setFilter(hash);
-    }
-  })();
-</script>
