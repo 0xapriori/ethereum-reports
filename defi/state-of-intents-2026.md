@@ -9,6 +9,34 @@ date: 2026-03-18
 
 ---
 
+## Table of Contents
+
+1. [Prologue — The Declarative Turn](#i-prologue-----the-declarative-turn)
+2. [Intellectual Genealogy](#ii-intellectual-genealogy)
+   - [From Theorem Provers to Constraint Solvers](#a-from-theorem-provers-to-constraint-solvers)
+   - [The Agoric Papers — Markets as Computation](#b-the-agoric-papers-----markets-as-computation)
+   - [Wyvern — Prolog Solver in Solidity](#c-wyvern-----the-biggest-nft-marketplace-was-running-a-prolog-solver-in-solidity)
+   - [Credible Commitments](#d-credible-commitments)
+3. [The Crypto Intent Era](#iii-the-crypto-intent-era)
+   - [Proto-Intents and the Rise of CoW Protocol](#a-proto-intents-and-the-rise-of-cow-protocol)
+   - [The Intent Thesis Crystallizes (2022-2023)](#b-the-intent-thesis-crystallizes-2022-2023)
+   - [Standards: ERC-7683 and the Open Intents Framework](#c-standards-erc-7683-and-the-open-intents-framework)
+   - [SUAVE, PBS, and the MEV-Intent Nexus](#d-suave-pbs-and-the-mev-intent-nexus)
+4. [The Shipping Scorecard](#iv-the-shipping-scorecard)
+5. [The Interoperability Frontier](#v-the-interoperability-frontier)
+6. [The Convergence — Prompts as Intents](#vi-the-convergence-----prompts-as-intents)
+7. [The Bull Case and the Bear Case](#vii-the-bull-case-and-the-bear-case)
+   - [Why Intents Might Be Inevitable](#a-why-intents-might-be-inevitable)
+   - [Solver Centralization: The Central Problem](#b-solver-centralization-the-central-problem)
+   - [The "Just an Order Book" Critique](#c-the-just-an-order-book-critique)
+   - [The Funding-to-Shipping Ratio](#d-the-funding-to-shipping-ratio)
+   - [Trust Assumptions and Censorship](#e-trust-assumptions-and-censorship)
+   - [Intents and Smart Contracts Coexist](#f-intents-and-smart-contracts-coexist)
+8. [What We Believe](#viii-what-we-believe)
+9. [Sources](#ix-sources)
+
+---
+
 # I. PROLOGUE --- The Declarative Turn
 
 Before the analysis begins, a disclosure: the intent narrative has been good to the projects it labels. When CoW Protocol was solving batch auctions in 2021, it was "just a DEX aggregator." When Paradigm published its intent paper in June 2023, the same mechanism became a paradigm shift worthy of ecosystem-level standardization and hundreds of millions in venture capital. Projects that had been building solver mechanisms or RFQ systems for years discovered they had been building "intent infrastructure" all along. This report takes the technology seriously while remaining honest about the narrative premium attached to the word "intents."
