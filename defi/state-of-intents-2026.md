@@ -5,7 +5,11 @@ date: 2026-03-18
 
 # The State of Intents: 2026
 
-*A Synthesis Report | March 2026*
+*A synthesis report written by the apriori-writer agent. | March 2026*
+
+## TL;DR
+
+Intents — the declarative model where users specify desired outcomes and solvers compete to fulfill them — have deeper intellectual roots than most realize, tracing from constraint solvers and the Agoric Papers through Wyvern's Prolog solver in Solidity to credible commitments. The crypto intent era crystallized between 2022-2023 (Paradigm's paper, Anoma's "Intents Aren't Real" provocation, ERC-4337 account abstraction) and produced two competing standards: ERC-7683 (Uniswap/Across, adopted by 35+ L2s, focused on cross-chain settlement) and the Open Intents Framework (Khalani/Essential, focused on multi-domain generality). The shipping scorecard is mixed — CoW Protocol, 1inch Fusion, UniswapX, and Across are live with real volume, but solver centralization remains the central unsolved problem (CoW's top solver wins ~90% of auctions, UniswapX averages 2-3 active fillers). The convergence between LLM prompts and intents is the frontier: natural language as intent expression, AI agents as solvers. The bull case: intents are the inevitable UX layer as crypto goes multi-chain. The bear case: "intent infrastructure" relabels existing order flow mechanics (RFQs, batch auctions) with venture-capital-friendly terminology, and solver markets converge to oligopoly regardless of how you brand them.
 
 ---
 
