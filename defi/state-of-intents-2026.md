@@ -1,43 +1,24 @@
----
-title: "The State of Intents: 2026"
-date: 2026-03-18
----
-
 # The State of Intents: 2026
 
-*A synthesis report written by the apriori-writer agent. | March 2026*
-
-## TL;DR
-
-Intents — the declarative model where users specify desired outcomes and solvers compete to fulfill them — have deeper intellectual roots than most realize, tracing from constraint solvers and the Agoric Papers through Wyvern's Prolog solver in Solidity to credible commitments. The crypto intent era crystallized between 2022-2023 (Paradigm's paper, Anoma's "Intents Aren't Real" provocation, ERC-4337 account abstraction) and produced two competing standards: ERC-7683 (Uniswap/Across, adopted by 35+ L2s, focused on cross-chain settlement) and the Open Intents Framework (Khalani/Essential, focused on multi-domain generality). The shipping scorecard is mixed — CoW Protocol, 1inch Fusion, UniswapX, and Across are live with real volume, but solver centralization remains the central unsolved problem (CoW's top solver wins ~90% of auctions, UniswapX averages 2-3 active fillers). The convergence between LLM prompts and intents is the frontier: natural language as intent expression, AI agents as solvers. The bull case: intents are the inevitable UX layer as crypto goes multi-chain. The bear case: "intent infrastructure" relabels existing order flow mechanics (RFQs, batch auctions) with venture-capital-friendly terminology, and solver markets converge to oligopoly regardless of how you brand them.
+*A Synthesis Report | March 2026*
 
 ---
 
-## Table of Contents
+## tl;dr
 
-1. [Prologue — The Declarative Turn](#i-prologue-----the-declarative-turn)
-2. [Intellectual Genealogy](#ii-intellectual-genealogy)
-   - [From Theorem Provers to Constraint Solvers](#a-from-theorem-provers-to-constraint-solvers)
-   - [The Agoric Papers — Markets as Computation](#b-the-agoric-papers-----markets-as-computation)
-   - [Wyvern — Prolog Solver in Solidity](#c-wyvern-----the-biggest-nft-marketplace-was-running-a-prolog-solver-in-solidity)
-   - [Credible Commitments](#d-credible-commitments)
-3. [The Crypto Intent Era](#iii-the-crypto-intent-era)
-   - [Proto-Intents and the Rise of CoW Protocol](#a-proto-intents-and-the-rise-of-cow-protocol)
-   - [The Intent Thesis Crystallizes (2022-2023)](#b-the-intent-thesis-crystallizes-2022-2023)
-   - [Standards: ERC-7683 and the Open Intents Framework](#c-standards-erc-7683-and-the-open-intents-framework)
-   - [SUAVE, PBS, and the MEV-Intent Nexus](#d-suave-pbs-and-the-mev-intent-nexus)
-4. [The Shipping Scorecard](#iv-the-shipping-scorecard)
-5. [The Interoperability Frontier](#v-the-interoperability-frontier)
-6. [The Convergence — Prompts as Intents](#vi-the-convergence-----prompts-as-intents)
-7. [The Bull Case and the Bear Case](#vii-the-bull-case-and-the-bear-case)
-   - [Why Intents Might Be Inevitable](#a-why-intents-might-be-inevitable)
-   - [Solver Centralization: The Central Problem](#b-solver-centralization-the-central-problem)
-   - [The "Just an Order Book" Critique](#c-the-just-an-order-book-critique)
-   - [The Funding-to-Shipping Ratio](#d-the-funding-to-shipping-ratio)
-   - [Trust Assumptions and Censorship](#e-trust-assumptions-and-censorship)
-   - [Intents and Smart Contracts Coexist](#f-intents-and-smart-contracts-coexist)
-8. [What We Believe](#viii-what-we-believe)
-9. [Sources](#ix-sources)
+- **Intents are credible commitments to preferences and constraints over possible state transitions** — the shift from telling a blockchain *how* to execute to declaring *what* outcome you want, with competitive solvers handling the rest.
+
+- **The intellectual lineage runs deeper than crypto realizes.** From Prolog (1972) to the Agoric Papers (1988) to Wyvern/OpenSea to modern solver markets — the declarative pattern keeps being independently reinvented. The Agoric Papers described today's intent architecture three decades before CoW Protocol existed.
+
+- **The technology is proven at scale.** 17 projects rated SHIPPED, with CoW Protocol processing $87B in 2025 alone. Estimated total volume across intent systems exceeded $200B in 2025. ERC-7683 has 70+ supporting projects and is becoming the dominant cross-chain intent standard.
+
+- **Intent features beat intent platforms.** The highest-volume systems (CoW, LI.FI, Across, 1inch Fusion) all started as focused products. Purpose-built intent blockchains (Anoma, Essential) have struggled with cold-start problems and shipping delays.
+
+- **Solver centralization is the central unsolved problem.** Structural forces — economies of scale, exclusive orderflow, winner-take-most dynamics — are pushing solver markets toward the same oligopoly patterns crypto was supposed to disrupt. The parallel to Citadel/Virtu in TradFi is uncomfortable and accurate.
+
+- **The AI-agent convergence is real but early.** Prompts and intents share the same structure (declarative specification + delegated search), but the verification gap between probabilistic LLM output and deterministic on-chain settlement remains the hardest open problem. Production impact is 2-3 years out.
+
+- **The bottom line:** Intents delivered on the *declarative* promise but are falling short on the *decentralization* promise. Whether concentrated but transparent solver markets are "good enough" depends on what you think crypto is for.
 
 ---
 
@@ -131,7 +112,7 @@ Aave Labs integrated CoW's solver network in December 2025 for MEV protection --
 
 ## b. The Intent Thesis Crystallizes (2022-2023)
 
-The period from late 2022 through 2023 saw the intent thesis move from implicit practice to explicit theory. **Flashbots announced SUAVE** in late 2022 --- the "Single Unifying Auction for Value Expression" --- positioning it as general-purpose credible commitment infrastructure for intents across all blockchains ([The Future of MEV is SUAVE](https://writings.flashbots.net/the-future-of-mev-is-suave)). **Paradigm published its defining essay** in June 2023, formally introducing "intents" to the broader discourse and defining them as "a signed set of declarative constraints which allow a user to outsource transaction creation to a third party without relinquishing full control to the transacting party." Paradigm warned presciently that "to remain competitive, solvers either vertically integrate by running their own builder or secure exclusive deals with builders to ensure their transactions are prioritized, creating an entry barrier for new solvers" ([Paradigm, 2023](https://www.paradigm.xyz/2023/06/intents)). **UniswapX launched** in July 2023, bringing the intent model to the largest DEX ecosystem via Dutch auction-based filler competition ([UniswapX](https://docs.uniswap.org/contracts/uniswapx/overview)). **Anoma** positioned itself as the most ambitious project --- an "intent machine" and "distributed operating system" making intents a first-class computational primitive. Whatever one thinks of Anoma's shipping timeline, its intellectual contribution to the space is real and well-documented: the team has published 28 peer-reviewed papers through its Anoma Research Topics program ([art.anoma.net](https://art.anoma.net)), spanning formal verification of distributed systems, intent machine theory, constraint satisfaction, cryptographic privacy in intent solving, heterogeneous consensus, and the Anoma Resource Machine specification. This is not a team that wrote a whitepaper and went quiet --- they built a serious research program. By pushing the boundaries of what an intent-centric architecture could look like and forcing the ecosystem to think about intents as a first-class primitive rather than an implementation detail, Anoma helped move the concept from implicit practice into explicit discourse. The vocabulary and framing that practical projects now use owes something to that ambition. **Essential** raised $16.15M for "the first declarative, intent-centric blockchain." The narrative premium attracted enormous venture capital into purpose-built architectures --- capital that, as the scorecard shows, mostly did not translate into production systems.
+The period from late 2022 through 2023 saw the intent thesis move from implicit practice to explicit theory. **Flashbots announced SUAVE** in late 2022 --- the "Single Unifying Auction for Value Expression" --- positioning it as general-purpose credible commitment infrastructure for intents across all blockchains ([The Future of MEV is SUAVE](https://writings.flashbots.net/the-future-of-mev-is-suave)). **Paradigm published its defining essay** in June 2023, formally introducing "intents" to the broader discourse and defining them as "a signed set of declarative constraints which allow a user to outsource transaction creation to a third party without relinquishing full control to the transacting party." Paradigm warned presciently that "to remain competitive, solvers either vertically integrate by running their own builder or secure exclusive deals with builders to ensure their transactions are prioritized, creating an entry barrier for new solvers" ([Paradigm, 2023](https://www.paradigm.xyz/2023/06/intents)). **UniswapX launched** in July 2023, bringing the intent model to the largest DEX ecosystem via Dutch auction-based filler competition ([UniswapX](https://docs.uniswap.org/contracts/uniswapx/overview)). **Anoma** positioned itself as the most ambitious project --- an "intent machine" and "distributed operating system" making intents a first-class computational primitive. **Essential** raised $16.15M for "the first declarative, intent-centric blockchain." The narrative premium attracted enormous venture capital into purpose-built architectures --- capital that, as the scorecard shows, mostly did not translate into production systems.
 
 ## c. Standards: ERC-7683 and the Open Intents Framework
 
@@ -183,7 +164,7 @@ The following scorecard rates every major project based on publicly verifiable e
 | **Particle Network** | **SHIPPED** | Universal Accounts on Cosmos L1 | UniversalX trading platform, 20+ validators. Chain abstraction via intent-like architecture. |
 | **Symbiosis** | **SHIPPED** | $3.7B (2025 annual) | 60+ networks. Not marketed as intents but functionally convergent. |
 | **AirSwap** | **SHIPPED (niche)** | Operational since 2017 | Liquidity concentrated among few institutional market makers. Small market share. |
-| **Anoma** | **PARTIALLY SHIPPED** | XAN token live Sep 2025 | Core protocol adapters pending audit. ~$58-65M raised across 6 years. ARM is novel but unproven. 28 peer-reviewed research papers ([art.anoma.net](https://art.anoma.net)) — significant intellectual contribution to the field. |
+| **Anoma** | **PARTIALLY SHIPPED** | XAN token live Sep 2025 | Core protocol adapters pending audit. ~$58-65M raised across 6 years. ARM is novel but unproven. |
 | **OneBalance** | **PARTIALLY SHIPPED** | $20M Series A, open beta | Resource locks are novel. No production volume yet. |
 | **Socket** | **PARTIALLY SHIPPED** | 300+ chains | Architecture live but usage data opaque. |
 | **Khalani Network** | **PARTIALLY SHIPPED** | 40+ chains, API open | Novel solver collaboration thesis. $2.5M seed. Unknown usage scale. |
@@ -192,7 +173,7 @@ The following scorecard rates every major project based on publicly verifiable e
 
 ### Three Patterns
 
-**Pattern 1: Intent features beat intent platforms.** The highest-volume systems --- CoW Protocol, LI.FI, Across, 1inch Fusion --- all began as focused products solving specific problems. They shipped narrow, iterated in production, and expanded gradually. Purpose-built intent blockchains (Anoma, Essential) struggled with combinatorial complexity and cold-start problems --- though Anoma's ambition helped define the design space that pragmatic builders then occupied. The market rewards shipping, but the ideas that shape what gets shipped matter too.
+**Pattern 1: Intent features beat intent platforms.** The highest-volume systems --- CoW Protocol, LI.FI, Across, 1inch Fusion --- all began as focused products solving specific problems. They shipped narrow, iterated in production, and expanded gradually. Purpose-built intent blockchains (Anoma, Essential) struggled with combinatorial complexity and cold-start problems. The market rewards shipping over storytelling.
 
 **Pattern 2: The solver market is the real innovation.** Across all shipped systems, competitive solver/filler/resolver markets are the common element. CoW has 30+ solver teams. 1inch has ~20 resolvers. deBridge has competitive solvers. Propeller Heads' open-source Tycho handles ~$1.5B/month. The solver market is not a theoretical construct; it is a functioning economy with real participants, real competition, and real capital at risk. This is the Agoric vision realized: markets as computation. It is also, as we discuss below, the part of the stack most vulnerable to concentration.
 
@@ -348,7 +329,7 @@ The intent ecosystem has attracted enormous venture capital. The divide is stark
 
 **Intent features on existing protocols** ($200B+ in production volume): CoW Protocol ($87B in 2025), deBridge (~$32.8B cumulative), Across (~$28.6B), 1inch Fusion ($25B+), NEAR Intents (~$14B estimated). All built as features or extensions of existing infrastructure.
 
-The pattern is unambiguous: **the intent movement succeeded as a feature, not as a platform.** Existing protocols sidestepped the cold-start problem (no users without solvers, no solvers without users) because they already had users and liquidity. This does not mean purpose-built architectures will never deliver --- Anoma's ARM is novel technology with native privacy, and the project deserves credit for pushing the conceptual boundaries of what intent-centric systems could be, helping to seed the ideas that pragmatic builders later operationalized. But six years and $60M+ for a system that has not enabled its core functionality in production remains a cautionary tale about the gap between intellectual ambition and production reality.
+The pattern is unambiguous: **the intent movement succeeded as a feature, not as a platform.** Existing protocols sidestepped the cold-start problem (no users without solvers, no solvers without users) because they already had users and liquidity. This does not mean purpose-built architectures will never deliver --- Anoma's ARM is novel technology with native privacy --- but six years and $60M+ for a system that has not enabled its core functionality in production is a cautionary tale.
 
 ## e. Trust Assumptions and Censorship
 
