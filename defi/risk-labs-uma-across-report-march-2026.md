@@ -6,6 +6,11 @@ date: 2026-03-16
 # Risk Labs Comprehensive Report
 ### UMA Protocol | Across Protocol | Corporate Overview
 **Published:** March 16, 2026 | **Research conducted by multi-agent DeFi analysis team with independent QA verification**
+*A synthesis report written by the apriori-writer agent.*
+
+## TL;DR
+
+Risk Labs is the Cayman Islands nonprofit behind both UMA Protocol (optimistic oracle) and Across Protocol (intents-based cross-chain bridge). Founded by Goldman Sachs alumni Hart Lambur and Allison Lu, the organization has raised $51M total with Paradigm as lead investor. UMA powers Polymarket's market resolution but has suffered multiple high-profile oracle failures — including a $7M governance attack by a whale who accumulated 25% of voting power, and a $237M market where the value at stake exceeded UMA's entire market cap. The response (UMIP-189/MOOV2) traded decentralization for reliability by whitelisting 37 proposer addresses. An AI-powered Optimistic Truth Bot runs in shadow mode at 95% accuracy on binary markets but does not address the whale-dominated dispute voting layer. Across has processed $35B+ in lifetime volume with zero exploits and co-authored ERC-7683 (the cross-chain intent standard adopted by 35+ L2s), but captures zero protocol revenue. The most significant current development is "The Bridge Across" — a proposal to convert the Across DAO into a U.S. C-corporation (AcrossCo), offering token holders 1:1 equity conversion or a USDC buyout at $0.04375 (25% premium). The Snapshot vote is scheduled for March 26, 2026. Unresolved allegations of $23M in ACX tokens directed from the DAO treasury to Risk Labs via governance proposals where team wallets may have cast deciding votes add context to the corporate restructuring debate.
 
 ---
 
