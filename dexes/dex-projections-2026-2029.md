@@ -5,12 +5,7 @@ date: 2026-03-03
 
 # DEX Market Projections: 2026–2029
 
-**Published:** March 3, 2026
-**Companion Report:** [Comprehensive DEX Market Report: 2022–2026](dex-market-report-2022-2026.md)
-**Data Sources:** DeFiLlama API, CoinGecko Research, Federal Reserve FOMC projections, McKinsey, JPMorgan Research, Standard Chartered Research, Citi Research, Anthropic Red Team, protocol documentation
-**Methodology:** Three-scenario projection model (Conservative/Base/Optimistic) grounded in verified historical data from the companion report. All forward-looking figures are clearly labeled as projections/estimates. Fee revenue and trading volume are distinct metrics and are never conflated.
-
-**IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
+*Published: March 3, 2026*
 
 ## tl;dr
 
@@ -1016,6 +1011,18 @@ The three variables that most affect outcomes:
 - **RWA**: Real-World Assets (tokenized traditional assets)
 - **SCONE-bench**: Anthropic's smart contract vulnerability benchmark
 - **x402**: HTTP 402 payment protocol for machine-to-machine transactions
+
+---
+
+## Data Sources & Methodology
+
+**Companion Report:** [Comprehensive DEX Market Report: 2022–2026](dex-market-report-2022-2026.md)
+
+**Data Sources:** DeFiLlama API, CoinGecko Research, Federal Reserve FOMC projections, McKinsey, JPMorgan Research, Standard Chartered Research, Citi Research, Anthropic Red Team, protocol documentation
+
+**Methodology:** Three-scenario projection model (Conservative/Base/Optimistic) grounded in verified historical data from the companion report. All forward-looking figures are clearly labeled as projections/estimates. Fee revenue and trading volume are distinct metrics and are never conflated.
+
+**IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
 
 ---
 

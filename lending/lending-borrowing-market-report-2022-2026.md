@@ -5,9 +5,7 @@ date: 2026-03-04
 
 # Comprehensive Lending & Borrowing Market Report: 2022–2026
 
-**Published:** March 4, 2026
-**Data Sources:** DeFiLlama API (api.llama.fi), Galaxy Research, CoinDesk, The Block, Chainalysis, Aave blog, protocol documentation, SEC filings, court records
-**Methodology:** All quantitative data sourced from DeFiLlama public API endpoints, verified web sources, and protocol disclosures. Fee revenue and lending volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.
+*Published: March 4, 2026*
 
 ## tl;dr
 
@@ -1004,3 +1002,11 @@ Yearn Finance pioneered the vault concept in 2020, validating automated yield ag
 - **ERC-4626:** Ethereum standard for tokenized vault interfaces, enabling cross-vault composability.
 - **MetaMorpho:** Curated vault system built on top of Morpho Blue's isolated markets.
 - **DeFi Mullet:** Pattern where consumer-facing fintechs (Coinbase, Crypto.com) route funds through DeFi protocols on the backend.
+
+---
+
+## Data Sources & Methodology
+
+**Data Sources:** DeFiLlama API (api.llama.fi), Galaxy Research, CoinDesk, The Block, Chainalysis, Aave blog, protocol documentation, SEC filings, court records
+
+**Methodology:** All quantitative data sourced from DeFiLlama public API endpoints, verified web sources, and protocol disclosures. Fee revenue and lending volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.

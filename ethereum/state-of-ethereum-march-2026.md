@@ -5,14 +5,7 @@ date: 2026-03-04
 
 # State of Ethereum: March 2026
 
-**Report Date**: March 4, 2026
-**Data Sources:** DeFiLlama API, L2BEAT, relayscan.io, rated.network, Electric Capital Developer Report, Token Terminal, RWA.xyz, ultrasound.money, Dune Analytics (hildobby), EIP specifications (eips.ethereum.org), strawmap.org, vitalik.eth.limo
-**Methodology:** All quantitative data sourced from verified analytics platforms and public API endpoints. Fee revenue and trading volume are clearly distinguished throughout. Figures marked **(unverified)** could not be cross-referenced against a second independent source.
-
-**Companion Reports:**
-- [DEX Market Report (2022–2026)](dex-market-report-2022-2026.md)
-- [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md)
-- [State of MEV: March 2026](../state-of-mev-march-2026.md)
+*Published: March 4, 2026*
 
 ## tl;dr
 
@@ -867,6 +860,19 @@ Resolution depends on three factors:
 3. **Value alignment**: Whether native rollups and improved L1 economics close the L1/L2 value gap
 
 The technical building blocks are falling into place. The open question is whether 2026 is the year the market recognizes it.
+
+---
+
+## Data Sources & Methodology
+
+**Data Sources:** DeFiLlama API, L2BEAT, relayscan.io, rated.network, Electric Capital Developer Report, Token Terminal, RWA.xyz, ultrasound.money, Dune Analytics (hildobby), EIP specifications (eips.ethereum.org), strawmap.org, vitalik.eth.limo
+
+**Methodology:** All quantitative data sourced from verified analytics platforms and public API endpoints. Fee revenue and trading volume are clearly distinguished throughout. Figures marked **(unverified)** could not be cross-referenced against a second independent source.
+
+**Companion Reports:**
+- [DEX Market Report (2022–2026)](dex-market-report-2022-2026.md)
+- [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md)
+- [State of MEV: March 2026](../state-of-mev-march-2026.md)
 
 ---
 

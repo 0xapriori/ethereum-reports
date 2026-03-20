@@ -5,9 +5,7 @@ date: 2026-03-03
 
 # State of MEV: March 2026
 
-**Report Date**: March 3, 2026
-**Author**: MEV Strategist
-**Revision**: v6.0 (Appendix A expanded with multi-source empirical validation: live relay API data from Flashbots/Titan/bloXroute/Ultra Sound relays, relayscan.io 7d builder/relay market shares, rated.network cross-check, builder profitability data, MEV-Boost payment validation; Ultra Sound relay share corrected from ~37% to ~33%; builder profit asymmetry quantified — Titan 764.94 ETH/7d vs BuilderNet 106.01 ETH/7d; all prior v5.0 content retained)
+*Published: March 3, 2026*
 
 ## tl;dr
 
@@ -942,6 +940,14 @@ While Ethereum and Solana dominate the MEV landscape, MEV dynamics exist on othe
 | **L2** | | | |
 | Arbitrum TimeBoost revenue | ~$3M (first 3 months) | April-July 2025 | DL News |
 | Base block time (with Flashblocks) | 200ms | July 2025 | blog.base.dev |
+
+---
+
+## Data Sources & Methodology
+
+**Report Date**: March 3, 2026
+**Author**: MEV Strategist
+**Revision**: v6.0 (Appendix A expanded with multi-source empirical validation: live relay API data from Flashbots/Titan/bloXroute/Ultra Sound relays, relayscan.io 7d builder/relay market shares, rated.network cross-check, builder profitability data, MEV-Boost payment validation; Ultra Sound relay share corrected from ~37% to ~33%; builder profit asymmetry quantified — Titan 764.94 ETH/7d vs BuilderNet 106.01 ETH/7d; all prior v5.0 content retained)
 
 ---
 

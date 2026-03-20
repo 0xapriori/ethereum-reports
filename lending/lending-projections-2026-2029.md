@@ -5,12 +5,7 @@ date: 2026-03-04
 
 # DeFi Lending & Borrowing Market Projections: 2026–2029
 
-**Published:** March 4, 2026
-**Companion Report:** [Comprehensive Lending & Borrowing Market Report: 2022–2026](lending-borrowing-market-report-2022-2026.md)
-**Data Sources:** DeFiLlama API, Galaxy Research, McKinsey, JPMorgan Research, Standard Chartered Research, Citi Research, Chainlink Blog, Anthropic Red Team, CoinGecko Research, protocol documentation
-**Methodology:** Three-scenario projection model (Conservative/Base/Optimistic) grounded in verified historical data from the companion report. All forward-looking figures are clearly labeled as projections/estimates. Fee revenue and lending volume are distinct metrics and are never conflated.
-
-**IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
+*Published: March 4, 2026*
 
 ## tl;dr
 
@@ -1260,6 +1255,18 @@ This "layered compliance" model allows protocols to remain decentralized infrast
 - **Utilization Rate:** Ratio of total borrowed to total deposited in a lending pool
 - **Vault:** Smart contract that automates lending strategies on behalf of depositors
 - **x402:** HTTP 402 payment protocol for machine-to-machine transactions (backed by Coinbase, Visa, Anthropic, etc.)
+
+---
+
+## Data Sources & Methodology
+
+**Companion Report:** [Comprehensive Lending & Borrowing Market Report: 2022–2026](lending-borrowing-market-report-2022-2026.md)
+
+**Data Sources:** DeFiLlama API, Galaxy Research, McKinsey, JPMorgan Research, Standard Chartered Research, Citi Research, Chainlink Blog, Anthropic Red Team, CoinGecko Research, protocol documentation
+
+**Methodology:** Three-scenario projection model (Conservative/Base/Optimistic) grounded in verified historical data from the companion report. All forward-looking figures are clearly labeled as projections/estimates. Fee revenue and lending volume are distinct metrics and are never conflated.
+
+**IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
 
 ---
 

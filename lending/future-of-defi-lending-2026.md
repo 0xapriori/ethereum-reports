@@ -5,16 +5,7 @@ date: 2026-03-04
 
 # The Future of DeFi Lending: Strategic Transformation Analysis
 
-**Published:** March 4, 2026
-**Companion Reports:**
-- [DeFi Lending & Borrowing Market Projections: 2026–2029](lending-projections-2026-2029.md) — quantitative projections (TVL, scenarios, risk matrix)
-- [Comprehensive Lending & Borrowing Market Report: 2022–2026](lending-borrowing-market-report-2022-2026.md) — historical baseline
-- [DEX Market Projections: 2026–2029](dex-projections-2026-2029.md) — DEX projections and macro framework
-
-**Data Sources:** DeFiLlama API, Morpho blog, Chorus One Research, Nansen Research, CoinGecko, Chainlink official communications, Anthropic Red Team (SCONE-bench), McKinsey, Galaxy Research, Kairos Research, cyber.fund, MSCI Research, protocol documentation
-**Methodology:** Strategic thesis-driven analysis grounded in verified data from companion reports and primary research. Fee revenue and lending volume are distinct metrics and are never conflated. All forward-looking statements are clearly labeled as projections or theses.
-
-**IMPORTANT DISCLAIMER:** This report contains forward-looking analysis and strategic theses. While grounded in current data, projections about structural transformations are inherently uncertain. This report does not constitute financial advice. For quantitative TVL projections and scenario modeling, see the companion [projections report](lending-projections-2026-2029.md).
+*Published: March 4, 2026*
 
 ## tl;dr
 
@@ -694,7 +685,18 @@ The question is not whether these five shifts happen — the evidence presented 
 
 ---
 
-## Data Sources & Methodology Note
+## Data Sources & Methodology
+
+**Companion Reports:**
+- [DeFi Lending & Borrowing Market Projections: 2026–2029](lending-projections-2026-2029.md) — quantitative projections (TVL, scenarios, risk matrix)
+- [Comprehensive Lending & Borrowing Market Report: 2022–2026](lending-borrowing-market-report-2022-2026.md) — historical baseline
+- [DEX Market Projections: 2026–2029](dex-projections-2026-2029.md) — DEX projections and macro framework
+
+**Data Sources:** DeFiLlama API, Morpho blog, Chorus One Research, Nansen Research, CoinGecko, Chainlink official communications, Anthropic Red Team (SCONE-bench), McKinsey, Galaxy Research, Kairos Research, cyber.fund, MSCI Research, protocol documentation
+
+**Methodology:** Strategic thesis-driven analysis grounded in verified data from companion reports and primary research. Fee revenue and lending volume are distinct metrics and are never conflated. All forward-looking statements are clearly labeled as projections or theses.
+
+**IMPORTANT DISCLAIMER:** This report contains forward-looking analysis and strategic theses. While grounded in current data, projections about structural transformations are inherently uncertain. This report does not constitute financial advice. For quantitative TVL projections and scenario modeling, see the companion [projections report](lending-projections-2026-2029.md).
 
 All quantitative data in this report is sourced from verified public sources including DeFiLlama API, protocol documentation, governance forums, institutional research (McKinsey, JPMorgan, Galaxy Research), and academic papers (arXiv, MSCI Research, Anthropic Red Team). Where data could not be verified, it is explicitly flagged as "(unverified)" or the gap is noted. Forward-looking theses are grounded in current data and clearly labeled as projections.
 

@@ -5,9 +5,7 @@ date: 2026-03-03
 
 # Comprehensive DEX Market Report: 2022–2026
 
-**Published:** March 3, 2026
-**Data Sources:** DeFiLlama API (api.llama.fi), CoinGecko, The Block, Messari, protocol documentation
-**Methodology:** All quantitative data sourced from DeFiLlama public API endpoints and verified web sources. Fee revenue and trading volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.
+*Published: March 3, 2026*
 
 ## tl;dr
 
@@ -821,6 +819,14 @@ The road ahead involves navigating regulatory compliance while maintaining the p
 - **Perps**: Perpetual futures — derivative contracts with no expiration date
 - **Solver/Filler**: Third-party entities that compete to execute intent-based orders
 - **L1/L2**: Layer 1 (base chain like Ethereum) / Layer 2 (scaling solution like Arbitrum, Base)
+
+---
+
+## Data Sources & Methodology
+
+**Data Sources:** DeFiLlama API (api.llama.fi), CoinGecko, The Block, Messari, protocol documentation
+
+**Methodology:** All quantitative data sourced from DeFiLlama public API endpoints and verified web sources. Fee revenue and trading volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.
 
 ---
 

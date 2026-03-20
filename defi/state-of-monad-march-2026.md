@@ -4,9 +4,8 @@ date: 2026-03-17
 ---
 
 # State of Monad: Architecture, Ecosystem & Open Questions
-**Published:** March 17, 2026
-**Data Sources:** Monad documentation (docs.monad.xyz), DeFiLlama, CoinGecko, CoinMarketCap, official blog posts, third-party research (Blockworks, Stanford Blockchain Review, Chorus.one, Figment), protocol documentation
-**Methodology:** All quantitative data sourced from public dashboards and verified documentation. Where specific data points could not be independently verified, limitations are noted. No data has been fabricated. Fee revenue and trading volume are clearly distinguished throughout.
+
+*Published: March 17, 2026*
 
 ## tl;dr
 
@@ -529,6 +528,14 @@ The team has not publicly addressed this competitive scenario.
 | Glamsterdam competition | **Medium** | Narrows throughput gap; doesn't eliminate Monad's advantages |
 | No "only on Monad" app | **Medium** | Parallelism is optimization, not new programming model |
 | Validator Foundation dependency | **Medium** | Most validators need Foundation delegation to meet 10M MON minimum |
+
+---
+
+## Data Sources & Methodology
+
+**Data Sources:** Monad documentation (docs.monad.xyz), DeFiLlama, CoinGecko, CoinMarketCap, official blog posts, third-party research (Blockworks, Stanford Blockchain Review, Chorus.one, Figment), protocol documentation
+
+**Methodology:** All quantitative data sourced from public dashboards and verified documentation. Where specific data points could not be independently verified, limitations are noted. No data has been fabricated. Fee revenue and trading volume are clearly distinguished throughout.
 
 ---
 

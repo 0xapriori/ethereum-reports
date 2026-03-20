@@ -5,15 +5,7 @@ date: 2026-03-06
 
 # State of the Ethereum L2 Ecosystem: March 2026
 
-**Report Date**: March 6, 2026
-**Data Sources:** L2BEAT, DeFiLlama, Token Terminal, Growthepie.xyz, Dune Analytics, Electric Capital Developer Report, Messari, CryptoSlate, arXiv academic papers, protocol blogs, EIP specifications (eips.ethereum.org)
-**Methodology:** All quantitative data sourced from verified analytics platforms and public sources. Fee revenue and trading volume are clearly distinguished throughout. Figures marked **(unverified)** could not be cross-referenced against a second independent source.
-
-**Companion Reports:**
-- [State of Ethereum: March 2026](state-of-ethereum-march-2026.md) — L1/L2 economics baseline (Section 5)
-- [DEX Market Report (2022–2026)](dex-market-report-2022-2026.md) — L2 DEX volume data
-- [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md) — L2 lending TVL
-- [State of MEV: March 2026](../state-of-mev-march-2026.md) — L2 MEV dynamics (Section 3d)
+*Published: March 6, 2026*
 
 ## tl;dr
 
@@ -676,6 +668,20 @@ Three structural tensions will define the next 12-18 months:
 3. **Value accrual vs. sustainability.** L2 payments to L1 collapsed >90% year-over-year. EIP-7918's blob fee floor is a partial fix, but the fundamental tension remains: cheap DA is essential for L2 viability, yet it undermines L1 revenue. Native rollups (EIP-8079) and based rollups (Taiko, FABRIC) offer structural solutions by routing sequencer revenue back to L1 — but adoption is years away.
 
 The most likely outcome: a 3-5 chain oligopoly (Base, Arbitrum, and 1-2 ZK rollups) captures the vast majority of L2 activity, while specialized chains serve niche use cases. The rest will consolidate, pivot, or quietly shut down. The "1000 rollups" vision was always a fantasy — the market is converging on a few chains that combine strong distribution, sustainable economics, and genuine technical differentiation.
+
+---
+
+## Data Sources & Methodology
+
+**Data Sources:** L2BEAT, DeFiLlama, Token Terminal, Growthepie.xyz, Dune Analytics, Electric Capital Developer Report, Messari, CryptoSlate, arXiv academic papers, protocol blogs, EIP specifications (eips.ethereum.org)
+
+**Methodology:** All quantitative data sourced from verified analytics platforms and public sources. Fee revenue and trading volume are clearly distinguished throughout. Figures marked **(unverified)** could not be cross-referenced against a second independent source.
+
+**Companion Reports:**
+- [State of Ethereum: March 2026](state-of-ethereum-march-2026.md) — L1/L2 economics baseline (Section 5)
+- [DEX Market Report (2022–2026)](dex-market-report-2022-2026.md) — L2 DEX volume data
+- [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md) — L2 lending TVL
+- [State of MEV: March 2026](../state-of-mev-march-2026.md) — L2 MEV dynamics (Section 3d)
 
 ---
 

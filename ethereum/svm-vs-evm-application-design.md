@@ -6,10 +6,7 @@ date: 2026-03-17
 # Application Design: Solana (SVM) vs. Ethereum (EVM)
 ## A Builder's Perspective — Comprehensive Comparison Report
 
-**Report Date:** March 17, 2026
-**Confidence Level:** High (web-verified data where available, clearly marked training-knowledge sections)
-
----
+*Published: March 17, 2026*
 
 ## TL;DR — Read This to Understand the Entire Report
 
@@ -1189,6 +1186,9 @@ EVM events are a first-class design primitive for bridging on-chain state to off
 ---
 
 ## Methodology & Confidence Notes
+
+**Report Date:** March 17, 2026
+**Confidence Level:** High (web-verified data where available, clearly marked training-knowledge sections)
 
 **Web-verified data (high confidence):**
 - Squads Protocol metrics ($10B+ secured, formal verification, named users)
