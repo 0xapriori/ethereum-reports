@@ -16,6 +16,29 @@ date: 2026-03-04
 
 **IMPORTANT DISCLAIMER:** This report contains forward-looking analysis and strategic theses. While grounded in current data, projections about structural transformations are inherently uncertain. This report does not constitute financial advice. For quantitative TVL projections and scenario modeling, see the companion [projections report](lending-projections-2026-2029.md).
 
+## tl;dr
+
+- **Five simultaneous structural shifts will make 2029 DeFi lending unrecognizable** — from protocols to vaults, crypto-only to RWA collateral, human to AI management, permissionless-only to dual-track, and isolated lending to unified liquidity.
+- **Vault abstraction is eating the protocol layer** — ~22–28% of DeFi lending TVL already flows through vaults; projected 52–65% by 2029. Top 3 Morpho curators control ~70% of $5.9B in risk-curated TVL.
+- **RWA collateral breaks the "idle collateral" problem** — yield-bearing real-world assets unlock a collateral universe 10–50x larger than crypto-native assets alone, on a path from ~$20B to McKinsey's $2T by 2030.
+- **AI agents are natural lending operators** — block-by-block optimization, multi-protocol arbitrage, and predictive risk management will shift vault management from human curators to AI systems.
+- **Institutional and retail lending are diverging into parallel tracks** — Aave Horizon ($1B+ deposits) demonstrates the permissioned institutional path growing alongside permissionless retail lending.
+- **Debt becomes liquidity as lending and trading merge** — Fluid's unified liquidity layer and similar architectures dissolve the boundary between lending pools and trading venues.
+
+---
+
+## Table of Contents
+
+1. [Part 1: Executive Summary — Five Structural Shifts Reshaping Lending](#part-1-executive-summary--five-structural-shifts-reshaping-lending)
+2. [Part 2: The Protocol-to-Vault Transition — Why Direct Lending Dies](#part-2-the-protocol-to-vault-transition--why-direct-lending-dies)
+3. [Part 3: RWA Collateral — The $100B+ Expansion Thesis](#part-3-rwa-collateral--the-100b-expansion-thesis)
+4. [Part 4: AI-Managed Lending — From Experiment to Infrastructure](#part-4-ai-managed-lending--from-experiment-to-infrastructure)
+5. [Part 5: The Dual-Track Future — Permissionless Meets Institutional](#part-5-the-dual-track-future--permissionless-meets-institutional)
+6. [Part 6: Unified Liquidity — When Lending and Trading Merge](#part-6-unified-liquidity--when-lending-and-trading-merge)
+7. [Part 7: Competitive Dynamics — Who Wins the Next Cycle?](#part-7-competitive-dynamics--who-wins-the-next-cycle)
+8. [Part 8: Strategic Implications & Outlook](#part-8-strategic-implications--outlook)
+9. [Data Sources & Methodology Note](#data-sources--methodology-note)
+
 ---
 
 ## Part 1: Executive Summary — Five Structural Shifts Reshaping Lending

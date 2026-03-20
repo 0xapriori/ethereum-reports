@@ -15,6 +15,30 @@ date: 2026-03-06
 - [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md) — L2 lending TVL
 - [State of MEV: March 2026](../state-of-mev-march-2026.md) — L2 MEV dynamics (Section 3d)
 
+## tl;dr
+
+- **Base + Arbitrum = 77% of L2 DeFi TVL** — extreme concentration in a 50+ rollup ecosystem, with Base alone capturing 62% of all L2 revenue and ~$55M in net profit in 2025.
+- **L2 payments to L1 collapsed >90%** — from $113M in 2024 to ~$10M in 2025, creating a structural value-accrual crisis for Ethereum L1.
+- **Zero general-purpose L2s have reached Stage 2 on L2BEAT** — every major L2 runs a centralized sequencer, and decentralization has lagged far behind promises.
+- **Vitalik declared the original L2 vision "no longer makes sense"** — his February 2026 pivot acknowledged that L1 scaling toward Gigagas (~10K TPS) reduces the need for L2s as the default execution layer.
+- **Zombie chains are proliferating** — Blast TVL collapsed 97%, Kinto shut down, Loopring closed its wallet, and usage across smaller L2s declined 61% since June 2025.
+- **Only Base was profitable in 2025** — 21Shares projects the majority of L2s will not survive 2026, as most operate at a loss with blob utilization at only ~29% of target.
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [Section 1: The L2 Landscape by the Numbers](#section-1-the-l2-landscape-by-the-numbers)
+3. [Section 2: Individual L2 Deep Dives](#section-2-individual-l2-deep-dives)
+4. [Section 3: Technical Architecture and Differentiators](#section-3-technical-architecture-and-differentiators)
+5. [Section 4: Economics — The L1/L2 Value Exchange](#section-4-economics--the-l1l2-value-exchange)
+6. [Section 5: Governance, Social, and Political Dynamics](#section-5-governance-social-and-political-dynamics)
+7. [Section 6: Infrastructure — Rollup-as-a-Service](#section-6-infrastructure--rollup-as-a-service)
+8. [Section 7: The Future — Native Rollups, Based Rollups, L1 Convergence](#section-7-the-future--native-rollups-based-rollups-l1-convergence)
+9. [Conclusion](#conclusion)
+10. [Appendix: Data Sources](#appendix-data-sources)
+
 ---
 
 ## Executive Summary

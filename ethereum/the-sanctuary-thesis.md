@@ -5,6 +5,29 @@ date: 2026-03-04
 
 # The Sanctuary Thesis
 
+## tl;dr
+
+- **Ethereum is becoming a "sanctuary technology"** — infrastructure where no single winner gains total control and no single loser suffers total defeat, a structural prevention of totalization through mechanism design.
+- **DEX evolution is shifting from AMMs to intent architectures** — combined with FOCIL and encrypted mempools, the goal is a system where trades cannot be censored, front-run, or manipulated.
+- **Aave crossed $1T in cumulative loans while private credit tokenization reached $18.91B** — lending markets are quietly revolutionizing, though dominated by a single protocol with a 1.7% backstop ratio.
+- **The derivatives DEX market exploded 1,388% over three years** — and BlackRock's BUIDL fund ($2.2-2.5B) is now listed on Uniswap, marking institutional arrival on-chain.
+- **The "Holy Trinity" of censorship resistance (FOCIL + encrypted mempools + ePBS)** — transforms the MEV pipeline from "trust the relay" to "trust the math," though deployment has not shipped yet.
+- **Nearly 32,000 active developers across every continent** — providing human infrastructure resilience, but the compensation gap threatens the walkaway test for the developer layer.
+- **The thesis is honest about its uncertainty** — the engineering aspiration and the deployment reality have a meaningful gap, and the essay sits with that tension rather than resolving it prematurely.
+
+---
+
+## Table of Contents
+
+1. [I. The DEX Transition: From Automated Market Makers to Intent Architectures](#i-the-dex-transition-from-automated-market-makers-to-intent-architectures)
+2. [II. Lending and Credit Markets: The Quiet Revolution](#ii-lending-and-credit-markets-the-quiet-revolution)
+3. [III. MEV's Transformation: From Dark Forest to Enshrined Fairness](#iii-mevs-transformation-from-dark-forest-to-enshrined-fairness)
+4. [IV. The Developer Ecosystem: Human Infrastructure for Technical Architecture](#iv-the-developer-ecosystem-human-infrastructure-for-technical-architecture)
+5. [V. The Regulatory Landscape: Clarity as Enabling Condition](#v-the-regulatory-landscape-clarity-as-enabling-condition)
+6. [VI. Blob Economics, L2 Scaling, and the L1 Revenue Question](#vi-blob-economics-l2-scaling-and-the-l1-revenue-question)
+7. [VII. The Roadmap as Catalyst](#vii-the-roadmap-as-catalyst)
+8. [VIII. Synthesis: The Sanctuary and Its Tests](#viii-synthesis-the-sanctuary-and-its-tests)
+
 ---
 
 There is a number that tells you almost nothing and almost everything at once. In late February 2026, the Crypto Fear & Greed Index sat at 11 -- deep in the territory labeled "Extreme Fear." DeFi's total value locked had bled to somewhere between $91.8 billion and $140 billion depending on whose methodology you trust. ETH was down. Sentiment was down. The timeline was dark.

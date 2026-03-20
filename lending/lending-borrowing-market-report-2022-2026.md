@@ -9,6 +9,32 @@ date: 2026-03-04
 **Data Sources:** DeFiLlama API (api.llama.fi), Galaxy Research, CoinDesk, The Block, Chainalysis, Aave blog, protocol documentation, SEC filings, court records
 **Methodology:** All quantitative data sourced from DeFiLlama public API endpoints, verified web sources, and protocol disclosures. Fee revenue and lending volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.
 
+## tl;dr
+
+- **DeFi lending TVL hit $54.13B across 589 protocols** — recovering from a $10.5B trough in January 2023 after the CeFi lending collapse destroyed $28B+ in outstanding loans.
+- **CeFi implosion was near-total** — Celsius, BlockFi, Voyager, Genesis, and Babel Finance (82% of CeFi market share) all filed bankruptcy within 8 months; recoveries ranged from 25% (Voyager) to 100% (BlockFi).
+- **DeFi now commands ~60% of collateralized crypto lending** — a complete structural reversal from the pre-2022 CeFi-dominated era.
+- **Aave crossed $1 trillion in cumulative lending volume** — with protocol revenue growing from $5.2M (2022) to $141.8M (2025) and ~50–62% DeFi market share.
+- **Architectural innovation accelerated** — Morpho Blue (isolated markets), Fluid (unified liquidity), Chainlink SVR (oracle extractable value recapture), and the vault abstraction layer represent the biggest lending infrastructure upgrades since Compound's algorithmic rates in 2018.
+- **CeFi partially recovered to ~$25B** — but is now dominated by just three players (Tether, Galaxy Digital, Ledn) holding 88.6% market share.
+
+---
+
+## Table of Contents
+
+1. [Part 1: Market Overview & Executive Summary](#part-1-market-overview--executive-summary)
+2. [Part 2: DeFi Lending TVL & Volume Analysis](#part-2-defi-lending-tvl--volume-analysis)
+3. [Part 3: CeFi Lending — Collapse and Restructuring](#part-3-cefi-lending--collapse-and-restructuring)
+4. [Part 4: Major Protocol Deep Dives](#part-4-major-protocol-deep-dives)
+5. [Part 5: Technical Innovations (2022–2026)](#part-5-technical-innovations-20222026)
+6. [Part 6: MEV & Liquidation Economics](#part-6-mev--liquidation-economics)
+7. [Part 7: Security & Exploits](#part-7-security--exploits)
+8. [Part 8: Chain & Ecosystem Analysis](#part-8-chain--ecosystem-analysis)
+9. [Part 9: Regulatory Landscape](#part-9-regulatory-landscape)
+10. [Part 10: CeFi vs. DeFi — The Great Convergence](#part-10-cefi-vs-defi--the-great-convergence)
+11. [Part 11: Vaults & Risk Curation — The Abstraction Layer (2020–2026)](#part-11-vaults--risk-curation--the-abstraction-layer-20202026)
+12. [Appendix](#appendix)
+
 ---
 
 ## Part 1: Market Overview & Executive Summary

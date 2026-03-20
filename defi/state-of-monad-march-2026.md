@@ -8,6 +8,15 @@ date: 2026-03-17
 **Data Sources:** Monad documentation (docs.monad.xyz), DeFiLlama, CoinGecko, CoinMarketCap, official blog posts, third-party research (Blockworks, Stanford Blockchain Review, Chorus.one, Figment), protocol documentation
 **Methodology:** All quantitative data sourced from public dashboards and verified documentation. Where specific data points could not be independently verified, limitations are noted. No data has been fabricated. Fee revenue and trading volume are clearly distinguished throughout.
 
+## tl;dr
+
+- **Monad targets 10,000 TPS with 400ms blocks and 800ms finality** — built from scratch in C++/Rust by former Jump Trading engineers, using four interlocking innovations: MonadBFT, deferred execution, parallel execution, and MonadDb.
+- **Mainnet launched November 24, 2025 with ~$186–347M TVL** — but daily active addresses dropped 92% from the TGE peak (150K to ~12K) and ~75% of bridged assets have flowed back out.
+- **~90% of TVL sits in ported protocols, not native apps** — Uniswap V3 (~$28M), Gearbox (~$20M), and other blue-chip deployments dominate; native Monad applications are struggling to capture share.
+- **$522M raised total including a $269M public token sale** — MON trades at ~$0.022 (79% below ATH), with FDV of ~$2.2B; insider unlocks begin November 2026 (~46.5% of total supply).
+- **Governance is early-stage and opaque** — the Foundation controls 38.5% of supply (unlocked), no verifiable on-chain votes exist, and MON's official tokenomics page does not list governance as a token function.
+- **Key structural risks remain unaddressed** — no public state growth data, single client implementation, no "only on Monad" application identified, and Ethereum's Glamsterdam upgrade narrows the throughput gap.
+
 ---
 
 ## Table of Contents

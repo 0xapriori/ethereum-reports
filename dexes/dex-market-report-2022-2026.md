@@ -9,6 +9,31 @@ date: 2026-03-03
 **Data Sources:** DeFiLlama API (api.llama.fi), CoinGecko, The Block, Messari, protocol documentation
 **Methodology:** All quantitative data sourced from DeFiLlama public API endpoints and verified web sources. Fee revenue and trading volume are clearly distinguished throughout. Figures marked with **(unverified)** could not be cross-referenced.
 
+## tl;dr
+
+- **DEX spot volume surged 250% in three years** — from $1.38T in 2022 to $4.83T in 2025, with derivatives growing even faster at 1,388% ($534B to $7.95T).
+- **Solana became the highest-volume DEX chain** — driven by meme coin speculation on Raydium, Jupiter, and Meteora, overtaking Ethereum in raw spot volume by early 2025.
+- **Hyperliquid captured 60%+ of the perp DEX market** — redefining decentralized perpetuals and making derivatives volume ($7.95T) exceed spot volume ($4.83T) for the first time.
+- **Aggregator volume exploded 85x** — from $19B in 2022 to $1.62T in 2025, reflecting the maturation of DEX routing and execution infrastructure.
+- **Base and Aerodrome emerged as major forces** — Aerodrome processed $108B in 2024 alone via its ve(3,3) flywheel model on Coinbase's L2.
+- **2026 YTD shows cooling but structural durability** — $654B in spot volume through early March, with daily derivatives volume at $26.8B indicating the shift to on-chain perps is sticky.
+
+---
+
+## Table of Contents
+
+1. [Part 1: Market Overview & Executive Summary](#part-1-market-overview--executive-summary)
+2. [Part 2: Trading Volume Analysis](#part-2-trading-volume-analysis)
+3. [Part 3: TVL & Liquidity Trends](#part-3-tvl--liquidity-trends)
+4. [Part 4: Major Protocol Deep Dives](#part-4-major-protocol-deep-dives)
+5. [Part 5: Technical Innovations](#part-5-technical-innovations)
+6. [Part 6: DEX Aggregators & Infrastructure](#part-6-dex-aggregators--infrastructure)
+7. [Part 7: Derivatives DEXs](#part-7-derivatives-dexs)
+8. [Part 8: Chain & Ecosystem Analysis](#part-8-chain--ecosystem-analysis)
+9. [Part 9: Risk Analysis & Regulatory Landscape](#part-9-risk-analysis--regulatory-landscape)
+10. [Part 10: Outlook & Conclusions](#part-10-outlook--conclusions)
+11. [Appendix](#appendix)
+
 ---
 
 ## Part 1: Market Overview & Executive Summary

@@ -12,6 +12,32 @@ date: 2026-03-03
 
 **IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
 
+## tl;dr
+
+- **Probability-weighted DEX volume projection: ~$44.2T by 2029** — implying ~36% CAGR from 2025's $12.78T, significant deceleration from the 565% growth of 2022-2025 but still robust structural expansion.
+- **Three scenarios modeled** — Conservative ($25.2T, 40% probability), Base Case ($47.5T, 45%), and Optimistic ($85.0T, 15%), driven by macro, regulatory, and adoption variables.
+- **AI-accelerated development will compress protocol cycles from 10-22 months to 2-3 months** — potentially tripling active DEX protocols while commoditizing basic infrastructure by 2029.
+- **Stablecoin market projected to reach $600B-$2T by 2029** — per JPMorgan, Standard Chartered, and Citi, providing the fuel for DEX volume growth through a multiplier effect.
+- **Regulatory crystallization is the key catalyst** — GENIUS Act (signed July 2025, implementing by July 2026) and projected CLARITY Act (mid-2026) provide the legal certainty institutional capital requires.
+- **Institutional on-ramps are already deploying** — BlackRock BUIDL ($18B on-chain), Aave Horizon ($580M growing), and NYSE/Nasdaq tokenized trading venues create pathways for traditional capital.
+
+---
+
+## Table of Contents
+
+1. [Part 1: Executive Summary & Methodology](#part-1-executive-summary--methodology)
+2. [Part 2: Macro Environment & Market Cycle Analysis](#part-2-macro-environment--market-cycle-analysis)
+3. [Part 3: AI & Development Velocity Revolution](#part-3-ai--development-velocity-revolution)
+4. [Part 4: Volume & Market Share Projections](#part-4-volume--market-share-projections)
+5. [Part 5: Protocol Landscape Evolution](#part-5-protocol-landscape-evolution)
+6. [Part 6: Technology Roadmaps & Infrastructure](#part-6-technology-roadmaps--infrastructure)
+7. [Part 7: Derivatives & Structured Products Expansion](#part-7-derivatives--structured-products-expansion)
+8. [Part 8: Regulatory & Compliance Trajectory](#part-8-regulatory--compliance-trajectory)
+9. [Part 9: RWA Tokenization & Institutional DeFi](#part-9-rwa-tokenization--institutional-defi)
+10. [Part 10: Risk Analysis & Threat Landscape](#part-10-risk-analysis--threat-landscape)
+11. [Part 11: Scenario Modeling & Projections Summary](#part-11-scenario-modeling--projections-summary)
+12. [Appendix](#appendix)
+
 ---
 
 ## Part 1: Executive Summary & Methodology

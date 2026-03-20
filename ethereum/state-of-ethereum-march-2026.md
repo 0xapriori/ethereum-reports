@@ -14,6 +14,34 @@ date: 2026-03-04
 - [Lending & Borrowing Market Report (2022–2026)](lending-borrowing-market-report-2022-2026.md)
 - [State of MEV: March 2026](../state-of-mev-march-2026.md)
 
+## tl;dr
+
+- **ETH trades at ~$2,050-$2,150, down ~57% from its $4,953 ATH** — market sentiment at "Extreme Fear" (Fear & Greed Index: 10), with ETH dominance at an all-time low of ~9.9%.
+- **Ethereum holds its strongest technical position in history** — the February 2026 Strawmap charts seven forks through 2029, targeting sub-second finality, 10,000 TPS on L1, and post-quantum security.
+- **DeFi TVL on Ethereum remains dominant at ~$70B (68% of all-chain)** — with $17B+ in tokenized RWAs, $175B+ in stablecoins, and ETH ETFs with $11.6B in cumulative inflows.
+- **L2s paid only ~$10M to L1 in 2025, down >90% from $113M in 2024** — the "ultrasound money" thesis complicated by post-Dencun inflation, with net issuance now +0.2-0.3%.
+- **31,869 active developers** — the largest developer community in crypto, with Ethereum maintaining its lead per Electric Capital's Developer Report.
+- **Vitalik's "sanctuary technologies" thesis reframes Ethereum's value** — not in token economics but in structural properties as censorship-resistant, privacy-preserving, decentralized infrastructure.
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [Section 1: The New Ethereum Roadmap — The Strawmap](#section-1-the-new-ethereum-roadmap--the-strawmap)
+3. [Section 2: Upcoming Hardforks](#section-2-upcoming-hardforks)
+4. [Section 3: Application Activity on Ethereum](#section-3-application-activity-on-ethereum)
+5. [Section 4: ETH the Asset](#section-4-eth-the-asset)
+6. [Section 5: The L1/L2 Economic Relationship](#section-5-the-l1l2-economic-relationship)
+7. [Section 6: Developer Activity](#section-6-developer-activity)
+8. [Section 7: Ethereum vs. Competition (Solana Focus)](#section-7-ethereum-vs-competition-solana-focus)
+9. [Section 8: Sanctuary Technologies & Vitalik's Vision](#section-8-sanctuary-technologies--vitaliks-vision)
+10. [Section 9: Account Abstraction & Quantum Resistance](#section-9-account-abstraction--quantum-resistance)
+11. [Section 10: Ethereum Governance & Community](#section-10-ethereum-governance--community)
+12. [Section 11: MEV & Block Production](#section-11-mev--block-production)
+13. [Section 12: Outlook & Key Risks](#section-12-outlook--key-risks)
+14. [Appendix: Key Data Sources](#appendix-key-data-sources)
+
 ---
 
 ## Executive Summary

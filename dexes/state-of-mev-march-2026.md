@@ -9,6 +9,33 @@ date: 2026-03-03
 **Author**: MEV Strategist
 **Revision**: v6.0 (Appendix A expanded with multi-source empirical validation: live relay API data from Flashbots/Titan/bloXroute/Ultra Sound relays, relayscan.io 7d builder/relay market shares, rated.network cross-check, builder profitability data, MEV-Boost payment validation; Ultra Sound relay share corrected from ~37% to ~33%; builder profit asymmetry quantified — Titan 764.94 ETH/7d vs BuilderNet 106.01 ETH/7d; all prior v5.0 content retained)
 
+## tl;dr
+
+- **Titan Builder dominates with ~50% of Ethereum block production** — while Beaverbuild migrated to BuilderNet (~28%), breaking the prior duopoly that controlled ~90% of blocks.
+- **MEV extraction runs ~$250-300M/year on Ethereum** — with $963M in cumulative MEV revenues tracked from Dec 2022 through Jan 2025, and $24M in profit in a single 30-day snapshot.
+- **Ultra Sound relay rose from zero to #1 (~33% share)** — directly solving Ethereum's 2022 censorship crisis when OFAC-compliant blocks hit ~78-79%, and now self-caps at 1/3 of blocks.
+- **ePBS ships in Glamsterdam (H1 2026)** — enshrining proposer-builder separation at the protocol level, eliminating relay trust assumptions.
+- **MEV Blocker protects 4.5M+ wallets** — private orderflow protection has reached mainstream adoption, with Flashbots announcing Flashnet as the next-gen anonymous broadcast protocol.
+- **The "Holy Trinity" targets full censorship resistance** — FOCIL (EIP-7805) + encrypted mempools (LUCID) + ePBS, all slated for Glamsterdam/Hegota upgrades in 2026.
+- **MEV Brothers criminal case ended in mistrial** — the first prosecution targeting MEV infrastructure exploitation (Nov 2025), with prosecutors seeking retrial, leaving legal status in limbo.
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [Section 1: Ethereum Builder Market](#section-1-ethereum-builder-market)
+3. [Section 2: Ethereum Relay Landscape](#section-2-ethereum-relay-landscape)
+4. [Section 3: MEV Strategies and Trends](#section-3-mev-strategies-and-trends)
+5. [Section 4: Private Orderflow and MEV Protection](#section-4-private-orderflow-and-mev-protection)
+6. [Section 5: Solana MEV Ecosystem](#section-5-solana-mev-ecosystem)
+7. [Section 6: Regulatory Landscape](#section-6-regulatory-landscape)
+8. [Section 7: Forward-Looking Developments](#section-7-forward-looking-developments)
+9. [Section 8: Key Metrics Summary Table](#section-8-key-metrics-summary-table)
+10. [Sources](#sources)
+11. [Appendix A: Empirical Validation via Brontes On-Chain Analysis](#appendix-a-empirical-validation-via-brontes-on-chain-analysis)
+12. [Appendix B: Multi-Source Live Data Validation (March 4, 2026)](#appendix-b-multi-source-live-data-validation-march-4-2026)
+
 ---
 
 ## Executive Summary

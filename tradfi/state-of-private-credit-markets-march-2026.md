@@ -7,6 +7,38 @@ date: 2026-03-16
 
 **March 2026**
 
+## tl;dr
+
+- **Private credit is a ~$3.5 trillion asset class facing its most serious stress test** — rising defaults, AI disruption of key borrower sectors, and the first meaningful wave of retail redemptions are converging simultaneously.
+- **Default rates hit record levels** — Fitch reported a 9.2% US private credit default rate in 2025 (worst on record); ~40% of borrowers now have negative free cash flow, up from 25% in 2021.
+- **Rates remain punishing for borrowers** — SOFR at ~3.66% means a SOFR+500bp loan costs ~9.3%, a 55% increase from 2021; interest coverage ratios have declined to ~1x across the market.
+- **AI is both threat and opportunity** — enterprise software (25–35% of portfolios) faces disruption, while data center infrastructure represents potentially $800B in new lending through 2028.
+- **Semi-liquid retail vehicles are cracking** — Morgan Stanley met only 45.8% of redemption requests; BlackRock enforced a hard 5% cap on a $26B fund; Blue Owl gated withdrawals entirely.
+- **Secondary markets nearly doubled to $20B in 2025** — tech-heavy portfolio discounts widened to 20%; Jefferies projects H1 2026 could see $100B+ in secondary volume across all private markets.
+- **The bull case remains structural** — 23 consecutive years of positive vintage-year IRR (Hamilton Lane), 86% senior secured assets, and realized credit losses of just 0.70% (Cliffwater CDLI, 2025).
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [I. The Macro Backdrop: Higher for Longer Meets the Maturity Wall](#i-the-macro-backdrop-higher-for-longer-meets-the-maturity-wall)
+3. [II. Market Size and Growth Trajectory](#ii-market-size-and-growth-trajectory)
+4. [III. Market Structure: Who Lends, Who Borrows](#iii-market-structure-who-lends-who-borrows)
+5. [IV. Segments and Strategy Shifts](#iv-segments-and-strategy-shifts)
+6. [V. The Bank Relationship: From Disintermediation to Re-Intermediation](#v-the-bank-relationship-from-disintermediation-to-re-intermediation)
+7. [VI. Credit Quality: The First Real Test](#vi-credit-quality-the-first-real-test)
+8. [VII. The Valuation Question: Marks, Liquidity, and the Illiquidity Paradox](#vii-the-valuation-question-marks-liquidity-and-the-illiquidity-paradox)
+9. [VIII. The AI Paradox: Threat, Tool, and Demand Driver](#viii-the-ai-paradox-threat-tool-and-demand-driver)
+10. [IX. Geographic Expansion](#ix-geographic-expansion)
+11. [X. Regulation and the Insurance Nexus](#x-regulation-and-the-insurance-nexus)
+12. [XI. Systemic Risk: The View from Regulators](#xi-systemic-risk-the-view-from-regulators)
+13. [XII. The Sponsor Question: Inject or Walk Away?](#xii-the-sponsor-question-inject-or-walk-away)
+14. [XIII. The Secondary Market Explosion](#xiii-the-secondary-market-explosion)
+15. [XIV. Looking Forward: Structural Tensions and Unresolved Questions](#xiv-looking-forward-structural-tensions-and-unresolved-questions)
+16. [XV. Conclusion](#xv-conclusion)
+17. [Sources and Methodology](#sources-and-methodology)
+
 ---
 
 ## Executive Summary

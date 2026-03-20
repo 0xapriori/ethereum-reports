@@ -12,6 +12,32 @@ date: 2026-03-04
 
 **IMPORTANT DISCLAIMER:** All forward-looking figures in this report are projections and estimates, not factual data. They are derived from historical trend analysis, structural reasoning, analyst forecasts, and stated assumptions. Actual outcomes may differ materially. This report does not constitute financial advice.
 
+## tl;dr
+
+- **Probability-weighted 2029 DeFi lending TVL: ~$145B** — across three scenarios: Conservative ~$95–105B (40%), Base ~$145–160B (45%), Optimistic ~$220–260B (15%).
+- **DeFi lending grew from $10.5B to $54.13B in 3 years** — a ~72% CAGR from the January 2023 trough, with 589 protocols and $7.59B additional in CDP protocols.
+- **Vault abstraction is reshaping user interaction** — Morpho Vaults ($6.7B), ERC-4626, and Kamino's architecture are projected to reach 52–65% vault penetration by 2029.
+- **AI-managed lending is transitioning to infrastructure** — 550+ AI agent crypto projects ($4.34B aggregate market cap), with McKinsey projecting $3–5T in global agentic commerce by 2030.
+- **RWA collateral expansion unlocks massive new pools** — from ~$20–22B in tokenized RWAs toward McKinsey's $2T by 2030 projection; Aave Horizon already has $1B+ in deposits.
+- **Interest rate tailwinds ahead** — the Fed's projected path to ~3% neutral by end-2028 lowers borrowing costs and makes DeFi yields relatively more attractive.
+
+---
+
+## Table of Contents
+
+1. [Part 1: Executive Summary & Methodology](#part-1-executive-summary--methodology)
+2. [Part 2: Macro Environment (Lending-Specific)](#part-2-macro-environment-lending-specific)
+3. [Part 3: How Lending & Borrowing Works — A Technical Primer](#part-3-how-lending--borrowing-works--a-technical-primer)
+4. [Part 4: TVL & Volume Projections (2026–2029)](#part-4-tvl--volume-projections-20262029)
+5. [Part 5: Vaults — The Abstraction Layer (Deep Dive)](#part-5-vaults--the-abstraction-layer-deep-dive)
+6. [Part 6: Agentic On-Chain Activity & AI in Lending](#part-6-agentic-on-chain-activity--ai-in-lending)
+7. [Part 7: Protocol Landscape Evolution (2026–2029)](#part-7-protocol-landscape-evolution-20262029)
+8. [Part 8: RWA & Institutional Lending Projections](#part-8-rwa--institutional-lending-projections)
+9. [Part 9: Risk Analysis & Threat Landscape](#part-9-risk-analysis--threat-landscape)
+10. [Part 10: Scenario Modeling & Consolidated Projections](#part-10-scenario-modeling--consolidated-projections)
+11. [Part 11: Regulatory Trajectory](#part-11-regulatory-trajectory)
+12. [Appendix](#appendix)
+
 ---
 
 ## Part 1: Executive Summary & Methodology
