@@ -9,7 +9,7 @@ date: 2026-03-20
 
 ## tl;dr
 
-- **Zcash is the original zero-knowledge cryptocurrency, and after a decade of building, it is experiencing a convergence of institutional interest, technological breakthrough, and philosophical vindication that it has never had before.** Cypherpunk Technologies is accumulating ZEC on a MicroStrategy model. Grayscale has filed for the first privacy coin spot ETF. The Ethereum Foundation's March 2026 Mandate explicitly calls for protocol-native privacy — the thesis Zcash has been building since 2016.
+- **Zcash is the original zero-knowledge cryptocurrency — born from a rejected 2013 proposal to add privacy to Bitcoin itself — and after over a decade of building, it is experiencing a convergence of institutional interest, technological breakthrough, and philosophical vindication that it has never had before.** Cypherpunk Technologies is accumulating ZEC on a MicroStrategy model. Grayscale has filed for the first privacy coin spot ETF. The Ethereum Foundation's March 2026 Mandate explicitly calls for protocol-native privacy — the thesis Zcash has been building since the Zerocoin paper.
 
 - **The January 2026 governance crisis — in which the entire ECC development team resigned — was severe, public, and ultimately resolved in a way that may have strengthened the ecosystem.** The former team raised $25M+ in seed funding, formed ZODL, and continues building. Development is now distributed across four independent organizations instead of one. Zcash passed, in practice, the "walkaway test" that Ethereum is still aspiring to.
 
@@ -41,9 +41,17 @@ date: 2026-03-20
 
 ## I. What Is Zcash?
 
-Zcash launched on October 28, 2016, founded by Zooko Wilcox-O'Hearn. It was the first cryptocurrency to implement zk-SNARKs — zero-knowledge succinct non-interactive arguments of knowledge — for fully shielded transactions at the protocol layer. The core thesis was, and remains, straightforward: money should be private by default, and cryptography can make that possible without trusted intermediaries.
+Zcash's story begins not in 2016, but in 2013 — with an attempt to fix Bitcoin.
 
-The origin story is inseparable from a ceremony. At launch, six participants generated cryptographic parameters necessary for the zk-SNARK system. Each participant held a fragment of the "toxic waste" — the random values that, if combined, could compromise the system's privacy guarantees. The fragments were destroyed. One participant used an angle grinder. Another burned their hardware. The ceremony was theatrical by necessity: the system's integrity depended on at least one participant being honest, and the destruction needed to be convincing.
+That year, Johns Hopkins cryptographer Matthew Green and his graduate students Ian Miers and Christina Garman published the Zerocoin paper at the IEEE Symposium on Security and Privacy. The proposal was straightforward: extend Bitcoin's protocol with a cryptographic layer that would allow fully anonymous transactions. Users could convert bitcoins into "zerocoins," breaking the transaction graph, and later redeem them without any link to the original deposit.
+
+The Zerocoin team proposed this as a Bitcoin protocol upgrade. Bitcoin's developers rejected it. The reasons were partly technical — Zerocoin proofs were roughly 25 kilobytes each, which would have bloated the blockchain, and transaction creation was computationally expensive — and partly cultural. The changes were seen as too radical a deviation from Bitcoin's design philosophy.
+
+The researchers didn't stop. In late 2013, the scope expanded into Zerocash, which introduced zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to compress proof sizes from 25 kilobytes down to 288 bytes while adding full encryption of amounts and both sender and receiver addresses. This was the theoretical breakthrough that made private digital money practical.
+
+Since Bitcoin wouldn't adopt it, they built their own chain. Zcash launched on October 28, 2016, founded by Zooko Wilcox-O'Hearn, as the first cryptocurrency to implement zk-SNARKs for fully shielded transactions at the protocol layer. The core thesis was, and remains, straightforward: money should be private by default, and cryptography can make that possible without trusted intermediaries.
+
+The origin story is inseparable from a ceremony. At launch, six participants generated cryptographic parameters necessary for the zk-SNARK system. Each participant held a fragment of the "toxic waste" — the random values that, if combined, could compromise the system's privacy guarantees. The fragments were destroyed. One participant used an angle grinder. Another burned their hardware. The ceremony was theatrical by necessity: the system's integrity depended on at least one participant being honest, and the destruction needed to be convincing. The trusted setup requirement — the very thing that helped kill the Bitcoin proposal — would haunt Zcash for years until Sean Bowe eliminated it entirely with Halo 2.
 
 Zcash shares Bitcoin's supply schedule — a 21 million coin cap with halvings every four years — and its proof-of-work consensus mechanism. But it diverges in two fundamental ways. First, privacy: while Bitcoin transactions are pseudonymous (every transaction is publicly visible, linked to addresses rather than identities), Zcash offers fully shielded transactions where the sender, receiver, and amount are cryptographically hidden. Second, upgradeability: Zcash has executed multiple network upgrades since launch, while Bitcoin's last consensus change was SegWit in 2017.
 
@@ -322,6 +330,10 @@ The argument is that the complexity of using shielded transactions, managing key
 ---
 
 ## Sources
+
+### Foundational Research
+- [Zerocoin: Anonymous Distributed E-Cash from Bitcoin (Miers, Garman, Green, Rubin — IEEE S&P 2013)](https://ieeexplore.ieee.org/document/6547123/)
+- [Zerocash: Decentralized Anonymous Payments from Bitcoin (Ben-Sasson et al., 2014)](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
 
 ### Official Documentation & Repositories
 - [Project Tachyon Overview](https://tachyon.z.cash/overview/)
