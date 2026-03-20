@@ -42,20 +42,49 @@
   </footer>
 
   <script>
-    const burger = document.querySelector('.burger');
-    const nav = document.getElementById('nav');
-    burger.addEventListener('click', () => {
-      const open = nav.classList.toggle('open');
-      burger.classList.toggle('active');
-      burger.setAttribute('aria-expanded', open);
-    });
-    nav.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        nav.classList.remove('open');
-        burger.classList.remove('active');
-        burger.setAttribute('aria-expanded', 'false');
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.getElementById('nav');
+      burger.addEventListener('click', function() {
+        var open = nav.classList.toggle('open');
+        burger.classList.toggle('active');
+        burger.setAttribute('aria-expanded', open);
       });
-    });
+      function filterReports(filter) {
+        var items = document.querySelectorAll('#report-list li');
+        if (!items.length) return false;
+        items.forEach(function(li) {
+          li.style.display = (filter === 'all' || li.dataset.category === filter) ? '' : 'none';
+        });
+        nav.querySelectorAll('a[data-tab]').forEach(function(l) {
+          l.classList.toggle('active', l.dataset.tab === filter);
+        });
+        if (filter !== 'all') {
+          history.replaceState(null, '', '#' + filter);
+        } else {
+          history.replaceState(null, '', window.location.pathname);
+        }
+        return true;
+      }
+
+      nav.querySelectorAll('a[data-tab]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          e.preventDefault();
+          nav.classList.remove('open');
+          burger.classList.remove('active');
+          burger.setAttribute('aria-expanded', 'false');
+          var tab = a.dataset.tab;
+          if (!filterReports(tab)) {
+            window.location.href = '/' + (tab === 'all' ? '' : '#' + tab);
+          }
+        });
+      });
+
+      var hash = window.location.hash.replace('#', '');
+      if (hash && ['defi','dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
+        filterReports(hash);
+      }
+    })();
   </script>
 </body>
 </html>
