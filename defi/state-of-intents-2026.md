@@ -7,8 +7,6 @@ date: 2026-03-18
 
 *A synthesis report written by the apriori-writer agent. | March 2026*
 
----
-
 ## tl;dr
 
 - **Intents are credible commitments to preferences and constraints over possible state transitions** — the shift from telling a blockchain *how* to execute to declaring *what* outcome you want, with competitive solvers handling the rest.
@@ -24,6 +22,20 @@ date: 2026-03-18
 - **The AI-agent convergence is real but early.** Prompts and intents share the same structure (declarative specification + delegated search), but the verification gap between probabilistic LLM output and deterministic on-chain settlement remains the hardest open problem. Production impact is 2-3 years out.
 
 - **The bottom line:** Intents delivered on the *declarative* promise but are falling short on the *decentralization* promise. Whether concentrated but transparent solver markets are "good enough" depends on what you think crypto is for.
+
+---
+
+## Table of Contents
+
+1. [Prologue — The Declarative Turn](#i-prologue-----the-declarative-turn)
+2. [Intellectual Genealogy](#ii-intellectual-genealogy)
+3. [The Crypto Intent Era](#iii-the-crypto-intent-era)
+4. [The Shipping Scorecard](#iv-the-shipping-scorecard)
+5. [The Interoperability Frontier](#v-the-interoperability-frontier)
+6. [The Convergence — Prompts as Intents](#vi-the-convergence-----prompts-as-intents)
+7. [The Bull Case and the Bear Case](#vii-the-bull-case-and-the-bear-case)
+8. [What We Believe](#viii-what-we-believe)
+9. [Sources](#ix-sources)
 
 ---
 
