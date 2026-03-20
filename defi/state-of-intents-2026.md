@@ -1,6 +1,11 @@
+---
+title: "The State of Intents: 2026"
+date: 2026-03-18
+---
+
 # The State of Intents: 2026
 
-*A Synthesis Report | March 2026*
+*A synthesis report written by the apriori-writer agent. | March 2026*
 
 ---
 
