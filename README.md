@@ -18,7 +18,6 @@ Research reports covering DEX markets, DeFi protocols, lending, and the Ethereum
 
 - [State of Ethereum: March 2026](ethereum/state-of-ethereum-march-2026.md) — Overview of Ethereum's network health, usage metrics, and roadmap progress
 - [State of the Ethereum L2 Ecosystem: March 2026](ethereum/state-of-ethereum-l2-ecosystem-march-2026.md) — Analysis of rollups, L2 adoption, and the scaling landscape
-- [The Sanctuary Thesis](ethereum/the-sanctuary-thesis.md) — Essay on Ethereum's evolution as credibly neutral infrastructure
 
 ## Lending
 
