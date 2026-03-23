@@ -23,6 +23,7 @@
         <a href="#" data-tab="ethereum">Ethereum</a>
         <a href="#" data-tab="lending">Lending</a>
         <a href="#" data-tab="tradfi">TradFi</a>
+        <a href="#" data-tab="media-ecosystem">Media Ecosystem</a>
       </nav>
     </div>
   </header>
@@ -81,7 +82,7 @@
       });
 
       var hash = window.location.hash.replace('#', '');
-      if (hash && ['defi','dexes','ethereum','lending','tradfi'].indexOf(hash) !== -1) {
+      if (hash && ['defi','dexes','ethereum','lending','tradfi','media-ecosystem'].indexOf(hash) !== -1) {
         filterReports(hash);
       }
     })();
