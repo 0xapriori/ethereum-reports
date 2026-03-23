@@ -4,6 +4,8 @@ url: https://ethreportseth.xyz
 baseurl: ""
 markdown: kramdown
 permalink: pretty
+exclude:
+  - "media-ecosystem/debate-archive"
 defaults:
   - scope:
       path: ""

@@ -67,7 +67,47 @@ I do not want to overstate this. Infrastructure tokens with real usage — Ether
 
 ---
 
-## III. Why People Enter
+## III. The Product-Token Collapse
+
+Section II described the inversion: consensus precedes product, capital moves before value is proven. But there is a further stage the inversion produces, and it is the one that locks in.
+
+When the product becomes the token, the actual product is just marketing material for the token. Revenue metrics, user growth, technical milestones — all of these become narrative inputs that service the token thesis rather than indicators of a functioning business. Even revenue-generating protocols often serve simply as marketing machines for the token. The crypto media ecosystem reinforces this by caring almost exclusively about token price, not product quality. A protocol ships a major technical upgrade and the market shrugs. A rumor about a new airdrop moves price more than a year of engineering. The teams are not stupid. They can read the same charts.
+
+The incentive gradient is not subtle. Once a token's market cap exceeds what the product's fundamentals could justify on a discounted cash flow basis — which for most tokens happens approximately at launch — every hour spent on narrative has a higher marginal return than every hour spent on the product. The product's value accrues slowly through user satisfaction and retention. The narrative's value accrues immediately through token price, which is where the team's actual wealth sits.
+
+### The Exit Structure Is the Disease
+
+Consensus-to-capital is not inherently extractive. Ethereum's ICO raised $18.6 million on manufactured consensus — conference talks, forum posts, community building — and that capital funded infrastructure that now settles trillions. But Ethereum's ICO had no day-one exchange listing. No KOL round. No unlock cliff optimized for exit liquidity. Participants waited over a year for a live network. The capital had nowhere to go except building.
+
+What happened since is that the success of that model became the template for extraction — same fundraising narrative, fundamentally different vesting and liquidity architecture. Modern TGEs have day-one listings, KOL rounds with specific posting requirements, and unlock schedules optimized for insider exit before the product justifies the valuation. The disease is not consensus-to-capital. The disease is consensus-to-capital with exit structures designed for insiders to leave before value is proven. This is a structural distinction, not a cosmetic one.
+
+### Three Conditions, Not Two Exits
+
+An earlier version of this argument proposed two ways out: do not launch a token, or integrate the token as essential for the product to function. A series of adversarial debates sharpened this into a more precise framework. Token-product relationships exist in three structurally distinct conditions:
+
+**Condition one: the token IS the operating mechanism.** ETH pays for gas. Without ETH, the network does not function. The consensus machine has minimal leverage because the token's value anchors to something outside narrative — actual network usage, actual fee revenue, actual settlement. This is the tightest coupling and the most defensible position. But it is available only to a narrow category of projects: blockchains, certain DePIN networks, proof-of-stake systems. Most applications do not need a native token to function.
+
+**Condition two: no token at all.** The cleanest structural solution removes the incentive distortion entirely. If there is no token, there is no market cap to optimize for, and the team's incentive gradient points toward product-market fit. But the thorny problems are real. Without a token, you lack a capital formation tool. You are competing against token-funded teams who can subsidize usage, pay for integrations, and fund ecosystem development with treasury tokens that cost them nothing at the margin. Your community, conditioned by a decade of token launches, will ask when token. The social pressure is itself a consensus machine output.
+
+**Condition three: the contested middle.** Well-designed financial instruments attached to real products — governance tokens with fee switches, cash-flow tokens on revenue-generating protocols, tokens with vesting tied to on-chain milestones or burn mechanisms coupled to usage. This condition is real and it is navigable. Aave generates real lending revenue. Optimism's retroactive public goods funding distributes tokens based on demonstrated impact rather than promised impact. EIP-1559's base fee burn links ETH value to network usage, not marketing. Metric-tied vesting can align insider incentives with protocol performance rather than narrative timing.
+
+But the contested middle is maintainable, not self-sustaining. It requires continuous mechanism design vigilance against the consensus machine's gravitational pull. Every bull cycle applies pressure to loosen vesting, to add narrative-friendly tokenomics, to optimize for exchange listing dynamics rather than product coupling. The projects that navigate this condition are the ones with exceptional teams, genuine technical differentiation, and enough runway to survive the period between launch and product-market fit without depending on narrative to sustain token price.
+
+### The Trap Is for the Buyer, Not the Builder
+
+Here is the distinction that matters most and that earlier versions of this argument failed to make: the consensus machine does not necessarily trap protocols. Deployed smart contracts operate independently of founder attention. Aave processed billions in loans through the 2022 bear market while its token dropped 90%. The protocol kept functioning. Borrowers got loans. Lenders earned yield.
+
+The trap is for participants in the token economy. The retail buyers who entered at bull-market consensus prices lost 90% while the protocol functioned fine. The protocol's survival is evidence of engineering quality. It is not evidence that the token economy served its participants well. Both things are true simultaneously, and protocol-layer independence is the reason they can coexist — the product works AND the token economy extracts. Protocol survival provides ongoing legitimacy for the next cycle's speculative dynamics. "Aave works" becomes the narrative that sustains the next wave of retail entry at consensus-inflated prices.
+
+Bear markets suppress the consensus machine. They do not kill it. The teams that survive bear markets are overwhelmingly the teams whose tokens were closest to Condition One or whose protocols generated real revenue independent of token price. The bear market does not produce a new structural option. It confirms the survivable positions. And then the next bull market reboots the machine with the same architecture and a fresh cohort of participants who were not present for the previous reckoning. The cycle-to-cycle information loss is not an accident. It is a feature of the machine — KOLs do not post bear market post-mortems during bull markets because there is no allocation for that content.
+
+The consensus machine distorts ecosystem-wide capital allocation. During bull markets — when the majority of capital enters — the machine is the dominant allocative force. Developer talent gets pulled toward narrative-optimized projects. Retail capital gets allocated to machine-optimized launches instead of productive protocols. The damage is not just to individual participants. It is to the selection environment in which all projects operate. The magnitude of that distortion, during the periods that matter most, is large enough to define the ecosystem's character.
+
+How many projects in the contested middle actually deploy the mechanism design tools that make it navigable? That is an empirical question neither structural analysis nor adversarial debate can settle. But the consensus machine's entire business model depends on making the exceptional cases — the Aaves, the Optimisms, the protocols that genuinely navigate the middle — look like the rule rather than the exception. That ambiguity is precisely the gray zone the machine thrives in.
+
+---
+
+## IV. Why People Enter
 
 The essay so far has a gap. It explains HOW the consensus machine works but not WHY it has an endless supply of participants. The cynical answer is greed. The philosophical answer is kayfabe. Neither is sufficient.
 
@@ -87,7 +127,7 @@ The consensus machine will have participants as long as the alternatives feel wo
 
 ---
 
-## IV. What Can Be Done
+## V. What Can Be Done
 
 Start with honesty about what cannot be done.
 
@@ -119,4 +159,4 @@ The machine will keep running. The question is whether it runs in silence or aga
 
 ---
 
-*This essay builds on Report 07 of the [Power Structures Revealed](https://powerstructures.xyz) series, on an earlier essay diagnosing the VC-retail extraction loop, and on a series of philosophical debates that sharpened the argument by breaking its weaker claims. The surviving thesis: the media layer is not a communication channel. It is the infrastructure where crypto's value is manufactured — and contesting it is the most accessible intervention available.*
+*This essay builds on Report 07 of the [Power Structures Revealed](https://powerstructures.xyz) series, on an earlier essay diagnosing the VC-retail extraction loop, and on a series of philosophical and structural debates that sharpened the argument by breaking its weaker claims. Section III incorporates insights from an adversarial debate that forced the original two-exit framework into a three-condition model — the surviving thesis is stronger for what it conceded. The media layer is not a communication channel. It is the infrastructure where crypto's value is manufactured — and contesting it is the most accessible intervention available.*
