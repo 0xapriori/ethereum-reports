@@ -1,5 +1,5 @@
 title: Ethereum Reports
-description: Research reports on DEXes, DeFi, lending markets, Ethereum, privacy, TradFi, and the media ecosystem
+description: Research reports on DEXes, DeFi, lending markets, Ethereum, privacy, TradFi, the media ecosystem, and musings
 url: https://ethreportseth.xyz
 baseurl: ""
 markdown: kramdown
@@ -47,3 +47,8 @@ defaults:
     values:
       layout: "report"
       category: "Media Ecosystem"
+  - scope:
+      path: "musings"
+    values:
+      layout: "report"
+      category: "Musings"
