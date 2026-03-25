@@ -5,7 +5,7 @@ title: Index
 
 <div class="index-header">
   <h1>Ethereum Reports</h1>
-  <p>Research on DEXes, DeFi, lending markets, Ethereum infrastructure, privacy, TradFi, and the media ecosystem</p>
+  <p>Research on DEXes, DeFi, lending markets, Ethereum infrastructure, privacy, TradFi, the media ecosystem, and musings</p>
 </div>
 
 {% assign all_reports = site.pages | where_exp: "page", "page.layout == 'report'" | sort: "date" | reverse %}
