@@ -221,6 +221,26 @@ There is a reasonable case that it does -- but primarily outside of trading. The
 
 These are real use cases. But they are not trading volume use cases. They are infrastructure and risk management use cases. The EEZ's value proposition may be strongest in precisely the domain where the trading volume data is least relevant.
 
+### The Missing Product Thesis
+
+There is a deeper critique of the EEZ that neither composability maximalists nor skeptics are articulating clearly: **"shared liquidity" is a feature, not a product.** The EEZ has no articulated theory of what products become possible — and economically viable — that do not exist today.
+
+A product thesis would be specific: "Aave can atomically liquidate cross-chain collateral, reducing its risk premium by X basis points, enabling Y% better lending rates." Or: "An AMM can pool liquidity across five rollups, achieving Z% less slippage than any single-chain deployment." The EEZ makes neither of these claims. It says "fragmentation is the problem, composability is the solution" and stops there. That is an infrastructure thesis, not a product thesis.
+
+Before building the technical architecture, the right first-principles question is: **under what economic terms would it be rational for an L2 to sacrifice execution independence in exchange for shared state with L1?** Specifically:
+
+- What does the L1 get from an L2 joining the EEZ? Fees? MEV flow? Settlement demand for ETH?
+- What does the L2 get? Shared liquidity? Credibility? Access to L1 protocols?
+- What does each party give up? Sovereignty? Sequencer revenue? Execution independence?
+- Who subsidizes the real-time proving costs?
+- What happens when economic interests diverge — when an L2 wants to capture value that the EEZ framework routes to L1?
+
+These are the questions that determine whether anyone actually opts in beyond the founding members. The Swiss non-profit structure is a governance answer, but governance without explicit economic terms is a committee, not a trade agreement.
+
+We have seen this movie before. Cosmos IBC works beautifully as technology — and the cross-chain DeFi explosion it was supposed to enable never materialized because there was no economic framework for why value should flow between chains rather than concentrating on the best single chain. Polkadot's parachains are technically sound and economically hollow. The pattern is consistent: solve the hard computer science problem, assume economic activity follows, watch as it does not.
+
+The design question the EEZ has not answered is whether the technical architecture should be built around an understanding of trade agreements — mutual obligations, value flows, dispute resolution, exit terms — rather than around solving the hardest possible proving problem and hoping the economics sort themselves out. History suggests the economics do not sort themselves out. They get solved by products with specific users, specific margins, and specific reasons to exist — or they do not get solved at all.
+
 ---
 
 ## Section 6: Agentic Trading -- Separating Signal from Noise
