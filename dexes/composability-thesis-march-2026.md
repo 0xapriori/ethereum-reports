@@ -9,13 +9,13 @@ date: 2026-03-29
 
 ## tl;dr
 
-- **CEXs still command ~86-90% of trading volume** -- but DEX perps grew from 2.0% to 10.2% market share in two years, suggesting structural migration rather than a fixed ceiling.
-- **Single-chain product focus dominates DEX winners** -- Hyperliquid controls 70%+ of DEX perps open interest from one chain; Solana led all DEX spot volume at $117B in February 2026 (majority memecoins (~60%+ of volume)). Neither needed cross-chain composability to win.
-- **Cross-chain bridge volume is a rounding error** -- an estimated $18-20B monthly bridge volume vs. $231B+ in intra-chain DEX volume, suggesting markets route around fragmentation rather than solving it.
-- **L2 consolidation is real and accelerating** -- Base + Arbitrum + Optimism = ~90% of L2 transactions; smaller rollups saw 61% usage decline. Most L2s may not survive 2026.
-- **Multicoin Capital tacitly demoted composability** -- the firm that built its Solana thesis around atomic composability as the killer affordance barely mentions it in their January 2025 "Internet Capital Markets" thesis, shifting focus to execution quality and market microstructure. When the loudest composability evangelist stops leading with composability, that is signal.
-- **The EEZ launches into a composability paradox** -- Gnosis's Ethereum Economic Zone, co-funded by the Ethereum Foundation, delivers synchronous composability between L1 and rollups. Yet Vitalik called synchronous atomic composability "very overrated" in June 2024. The tension is unresolved.
-- **Agentic trading remains narrative over substance** -- AI agent token valuations collapsed 86% from ATH; no verified evidence of meaningful autonomous AI trading volume distinct from traditional bot activity that has existed since 2020.
+- **Synchronous atomic composability is not useless — it is misframed.** The EEZ and similar projects position composability as the answer to Ethereum's fragmentation problem. The data suggests the real problem is consolidation: markets are resolving fragmentation by killing weak chains, not by connecting them.
+- **For trading, product focus beats composability.** Every DEX winner — Hyperliquid (70%+ perps OI), Solana ($117B spot), Aerodrome (50-63% of Base volume) — won by building excellent products on single chains. None needed cross-chain atomic execution.
+- **Cross-chain bridge volume confirms this.** An estimated $18-20B monthly vs. $231B+ in intra-chain DEX volume (~8-9%). Users go where the products are and stay there.
+- **For non-trading DeFi, the case is real but narrow.** Cross-chain liquidations, unified liquidity pools, and complex programmable finance workflows are genuine use cases where atomicity matters — but they represent the edge of DeFi activity, not the center.
+- **Asynchronous intents solve most of the remaining gap.** ERC-7683 and similar standards handle ~90% of cross-chain UX needs. The EEZ addresses the remaining 10% — the question is whether that 10% justifies the engineering complexity.
+- **The EEZ lacks a product thesis.** "Shared liquidity" is a feature, not a product. Without explicit economic terms for why L2s would opt in — what they gain, what they sacrifice, who subsidizes proving costs — the project risks repeating the IBC/Polkadot pattern: technically sound, economically hollow.
+- **The strongest version of the thesis:** composability matters at the margins of DeFi infrastructure, but markets have already solved the trading problem through simpler means. Whether those margins grow depends on market structure evolution that has not yet occurred.
 
 ---
 
@@ -203,15 +203,7 @@ On March 29, 2026, Gnosis's Friederike Ernst and Jordi Baylina (Zisk) announced 
 
 The founding members -- Aave, Titan, Beaver Build, Centrifuge, xStocks -- are serious. The structure is a Swiss non-profit, co-funded by the Ethereum Foundation. Ernst framed it directly: "Ethereum doesn't have a scaling problem. It has a fragmentation problem."
 
-This is a credible project. But it launches into a genuine paradox.
-
-### The Vitalik Tension
-
-In June 2024, Vitalik Buterin wrote: "Synchronous atomic composability is very overrated imo." His position was that the real problems users face are UX issues -- knowing which chain they are on, routing transactions efficiently -- and that these are solvable with standards like ERC-3770 (chain-aware addresses) and ERC-7683 (cross-chain intents).
-
-Yet the Ethereum Foundation is now co-funding the EEZ, which delivers precisely the synchronous atomic composability Vitalik called overrated.
-
-One way to reconcile this: ERC-7683 handles 90% of what users need (async cross-chain transactions with good UX), and the EEZ addresses the remaining 10% where synchronous guarantees are genuinely necessary. The question is whether that remaining 10% justifies the engineering complexity.
+This is a credible project. But credibility does not resolve the core tension: intent-based standards like ERC-7683 already solve the vast majority of cross-chain UX problems through asynchronous flows. The EEZ addresses the remaining slice where synchronous guarantees are genuinely necessary. The question is whether that slice justifies the engineering complexity.
 
 There is a reasonable case that it does -- but primarily outside of trading. The use cases where synchronous composability is most compelling are:
 
