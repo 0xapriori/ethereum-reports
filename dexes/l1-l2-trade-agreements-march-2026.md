@@ -69,11 +69,11 @@ But the *consequence* of the design working is that Ethereum L1 lost its primary
 
 ### L2 Profitability: Who Captures What
 
-| L2 | Revenue Retained per $1 Paid to L1 | 2025 Profit | Notes |
-|----|--------------------------------------|-------------|-------|
-| OP Mainnet | $321 | — | Reflexivity Research, Aug 2024 snapshot |
-| Base | — | ~$55M | Only profitable L2 in 2025 |
-| Arbitrum | $28.62 | — | Lower margins than OP Stack chains |
+| L2 | Revenue Retained per $1 Paid to L1 | 2025 Sequencer Revenue | Notes |
+|----|--------------------------------------|------------------------|-------|
+| Base | Highest (single-digit $ days to L1) | ~$78M ($42.4M H1 + $35.7M H2) | 80%+ of L2 fee market; only profitable L2 (~$55M net) |
+| OP Mainnet | $321 per $1 | ~$3.8M ($2.3M H1 + $1.5M H2) | 100% of profit goes to Optimism Collective |
+| Arbitrum | $28.62 per $1 | ~$26M annualized run rate | Four revenue streams; 90%+ gross margins |
 
 Base earned ~$55M in profit in 2025 and was the only profitable L2. It drove 87.2% of Superchain sequencer revenue ($42.4M of $48.4M in H1 2025). The revenue-to-L1-cost ratios are margins that would be considered extraordinary in any infrastructure relationship — Base pays single-digit dollars per day to Ethereum on some post-Dencun days while generating hundreds of thousands in revenue.
 
@@ -289,6 +289,16 @@ The founding members — Aave, Titan, Beaver Build, Centrifuge, xStocks — are 
 
 The EEZ is the strongest articulation of "composability as carrot for economic alignment." But it has not published a fee schedule, MEV allocation rules, exit procedures, dispute resolution mechanisms, or liquidity requirements. It has announced the highway but not the toll booths, traffic laws, or off-ramp procedures.
 
+### The DA Substitution Lever: L2s Are Not Captive
+
+Any analysis of L1-L2 economic coordination must acknowledge the biggest piece of leverage L2s possess: **data availability substitution.** Ethereum L1 does not have a monopoly on the infrastructure L2s are paying for.
+
+If Ethereum raises the cost of doing business — through blob fee floors, MEV-sharing mandates, or revenue contribution requirements — L2s can route their data to Celestia (commanding ~50% of the alt-DA market, with its Matcha upgrade doubling block sizes to 128MB), EigenDA (100MB/s throughput, restaking-backed), or Avail (multichain flexibility). Validiums and Optimiums are already doing this to achieve near-zero DA costs. Immutable zkEVM runs in validium mode. Mantle uses EigenDA.
+
+This sets a hard ceiling on how much value L1 can structurally demand. If the "taxes" become too burdensome, L2s offshore their data. The result is a DA market that competes on cost, not a captive relationship where L1 dictates terms. EIP-7918's blob fee floor works precisely because it is modest — it corrects a pricing failure without pushing L2s toward alt-DA providers. A more aggressive extraction would accelerate the very exodus it tries to prevent.
+
+The trade agreement analogy clarifies this dynamic: in real-world economic zones, if membership costs exceed benefits, members leave or find workarounds. MERCOSUR members introduced hundreds of tariff exceptions that hollowed out the "common" market. L2s would do the equivalent — technically remain in the Ethereum ecosystem while routing critical infrastructure costs elsewhere.
+
 ---
 
 ## 8. What an L1-L2 "Trade Agreement" Would Need to Specify
@@ -327,6 +337,8 @@ This is critical and entirely unaddressed. If the EEZ creates cross-chain DeFi p
 
 Trade agreements address this through notice periods (USMCA: 6-year review, 16-year sunset), wind-down procedures, and liability frameworks. Brexit demonstrated that exit from deep integration is technically possible but enormously costly. That exit cost is actually what makes economic zones durable.
 
+The exit threat is not merely theoretical. The extreme form is an L2 migrating to become a sovereign L1 — as dYdX did when it left Ethereum for a Cosmos appchain, and as Hyperliquid proved works at massive scale. Hyperliquid captured 70%+ of DEX perps open interest on a purpose-built L1 with no composability with anything. If Ethereum's economic terms become too burdensome, the exit path is not just an awkward departure — it is an L2 becoming its own chain, taking users and liquidity with it. This is the hard ceiling on how much value L1 can structurally demand through any agreement framework.
+
 ### Dimension 5: Dispute Resolution
 
 **What if an L2 state proof is invalidated after cross-chain transactions?**
@@ -345,11 +357,7 @@ At minimum: ETH as gas token, ERC standard support, compatible VM (EVM or equiva
 
 ## 9. The Mechanism Design Question
 
-Here is where the trade agreement metaphor reaches its useful limit and mechanism design takes over.
-
-Vitalik's core pushback is correct: the question should not be "what is the best deal L1 can extract from L2s?" Framing L1-L2 coordination as adversarial negotiation between sovereign entities encodes assumptions that do not match the architecture. L2s are not sovereign in the way nations are. They depend existentially on L1 security. The relationship is asymmetric by design, and the goal is system-level health, not bilateral advantage.
-
-The right question is: **what specific fee structures, commitment schemes, or protocol-level requirements would create sustainable economic alignment without sacrificing permissionlessness?**
+The diagnosis is clear. Six dimensions of economic terms are unspecified. Now the question becomes prescriptive: **what specific fee structures, commitment schemes, or protocol-level requirements would create sustainable alignment without sacrificing permissionlessness?**
 
 Three mechanism design principles emerge from the analysis:
 
@@ -370,10 +378,6 @@ The mechanism design challenge is constructing a system where L2s *want* to alig
 ---
 
 ## 10. Synthesis: From Metaphor to Mechanism
-
-The L1-L2 economic relationship is broken by any reasonable measure. L2s capture billions while returning near-zero to L1. ETH has turned inflationary. The "ultrasound money" thesis depends on fee volumes that the rollup-centric roadmap was designed to reduce. This is a genuine structural problem, not a narrative inconvenience.
-
-The trade agreement framing is useful for diagnosing what is missing — explicit terms on fees, MEV, exit, disputes — but the prescription must be mechanism design, not diplomacy. L1-L2 coordination should not depend on negotiations between sovereign-ish entities. It should emerge from protocol-level structures that align incentives by default.
 
 Three interventions are on the table, in ascending order of structural ambition:
 
