@@ -27,7 +27,7 @@ date: 2026-03-30
 5. [Mechanism 3: Based Sequencing with Revenue Rebate — The Structural Endgame](#5-mechanism-3-based-sequencing-with-revenue-rebate--the-structural-endgame)
 6. [How the Three Layers Stack](#6-how-the-three-layers-stack)
 7. [Real-World Parallels: Where These Structures Have Been Tested](#7-real-world-parallels-where-these-structures-have-been-tested)
-8. [Recommendation: Composability Tiers as Primary Framework](#8-recommendation-composability-tiers-as-primary-framework)
+8. [Recommendation: Trade Agreements First, Architecture Second](#8-recommendation-trade-agreements-first-architecture-second)
 9. [The Honest Caveat](#9-the-honest-caveat)
 10. [Data Sources & Methodology](#data-sources--methodology)
 
@@ -213,11 +213,11 @@ Alberta's oil royalty structure starts at 5% and scales upward with commodity pr
 
 ---
 
-## 8. Recommendation: Composability Tiers as Primary Framework
+## 8. Recommendation: Trade Agreements First, Architecture Second
 
-The recommendation is composability tiers, with Tier 1 as the immediate priority.
+The primary recommendation is the blob-consumption burn as a standalone floor — the one mechanism that works regardless of whether composability proves its value. Composability Tiers are conditionally promising, with Tier 1 as the immediate priority. But the higher tiers, and the entire composability thesis, depend on products emerging that genuinely demand shared infrastructure.
 
-Here is why — and why the alternatives, while important, are secondary.
+Here is the full assessment.
 
 **The blob-consumption burn is the only mechanism that stands on its own.** It does not depend on composability having value. It does not require L2s to surrender sequencer revenue. It is Sybil-resistant, protocol-enforced, and implementable today. It is a tax — but a fair one, tied to the resource actually consumed. Set at 1.5x the current blob fee, dynamically indexed to blob market conditions. This is the floor.
 
