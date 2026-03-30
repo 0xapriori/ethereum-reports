@@ -10,8 +10,8 @@ date: 2026-03-29
 ## tl;dr
 
 - **CEXs still command ~86-90% of trading volume** -- but DEX perps grew from 2.0% to 10.2% market share in two years, suggesting structural migration rather than a fixed ceiling.
-- **Single-chain product focus dominates DEX winners** -- Hyperliquid controls 70%+ of DEX perps open interest from one chain; Solana led all DEX spot volume at $117B in February 2026 (63% memecoins). Neither needed cross-chain composability to win.
-- **Cross-chain bridge volume is a rounding error** -- $18.8B monthly bridge volume vs. $231B+ in intra-chain DEX volume, suggesting markets route around fragmentation rather than solving it.
+- **Single-chain product focus dominates DEX winners** -- Hyperliquid controls 70%+ of DEX perps open interest from one chain; Solana led all DEX spot volume at $117B in February 2026 (majority memecoins (~60%+ of volume)). Neither needed cross-chain composability to win.
+- **Cross-chain bridge volume is a rounding error** -- an estimated $18-20B monthly bridge volume vs. $231B+ in intra-chain DEX volume, suggesting markets route around fragmentation rather than solving it.
 - **L2 consolidation is real and accelerating** -- Base + Arbitrum + Optimism = ~90% of L2 transactions; smaller rollups saw 61% usage decline. Most L2s may not survive 2026.
 - **Multicoin Capital tacitly demoted composability** -- the firm that built its Solana thesis around atomic composability as the killer affordance barely mentions it in their January 2025 "Internet Capital Markets" thesis, shifting focus to execution quality and market microstructure. When the loudest composability evangelist stops leading with composability, that is signal.
 - **The EEZ launches into a composability paradox** -- Gnosis's Ethereum Economic Zone, co-funded by the Ethereum Foundation, delivers synchronous composability between L1 and rollups. Yet Vitalik called synchronous atomic composability "very overrated" in June 2024. The tension is unresolved.
@@ -66,7 +66,7 @@ The first-order observation is straightforward: centralized exchanges dominate t
 | Binance | $3.54T | $13.61T | Spot share fell to 22.0% (lowest since Oct 2020) |
 | OKX | ~$0.93T est. | ~$5.4T est. | Derivatives share climbed to 18.3%; ~$5.6B daily spot, $34.5B daily derivatives |
 | Gate | ~$0.66T est. | ~$2.4T est. | 12.2% derivatives share (ATH in Feb 2026); $740B monthly derivatives peak (Jul 2025) |
-| Bullish | $76B (Feb alone) | Perps launched Nov 2023; $125B+ cumulative | Surpassed Coinbase in spot (62.6% surge); $950B+ total lifetime volume |
+| Bullish | $77.4B (Feb 2026) | Perps launched Nov 2023 | Surpassed Coinbase in spot (62.6% surge) |
 
 Combined CEX volume hit $5.61T in February 2026 -- a 16-month low, split $1.50T spot and $4.11T derivatives. Even at a cyclical low, this dwarfs all DEX activity combined.
 
@@ -103,7 +103,7 @@ The DEX venues that have gained the most ground share a common trait: they built
 
 *[CHART: Horizontal bar — DEX spot volume by chain, February 2026. Solana ($117B), BNB (~$90B est.), Ethereum ($52B), Base (~$21B est.), Arbitrum (~$4.4B est.). Title: "Single-Chain Dominance: DEX Spot Volume by Chain."]*
 
-**Solana's story is pure product-market fit.** $117B in February 2026, led by memecoin trading infrastructure that offers sub-second finality and negligible fees. Sixty-three percent of that volume was memecoins. This is not a composability story -- it is a speed-and-UX story. Solana's DEX ecosystem did not need to compose with Ethereum or any other chain. It built something users wanted on a single execution environment. (The fragility is also real: Solana's weekly volume collapsed 62% in three weeks from its $118.2B weekly peak, demonstrating how memecoin-driven volume can evaporate.)
+**Solana's story is pure product-market fit.** $117B in February 2026, led by memecoin trading infrastructure that offers sub-second finality and negligible fees. The majority of that volume — estimated at 60%+ — was memecoins. This is not a composability story -- it is a speed-and-UX story. Solana's DEX ecosystem did not need to compose with Ethereum or any other chain. It built something users wanted on a single execution environment. (The fragility is also real: Solana's weekly volume collapsed 62% in three weeks from its $118.2B weekly peak, demonstrating how memecoin-driven volume can evaporate.)
 
 **Hyperliquid is the most striking case.** It captured 70%+ of DEX perpetual futures open interest and reached $178B in monthly volume ($6.27B daily), with $1.59T in cumulative volume over just six months. It is the only DEX that ranks in the top 10 of *all* exchanges (CEX and DEX combined). Hyperliquid achieved this by building a purpose-built L1 with a custom order book -- the exact opposite of the composability thesis. It now trades S&P 500 perps and oil commodities 24/7, expanding the addressable market of on-chain derivatives beyond crypto-native assets.
 
@@ -116,13 +116,13 @@ Its market share has declined from ~80% to ~38% as competitors like Lighter ($1.
 | Hyperliquid | $178B monthly, $6.27B daily | 70%+ OI share, expanding to TradFi assets |
 | Lighter | $1.59B daily | Rapidly growing competitor |
 | dYdX | ~$2.8B daily | Declining share |
-| Jupiter Perps | Part of $93B monthly ecosystem | Solana-native |
-| GMX | $450M TVL | Declining |
+| Jupiter Perps | Solana-native; $1.16T total volume in 2025 | Integrated spot + perps ecosystem |
+| GMX | ~$263M TVL | Declining from ~$700M peak (May 2023) |
 | Total DEX Perps | $739.48B monthly (Jan 2026) | |
 
-**Uniswap** remains dominant in spot across Ethereum and L2s -- $0.54T cumulative over six months, $71.6B monthly in March 2026. Its strength is protocol ubiquity and liquidity depth on Ethereum mainnet, not cross-chain orchestration. Uniswap deploys on multiple chains, but each deployment is essentially independent.
+**Uniswap** remains dominant in spot across Ethereum and L2s -- $0.54T cumulative over six months. Its strength is protocol ubiquity and liquidity depth on Ethereum mainnet, not cross-chain orchestration. Uniswap deploys on multiple chains, but each deployment is essentially independent.
 
-**Aerodrome** is perhaps the most instructive example for the composability debate. It accounts for 50-63% of all Base volume, having built a ve(3,3) flywheel that generates deep, sticky liquidity on a single L2. Aerodrome does not need to compose with Ethereum L1 or other rollups. Its liquidity model is self-reinforcing within its own chain.
+**Aerodrome** (rebranding to Aero in Q2 2026 following its November 2025 merger with Velodrome) is perhaps the most instructive example for the composability debate. It accounts for 50-63% of all Base volume, having built a ve(3,3) flywheel that generates deep, sticky liquidity on a single L2. Aerodrome does not need to compose with Ethereum L1 or other rollups. Its liquidity model is self-reinforcing within its own chain.
 
 The pattern is consistent: **winners build focused products that create gravitational pull within a single execution environment.** Users bridge to where the product is. They do not wait for composability to bring the product to them.
 
@@ -130,7 +130,7 @@ The pattern is consistent: **winners build focused products that create gravitat
 
 Perhaps the most telling signal comes from Multicoin Capital, which has real skin in this game. Multicoin built its original Solana investment thesis around atomic composability as the killer affordance -- the reason monolithic chains like Solana would beat modular architectures. Team members famously featured "composability" in their Twitter usernames. Kyle Samani's keynote at the 2021 Multicoin Summit was dedicated to the concept. Their third Solana thesis, "Technical Scalability Creates Social Scalability," and fourth, "The Hidden Costs of Modular Systems," both foregrounded composability as a decisive competitive advantage.
 
-Then something shifted. In January 2025, Multicoin published its fifth Solana thesis: "Internet Capital Markets." In this iteration, atomic composability is mentioned exactly twice -- both times in passing, as a background property rather than a central argument. The bulk of the thesis focuses on execution quality, market microstructure (conditional liquidity), latency optimization, and total addressable market expansion against TradFi incumbents.
+Then something shifted. In January 2025, Multicoin published its fifth Solana thesis: "Internet Capital Markets." In this iteration, atomic composability is mentioned just three times -- each in passing, as a background property rather than a central argument. The bulk of the thesis focuses on execution quality, market microstructure (conditional liquidity), latency optimization, and total addressable market expansion against TradFi incumbents.
 
 This is not a public retraction. Multicoin did not issue a mea culpa. But the reweighting is unmistakable: composability went from being *the* argument to being *a* property -- from thesis centerpiece to table stakes. The firm that bet its reputation on composability as the killer feature of monolithic chains tacitly acknowledged that what actually wins markets is execution quality, not composability. The market taught them this. Hyperliquid, which has no composability with anything, was eating the perps market alive. Jupiter and Raydium were winning on speed and UX, not on the ability to atomically compose across chains. When the most prominent composability evangelist in crypto stops leading with composability, that is a data point worth registering.
 
@@ -147,8 +147,8 @@ If cross-chain composability were critical to how markets function, we would exp
 | Metric | Volume |
 |--------|--------|
 | Monthly intra-chain DEX spot volume | $231B+ (Jan 2026) |
-| Monthly cross-chain bridge volume | ~$18.8B |
-| Bridge volume as % of DEX spot | ~8.1% |
+| Monthly cross-chain bridge volume | ~$18-20B est. |
+| Bridge volume as % of DEX spot | ~8-9% est. |
 
 ### Major Bridge Protocols
 
@@ -157,13 +157,13 @@ If cross-chain composability were critical to how markets function, we would exp
 | Chainlink CCIP | $18B+ (March 2026) | Up 62% MoM |
 | deBridge | $1.53B monthly | 40% routed through Tron USDT |
 | Portal/Wormhole | $1.41B monthly | |
-| LI.FI | $22B+ cumulative all-time | 32M+ transactions |
-| Across | $17B cumulative all-time | |
+| LI.FI | $30B+ cumulative all-time | 50M+ transactions (as of Sep 2025) |
+| Across | $35B cumulative all-time | Zero exploits to date |
 | Squid | $6B+ cumulative | ~$3.3M daily |
 
-*[CHART: Stacked bar — Intra-chain DEX volume ($231B+) vs. cross-chain bridge volume ($18.8B) for January 2026. Title: "Bridge Volume: 8% of Intra-Chain DEX Activity."]*
+*[CHART: Stacked bar — Intra-chain DEX volume ($231B+) vs. cross-chain bridge volume (~$18-20B est.) for January 2026. Title: "Bridge Volume: ~8-9% of Intra-Chain DEX Activity."]*
 
-Monthly bridge volume of $18.8B is roughly 8% of intra-chain DEX spot volume. This is not zero -- bridges are used, and growing (CCIP's 62% month-over-month increase is notable). But it suggests that the vast majority of trading activity happens within single execution environments. Users are not constantly shuffling capital across chains to access opportunities. They park liquidity where they trade and stay there.
+Monthly bridge volume of an estimated $18-20B is roughly 8-9% of intra-chain DEX spot volume. This is not zero -- bridges are used, and growing (CCIP's 62% month-over-month increase is notable). But it suggests that the vast majority of trading activity happens within single execution environments. Users are not constantly shuffling capital across chains to access opportunities. They park liquidity where they trade and stay there.
 
 The composition of bridge volume is also telling. DeBridge routes 40% of its volume through Tron USDT -- this is stablecoin transfer infrastructure, not DeFi composability. Much of what bridges facilitate is simple asset movement, not the kind of synchronous contract-to-contract interaction that composability solutions like the EEZ would enable.
 
@@ -280,7 +280,7 @@ The strongest synthesis may be this: ERC-7683 and similar intent-based standards
 
 Here is what the data tells us when we assemble it honestly:
 
-**For trading -- spot and perps -- product focus beats composability.** The venues that have captured meaningful DEX market share did so by building excellent products on single chains: Hyperliquid's order book on its purpose-built L1, Solana's memecoin infrastructure, Aerodrome's ve(3,3) flywheel on Base. None of them needed or used cross-chain atomic composability. Cross-chain bridge volume ($18.8B monthly) is a fraction of intra-chain trading ($231B+ monthly). Users go where the products are and stay there.
+**For trading -- spot and perps -- product focus beats composability.** The venues that have captured meaningful DEX market share did so by building excellent products on single chains: Hyperliquid's order book on its purpose-built L1, Solana's memecoin infrastructure, Aerodrome's ve(3,3) flywheel on Base. None of them needed or used cross-chain atomic composability. Cross-chain bridge volume (~$18-20B monthly) is a fraction of intra-chain trading ($231B+ monthly). Users go where the products are and stay there.
 
 **For broader DeFi infrastructure, the picture is more nuanced.** Lending protocols, structured products, and risk management systems face real fragmentation costs that trading venues can more easily absorb. Aave's presence as an EEZ founding member is not accidental -- they operate the kind of cross-chain DeFi infrastructure where synchronous composability has genuine utility.
 
