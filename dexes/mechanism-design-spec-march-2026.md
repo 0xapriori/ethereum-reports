@@ -9,11 +9,12 @@ date: 2026-03-30
 
 ## tl;dr
 
-- **Composability Tiers is the recommended mechanism** — it is the only design that creates genuine positive-sum value (composability benefits L2s actually want) rather than just extracting revenue or restructuring sequencer economics. Tier 1 costs Base ~$3.77M/year for fast messaging and "Ethereum Aligned" branding — economically rational today.
-- **Revenue-Indexed Burn should serve as the mandatory floor, but the blob-consumption variant is more implementable** — a protocol-enforced burn of 1.5x the current blob fee for data posted eliminates the revenue verification problem (which is "essentially unsolvable" in the general case) and is inherently Sybil-resistant. This replaces the original 5% gross revenue design.
+- **The primary recommendation is the blob-consumption burn as a mandatory floor** — a protocol-enforced burn of 1.5x the current blob fee for data posted. It is Sybil-resistant, requires no revenue oracles, eliminates the verification problem, and can be implemented today. This is the one mechanism that does not depend on composability having value.
+- **Composability Tiers are conditionally promising — but only if a product thesis emerges to anchor them.** Tier 1 ("Ethereum Aligned" status, fast messaging, priority blobs) costs Base ~$3.77M/year and is economically rational today. But the higher tiers rest on synchronous composability having real value, which is empirically unproven. Intents already solve 90-95% of cross-chain needs.
+- **Trade agreements must precede technical architecture, not follow it.** The EEZ built the highway and hopes traffic will come. The right sequence is: define what L1 and L2s owe each other (fees, MEV, exit terms, dispute resolution), then build the infrastructure to serve those terms. StarkWare's dAMM is the model — a product that demanded shared liquidity by design, rather than shared liquidity as a feature looking for a product.
 - **Based sequencing is right for some L2s, not a universal endgame** — at a 50-70% MEV rebate, based L2s lose 6-29% of revenue versus self-sequencing. Taiko proves feasibility but is currently unprofitable (83.9 ETH loss in two weeks). App-specific and non-DeFi L2s gain nothing from L1 composability.
-- **Two mechanisms were eliminated before reaching the final three** — Progressive DA Pricing (blob fees indexed to L2 TVL) dies on Goodhart's Law and Sybil vulnerability. Security Bond / Stake-to-Play imposes deadweight capital costs without composability benefits. Both inherit an unsolved TVL oracle problem.
-- **The entire framework rests on an empirically unproven assumption** — that composability has real economic value. If no product emerges that requires synchronous cross-chain execution, the system degrades to a simple tax. The honest conclusion: build the technology that makes composability genuinely useful, and design the economic coordination to follow.
+- **Two mechanisms were eliminated before reaching the final three** — Progressive DA Pricing dies on Goodhart's Law and Sybil vulnerability. Security Bond imposes deadweight capital costs without composability benefits. Both inherit an unsolved TVL oracle problem.
+- **The honest conclusion: synchronous composability uniquely enables only MEV efficiency (centralizing) and cross-chain flash loans (niche).** If no product like dAMM emerges that genuinely demands shared infrastructure, the composability carrot is not big enough to anchor an economic zone. Start with the trade agreements. Let the technical architecture follow.
 
 ---
 
@@ -218,21 +219,25 @@ The recommendation is composability tiers, with Tier 1 as the immediate priority
 
 Here is why — and why the alternatives, while important, are secondary.
 
-**Revenue-Indexed Burn (even the blob-consumption variant) is extractive.** It takes value from L2s and burns it. The burn benefits ETH holders through supply reduction, but it does not create new value. It does not make L2s better. It does not give users new capabilities. It is a tax. Taxes work when accompanied by services — which is exactly what the tier system provides. The burn is necessary as a floor, but it cannot be the primary mechanism because it offers nothing in return.
+**The blob-consumption burn is the only mechanism that stands on its own.** It does not depend on composability having value. It does not require L2s to surrender sequencer revenue. It is Sybil-resistant, protocol-enforced, and implementable today. It is a tax — but a fair one, tied to the resource actually consumed. Set at 1.5x the current blob fee, dynamically indexed to blob market conditions. This is the floor.
 
-**Based sequencing is structurally the deepest alignment** — but it requires L2s to surrender their primary business model (sequencer revenue) in exchange for benefits that are currently unproven. Taiko's unprofitability is not encouraging. MEV attribution is unreliable. And based sequencing is irrelevant for non-DeFi L2s. It is the right long-term option for some L2s, not the right framework for all of them.
+**Composability Tiers are conditionally promising — but only if a product thesis emerges.** Tier 1 offers fast messaging, brand credentialing, and blob priority at costs L2s can afford (~$3.77M/year for Base). That is real value. But the higher tiers rest on synchronous composability justifying their sovereignty cost. Our own analysis found that sync composability uniquely enables only two things: more efficient MEV extraction (which risks further centralization among sophisticated actors) and cross-chain flash loans (commercially niche). Intents already solve 90% of cross-chain UX, and that number is climbing as intent infrastructure improves.
 
-**Composability Tiers is the only mechanism that creates genuine positive-sum value.** Tier 1 offers fast messaging, brand credentialing, and blob priority — benefits that L2s actually want, at costs they can actually afford. It is the only design where an L2's decision to participate makes both the L2 *and* the network better off. This is the definition of a well-designed mechanism: participation is individually rational and collectively beneficial.
+**The distinction between dAMM and the EEZ is instructive.** StarkWare and Loopring's dAMM (distributed AMM) started with a product — an L2-powered AMM that aggregates liquidity on L1 and distributes state across L2s. The product thesis *demanded* shared liquidity by design; the infrastructure requirement followed from the product. The EEZ inverts this: shared infrastructure first, products TBD. We have seen this pattern before — Cosmos IBC, Polkadot parachains, CORBA, Astria. Technically sound infrastructure without a product thesis produces ghost chains.
 
-The immediate action plan:
+**Based sequencing is right for some L2s, wrong for most.** At 50-70% MEV rebate, the revenue loss is 6-29%. Taiko proves feasibility but is unprofitable. Non-DeFi L2s gain nothing from L1 composability. It is the structurally deepest alignment — and the one fewest L2s will accept.
 
-1. **Ship Tier 1.** Define the requirements (ETH as gas, Stage 1 security, blob-consumption burn, ERC-7683). Build the fast messaging infrastructure. Launch the "Ethereum Aligned" registry. Make it verifiable on-chain so wallets and aggregators can surface it.
+**The priority sequence — what should actually happen:**
 
-2. **Set the blob-consumption burn at 1.5x.** Protocol-enforced, Sybil-resistant, no revenue oracle needed. Dynamically indexed to blob market conditions.
+1. **Ship the blob-consumption burn at 1.5x.** Protocol-enforced floor. No revenue oracle. Dynamically indexed. This can move through the EIP process now.
 
-3. **Let Tier 2 develop organically.** The EEZ founding members and Taiko provide the initial network. Based sequencing is available as an option within Tier 2. Do not force it. Do not mandate timelines. Let the technology prove itself.
+2. **Define Tier 1 criteria and ship the "Ethereum Aligned" registry.** ETH as gas, Stage 1 security, ERC-7683, blob-consumption burn compliance. Make it verifiable on-chain so wallets and aggregators can surface it. This is the quick win that creates real brand value.
 
-4. **Enforce the total cost envelope.** Publish a clear maximum: no L2 participating in all three layers pays more than X% of revenue in total L1 economic contributions. Make the number explicit, make it public, make it credible.
+3. **Define the trade agreements before the technical architecture.** Before building Tier 2 composability infrastructure, specify the economic terms: what does each party give, get, and give up? Fee schedules, MEV allocation rules, exit procedures, dispute resolution. The EU's 70,000-page acquis communautaire came before the single market's full implementation, not after.
+
+4. **Let products drive the composability demand.** dAMM-style designs — products that genuinely require shared liquidity — should lead. If and when those products emerge at scale, Tier 2 composability becomes a natural extension of demonstrated demand. If they do not emerge, composability tiers beyond Tier 1 should remain aspirational rather than engineered.
+
+5. **Enforce a total cost envelope.** No L2 participating across all layers pays more than X% of revenue in total L1 contributions. Make the ceiling explicit and public.
 
 ---
 
@@ -244,11 +249,17 @@ The composability thesis report found that the trading venues which won market s
 
 If no product emerges that makes synchronous composability genuinely load-bearing, the composability tier system degrades. Tier 1 becomes "pay a burn for a badge." Tier 2 becomes an empty category. The revenue-indexed burn operates as a standalone tax with no corresponding service. The entire incentive structure becomes a more sophisticated version of what Polkadot built — technically impressive infrastructure that nobody uses because nobody built the products that need it.
 
-This is not a reason to abandon the design. It is a reason to sequence correctly. The strongest version of this proposal is not "design the perfect incentive structure and L2s will come." It is: **build the technology that makes composability genuinely useful, and design the economic coordination to follow.**
+This is not a reason to abandon the design. It is a reason to sequence correctly.
 
-Fast messaging that actually works in under 30 seconds. Cross-chain state proofs that enable novel DeFi primitives. Shared liquidity pools that demonstrably improve capital efficiency. These are engineering problems, not mechanism design problems. Solve them, and the economic coordination becomes a natural extension. Fail to solve them, and no amount of tier design or burn calibration will matter.
+The strongest version of this proposal has two parts, and the order matters:
 
-The bootstrap problem is solved by excellent technology, not by incentive design. Build something so obviously useful that L2s adopt it because users demand it. That is both the hardest path and the only one that works.
+**First, define the trade agreements.** Before building composability infrastructure, specify the economic terms. What do L1 and L2s owe each other? Under what conditions? With what enforcement? The blob-consumption burn is step one — a fair floor that can exist independently. Beyond that, the terms need to be negotiated, not assumed.
+
+**Second, let products drive the technical architecture.** dAMM showed the right approach: a product design that demanded shared liquidity, not shared liquidity offered as a feature in search of a product. Fast messaging that actually works in under 30 seconds. Cross-chain state proofs that enable novel DeFi primitives. Shared liquidity mechanisms — like dAMM's L1 pool with distributed L2 state — that demonstrably improve capital efficiency. These are product and engineering problems, not mechanism design problems. Solve them, and the composability tiers become a natural extension of demonstrated demand. Fail to solve them, and no amount of tier design or burn calibration will matter.
+
+The bootstrap problem is not solved by incentive design. It is solved by building products so obviously useful that L2s adopt shared infrastructure because users demand it. And it is solved by defining the economic terms clearly enough that every participant knows what they are signing up for before the infrastructure is built.
+
+Trade agreements first. Products second. Technical architecture third. We have been doing this in reverse.
 
 ---
 
