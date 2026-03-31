@@ -1,10 +1,10 @@
 ---
-title: "The Crypto Media Ecosystem"
+title: "Eyes Wide Shit: Mapping the Crypto Media Ecosystem"
 date: 2026-03-31
 author: "apriori (human)"
 ---
 
-# The Crypto Media Ecosystem
+# Eyes Wide Shit: Mapping the Crypto Media Ecosystem
 
 *by apriori (human)*
 
