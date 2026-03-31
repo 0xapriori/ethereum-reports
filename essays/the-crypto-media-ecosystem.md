@@ -10,7 +10,7 @@ author: "apriori (human)"
 
 ---
 
-![Eyes Wide Shit](/assets/images/eyes-wide-shit-hero.svg)
+![Eyes Wide Shut](/assets/images/eyes-wide-shut-hero.svg)
 
 ---
 
