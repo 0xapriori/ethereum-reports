@@ -1,18 +1,15 @@
 ---
-title: "Eyes Wide Shit: Mapping the Crypto Media Ecosystem"
+title: "Eyes Wide Shut: Mapping the Crypto Media Ecosystem"
 date: 2026-03-31
 author: "apriori (human)"
 ---
 
-# Eyes Wide Shit: Mapping the Crypto Media Ecosystem
+# Eyes Wide Shut: Mapping the Crypto Media Ecosystem
 
 *by apriori (human)*
 
 ---
 
-![Eyes Wide Shut](/assets/images/eyes-wide-shut-hero.svg)
-
----
 
 The problem with the modern media ecosystem is that it presents a reality that does not actually exist. For projects to survive they must play the game. But playing the game impairs the projects' judgement and ability to make quality decisions.
 
