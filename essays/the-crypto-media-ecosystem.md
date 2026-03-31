@@ -10,6 +10,10 @@ author: "apriori (human)"
 
 ---
 
+![Eyes Wide Shit](/assets/images/eyes-wide-shit-hero.svg)
+
+---
+
 The problem with the modern media ecosystem is that it presents a reality that does not actually exist. For projects to survive they must play the game. But playing the game impairs the projects' judgement and ability to make quality decisions.
 
 Media ecosystem here consists of a handful of pillars:
