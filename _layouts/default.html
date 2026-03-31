@@ -24,6 +24,7 @@
         <a href="#" data-tab="lending">Lending</a>
         <a href="#" data-tab="tradfi">TradFi</a>
         <a href="#" data-tab="media-ecosystem">Media Ecosystem</a>
+        <a href="#" data-tab="essays">Essays</a>
         <a href="#" data-tab="musings">Musings</a>
       </nav>
     </div>
@@ -78,7 +79,7 @@
 
       // On page load, apply hash filter
       var hash = window.location.hash.replace('#', '');
-      if (hash && ['defi','dexes','ethereum','lending','tradfi','media-ecosystem','musings'].indexOf(hash) !== -1) {
+      if (hash && ['defi','dexes','ethereum','lending','tradfi','media-ecosystem','essays','musings'].indexOf(hash) !== -1) {
         filterReports(hash);
       }
     })();

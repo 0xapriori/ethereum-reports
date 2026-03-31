@@ -48,6 +48,11 @@ defaults:
       layout: "report"
       category: "Media Ecosystem"
   - scope:
+      path: "essays"
+    values:
+      layout: "report"
+      category: "Essays"
+  - scope:
       path: "musings"
     values:
       layout: "report"
