@@ -47,8 +47,11 @@ date: 2026-03-31
 
 **Zero-Knowledge Proofs (ZK)** -- The dominant approach. Used by Payy, Aztec, Railgun, Aleo, Namada, Penumbra, and Zcash. The prover generates a cryptographic proof that a transaction is valid (correct balances, authorized sender, etc.) without revealing the transaction details. The verifier (smart contract or L1 validator) checks the proof's validity without learning the underlying data.
 
-- *Client-side proving*: The user's device generates the ZK proof before submitting to the network. This is Payy's model and Aztec's model. It means the sequencer/validator never sees the plaintext transaction data. The tradeoff is computational cost on the client device, which is why proving time matters so much for UX.
-- *On-chain verification*: Railgun's approach -- users generate ZK proofs client-side, then submit them to the Railgun smart contract on Ethereum for on-chain verification. Users build "private balances" within the contract and can interact with any EVM DeFi protocol while maintaining privacy. The proving happens on the user's device; only the verification is on-chain.
+All ZK-based privacy systems share the same core flow: generate a proof off-chain, submit it to an on-chain verifier, and the verifier accepts or rejects the state transition. The meaningful distinctions are about *where the proof is generated* and *what chain the verifier lives on*:
+
+- *Client-side proving on a privacy L2* (Payy, Aztec): The user's device generates the proof and submits it to a dedicated privacy L2. The sequencer never sees plaintext data. The tradeoff is computational cost on the client device, which is why mobile proving speed matters for UX.
+- *Client-side proving on existing EVM chains* (Railgun): The user's device generates the proof and submits it directly to a smart contract on Ethereum L1 (or Arbitrum, Polygon, BNB). No separate chain required. Users build shielded balances within the Railgun contract. The tradeoff is L1 gas costs for proof verification.
+- *Proving service / aggregator models*: A third-party service generates proofs on behalf of users, reducing client compute but introducing a trust assumption. Some architectures combine client-side proving with an aggregator that batches proofs for cheaper on-chain verification.
 
 **Fully Homomorphic Encryption (FHE)** -- Enables computation on encrypted data without decrypting it. Zama and Fhenix are the leaders. Theoretically more powerful than ZK (you can compute arbitrary functions on encrypted state, not just prove statements about it), but significantly more expensive computationally.
 
@@ -145,7 +148,7 @@ Current status:
 
 **Production-ready for payment-speed settlement (as of March 2026)**:
 1. **Noir-based client-side proving** (Payy): Sub-0.5s mobile proving, live consumer product
-2. **Railgun's on-chain ZK**: Live on 4 chains, $4.5B cumulative volume, but user-facing latency depends on Ethereum block times (~12s), not proof generation
+2. **Railgun (client-side proving, L1 verification)**: Live on 4 chains, $4.5B cumulative volume, but user-facing latency depends on Ethereum block times (~12s) and L1 gas costs for proof verification
 3. **Groth16-based systems**: Proven at scale (Zcash Sapling), but per-circuit trusted setup limits flexibility
 
 **Approaching production-ready**:

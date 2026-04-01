@@ -52,7 +52,7 @@ The following 15 findings represent the most important verified conclusions acro
 
 5. **ZK proof technology is approaching payment-speed readiness.** Payy claims sub-0.5s proof generation on iPhones using Noir (source: Aztec marketing blog -- not independently benchmarked). PLONK-based systems are at ~2.4s. Groth16 is fastest but requires per-circuit trusted setup. FHE (Zama, Fhenix) is not yet suitable for real-time payment settlement. [Partially verified; Payy proving times are self-reported]
 
-6. **The EVM-compatible privacy design space is where stablecoin liquidity lives.** Ethereum holds ~56% of stablecoin supply ($184.8B). The four leading EVM privacy approaches are: Payy (L2 validium rollup), Aztec (programmable privacy L2), Railgun (on-chain smart contract privacy), and Fhenix/Zama (FHE coprocessor). [Verified: DefiLlama]
+6. **The EVM-compatible privacy design space is where stablecoin liquidity lives.** Ethereum holds ~56% of stablecoin supply ($184.8B). The four leading EVM privacy approaches are: Payy (L2 validium rollup), Aztec (programmable privacy L2), Railgun (client-side proving with L1 smart contract verification), and Fhenix/Zama (FHE coprocessor). [Verified: DefiLlama]
 
 7. **Aztec disclosed a critical vulnerability on March 17, 2026** (corrected from March 27 in the original brief) that could have enabled theft via the proving system. The fix is targeted for v5 in July 2026. This delays the most well-funded privacy L2's mainnet. [Verified: HackMD disclosure]
 
