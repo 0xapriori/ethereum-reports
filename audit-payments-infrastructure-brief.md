@@ -1,7 +1,7 @@
 ---
 title: "Audit Report: Payments Infrastructure, Card Programs & Embedded Finance Brief"
 date: 2026-03-31
-auditor: "Independent Auditor -- Research Team 3"
+auditor: "Independent Auditor"
 ---
 
 # Audit Report: Payments Infrastructure, Card Programs & Embedded Finance Brief
@@ -306,4 +306,4 @@ The brief does not substitute volume metrics for revenue metrics or vice versa.
 ---
 
 *Audit completed March 31, 2026*
-*Auditor: Independent QA -- Research Team 3*
+*Auditor: Independent QA*

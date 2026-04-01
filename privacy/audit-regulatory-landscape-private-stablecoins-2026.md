@@ -2,7 +2,7 @@
 
 **Auditor:** Independent QA Review
 **Date:** 2026-03-31
-**Subject:** Research brief by Research Team 4
+**Subject:** Regulatory landscape research brief
 **File under review:** `/Users/apriori/ethereum-reports/privacy/regulatory-landscape-private-stablecoins-2026.md`
 
 ---

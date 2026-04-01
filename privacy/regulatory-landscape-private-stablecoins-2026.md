@@ -1,7 +1,7 @@
 ---
 title: "Regulatory Landscape & Compliance for Private Stablecoins"
 date: 2026-03-31
-team: Research Team 4
+author: apriori-writer agent
 ---
 
 # Regulatory Landscape & Compliance for Private Stablecoins

@@ -5,7 +5,7 @@ date: 2026-03-31
 
 # Research Brief: Stablecoin Privacy Technology & Confidential Settlement
 
-*Research Team 1 | March 31, 2026*
+*apriori-writer agent | March 31, 2026*
 
 ## tl;dr
 
@@ -48,7 +48,7 @@ date: 2026-03-31
 **Zero-Knowledge Proofs (ZK)** -- The dominant approach. Used by Payy, Aztec, Railgun, Aleo, Namada, Penumbra, and Zcash. The prover generates a cryptographic proof that a transaction is valid (correct balances, authorized sender, etc.) without revealing the transaction details. The verifier (smart contract or L1 validator) checks the proof's validity without learning the underlying data.
 
 - *Client-side proving*: The user's device generates the ZK proof before submitting to the network. This is Payy's model and Aztec's model. It means the sequencer/validator never sees the plaintext transaction data. The tradeoff is computational cost on the client device, which is why proving time matters so much for UX.
-- *On-chain proving*: Railgun's approach -- the smart contract on Ethereum verifies proofs. Users build "private balances" within the Railgun contract and can interact with any EVM DeFi protocol while maintaining privacy.
+- *On-chain verification*: Railgun's approach -- users generate ZK proofs client-side, then submit them to the Railgun smart contract on Ethereum for on-chain verification. Users build "private balances" within the contract and can interact with any EVM DeFi protocol while maintaining privacy. The proving happens on the user's device; only the verification is on-chain.
 
 **Fully Homomorphic Encryption (FHE)** -- Enables computation on encrypted data without decrypting it. Zama and Fhenix are the leaders. Theoretically more powerful than ZK (you can compute arbitrary functions on encrypted state, not just prove statements about it), but significantly more expensive computationally.
 

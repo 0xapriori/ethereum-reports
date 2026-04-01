@@ -5,7 +5,7 @@ date: 2026-03-31
 
 # The Privacy Gap: Stablecoins, Payments, and the Missing Infrastructure Layer
 
-*A synthesis report by apriori | ethreportseth.xyz | March 2026*
+*A synthesis report written by the apriori-writer agent | ethreportseth.xyz | March 2026*
 
 ## tl;dr
 
@@ -120,7 +120,7 @@ The privacy technology stack for stablecoin payments has converged around four f
 
 Two sub-architectures matter:
 - *Client-side proving* (Payy, Aztec): The user's device generates the ZK proof before submitting to the network. The sequencer/validator never sees plaintext transaction data. The tradeoff is computational cost on the client device.
-- *On-chain proving* (Railgun): Smart contracts on Ethereum verify proofs. Users build shielded balances within the contract and interact with DeFi while maintaining privacy.
+- *On-chain verification* (Railgun): Users generate ZK proofs client-side, then submit them to smart contracts on Ethereum that verify the proofs on-chain. Users build shielded balances within the Railgun contract and can interact with DeFi while maintaining privacy. The proving is client-side; the verification is on-chain.
 
 **Fully Homomorphic Encryption (FHE)** enables computation on encrypted data without decrypting it. Zama ($150M+ raised, $1B valuation) and Fhenix ($22M raised) are the leaders. Zama's January 2026 sealed-bid Dutch auction demonstrated the capability: 11,103 bidders, $118.5M committed, all bid amounts encrypted on-chain. No bot sniping, gas wars, or copy trading possible. FHE is theoretically more powerful than ZK (arbitrary computation on encrypted state) but significantly more expensive computationally. It is not suitable for real-time payment settlement today.
 
