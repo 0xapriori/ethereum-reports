@@ -37,7 +37,7 @@ date: 2026-03-31
 
 The stablecoin market in March 2026 is no longer an experiment. It is infrastructure.
 
-The total market cap reached approximately $320B, up from $205B at the start of 2025 -- a 55%+ annual growth rate. USDT holds roughly 60% market share (~$184B, after accounting for $6.5B in early 2026 burns). USDC holds approximately 24% (~$77-78B). The long tail is fragmenting: Tether launched USAT for US compliance, Circle IPO'd (priced at $6.9B, now trading at approximately $32B market cap), and at least ten banks have issued or are developing stablecoins. The Qivalis consortium alone involves nine European banks from eight countries.
+The total market cap reached approximately $316B (per DefiLlama), up from $205B at the start of 2025 -- a 54%+ annual growth rate. USDT holds roughly 60% market share (~$185B). USDC holds approximately 23% (~$72B per DefiLlama). The long tail is fragmenting: Tether launched USAT for US compliance, Circle IPO'd (priced at $6.9B, now trading at approximately $23B market cap after peaking near $56B in June 2025), and at least ten banks have issued or are developing stablecoins. The Qivalis consortium alone involves nine European banks from eight countries.
 
 But the headline number that matters for this report is not the market cap. It is the transaction volume -- and the gap between what is reported and what is real.
 
@@ -56,7 +56,7 @@ B2B is the breakout vertical. The 733% year-over-year growth from a still-modest
 
 The infrastructure M&A confirms this is not speculative. Stripe acquired Bridge for $1.1B (closed February 2025). Mastercard agreed to acquire BVNK for up to $1.8B ($1.5B base plus $300M in earnouts; pending regulatory approval as of March 2026). These are not crypto companies buying crypto companies. These are the largest payment networks in the world acquiring stablecoin settlement rails. The strategic signal is unambiguous.
 
-On the asset management side, BlackRock's BUIDL fund reached approximately $18B in AUM by February 2026. Total tokenized Treasuries exceeded $5B. US Treasury Secretary Bessent has projected $3T in stablecoin supply by 2030. Whether that figure materializes, the directional bet from the largest institutional players is clear.
+On the asset management side, BlackRock's BUIDL fund reached approximately $18B in total fund AUM by February 2026, though only approximately $2.9B of that exists as tokenized on-chain shares (per rwa.xyz). Total tokenized US Treasuries on-chain reached approximately $8.7-9.2B. US Treasury Secretary Bessent has projected $3T in stablecoin supply by 2030. Whether that figure materializes, the directional bet from the largest institutional players is clear.
 
 The state of stablecoins in 2026 is this: the money is real, the growth is real, the institutional interest is real. The question this report addresses is whether the infrastructure is ready -- and specifically, whether the privacy gap that exists between what enterprises need and what public blockchains provide is a solvable problem or a structural limitation.
 
@@ -323,7 +323,7 @@ The total stablecoin payment market is $390B. The addressable market for private
 
 **Card settlement:** Current crypto cards settle entirely in fiat through traditional Visa/Mastercard rails. The "crypto" part is the funding source only. Privacy matters only if settlement itself moves on-chain, which requires card networks to accept stablecoin settlement at scale. Visa's USDC pilot exists but is limited in scope. The current addressable market for private card settlement is approximately zero.
 
-**RWA settlement:** BUIDL at $18B AUM is significant, and institutional RWA investors demonstrably need position privacy. But the intersection of "tokenized RWA holders" and "holders who would pay for on-chain privacy" is a subset of a subset. Perhaps $5-10B in near-term addressable value.
+**RWA settlement:** BUIDL's $2.9B in tokenized on-chain shares (within an $18B total fund) is significant, and institutional RWA investors demonstrably need position privacy. But the intersection of "tokenized RWA holders" and "holders who would pay for on-chain privacy" is a subset of a subset. Perhaps $5-10B in near-term addressable value.
 
 ### The Honest Estimate
 
@@ -333,7 +333,7 @@ The total stablecoin payment market is $390B. The addressable market for private
 | Cross-border | ~$100B+ | ~$10-15B (5-10%) | Capital-control/safety jurisdictions |
 | Payroll | <$1B | <$1B | Nascent |
 | Card settlement | ~$0 on-chain | ~$0 | Fiat-settled today |
-| RWA settlement | ~$18B+ AUM | ~$5-10B | Institutional position privacy |
+| RWA settlement | ~$2.9B on-chain tokenized | ~$5-10B | Institutional position privacy |
 | **Total** | **$390B** | **$60-70B** | |
 
 The realistic addressable market for private stablecoin payments -- before accounting for off-chain substitution -- is in the range of $50-70B. However, the "good enough" gap discussed in Section 8 (Question #8) further compresses this: off-chain privacy through custodial intermediaries will capture the majority of the easy privacy demand, leaving on-chain privacy protocols competing for cross-custodial residual of perhaps $20-40B. The fee that private settlement can command is likely thin -- basis points, not percentage points -- because the alternative for most use cases is simply not transacting on-chain or routing through shared custodians. At 10-50 basis points on $30B, the fee revenue opportunity is $30-150M annually. This supports a meaningful business but not the $390B TAM narrative.
@@ -554,13 +554,13 @@ This report incorporates corrections identified through systematic audit of four
 
 | Original Claim | Correction | Source |
 |---|---|---|
-| BUIDL AUM "$1B by early 2026" | $18B by February 2026 | BlockEden, Securitize |
+| BUIDL AUM "$1B by early 2026" | $18B total fund AUM (~$2.9B tokenized on-chain) by Feb 2026 | BlockEden, Securitize, rwa.xyz |
 | Marqeta revenue "$700M+" | $507M (FY2024 net revenue) | Marqeta 10-K |
 | FATF Travel Rule "73% (85/117)" | 52% (85/163) | FATF 2025 Targeted Update |
 | Tornado Cash delisting "March 2025" only | Fifth Circuit ruled Nov 26, 2024; OFAC delisted March 21, 2025 (distinct events) | Fifth Circuit opinion, OFAC SDN list |
 | Cross-border cost savings "80-90%" | Up to 80% (90% not independently confirmed) | World Bank RPW |
 | Aztec vulnerability "March 27, 2026" | March 17, 2026 | HackMD disclosure |
-| Circle IPO "at $32B market cap" | IPO priced at ~$6.9B ($31/share, June 5, 2025); $32B is March 2026 market cap | SEC filings |
+| Circle IPO "at $32B market cap" | IPO priced at ~$6.9B ($31/share, June 5, 2025); peaked ~$56B June 2025; ~$23B as of March 2026 | SEC filings, stock data |
 | Railgun funding "$7M private token sale" | DCG invested $10M+ (Jan 2022): $7.2M to DAO treasury + $3M+ in governance tokens | Verified sources |
 
 ### Unverifiable Claims

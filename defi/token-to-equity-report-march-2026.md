@@ -19,7 +19,7 @@ date: 2026-03-31
 
 - **No protocol has completed the token-to-equity-to-IPO pipeline.** The 2025 crypto IPO class (Circle +168% day one, Bullish +84% close, BitGo now -54% from IPO) shows mixed results. Total 2025 M&A/IPO activity was ~$23.2B. Kraken paused its IPO despite a $20B valuation and $2.2B in 2025 revenue.
 
-- **85% of 2025 token launches trade below listing price** with a median drawdown of 70%+ within 90 days. This is the strongest empirical evidence that the governance token model is failing for most projects.
+- **Over 80% of 2025 token launches trade below listing price** (DWF Labs primary source; secondary sources round to 85%) with a median drawdown of 70%+ within 90 days. This is the strongest empirical evidence that the governance token model is failing for most projects.
 
 - **The honest read: for many governance tokens, the distinction from equity was always primarily regulatory arbitrage, not functional difference.** Smart contracts can replicate all equity rights. The Across conversion may be admitting what was always true -- that governance tokens are equity that refused to call itself equity.
 
@@ -388,7 +388,7 @@ Converting to equity eliminates the unlock schedule problem. A C-corp issues sha
 
 ### The "Podcast Industrial Complex" Question
 
-Paradigm led Across Protocol's $41M funding round and is the single largest beneficiary if the ACX-to-equity conversion becomes a template. In a C-corp equity structure, Paradigm would typically receive preferred stock with liquidation preference, board seats, anti-dilution protection, information rights, and registration rights. As a governance token holder, they have none of these.
+Paradigm led Across Protocol's $41M token round ($51M total across all rounds) and is the single largest beneficiary if the ACX-to-equity conversion becomes a template. In a C-corp equity structure, Paradigm would typically receive preferred stock with liquidation preference, board seats, anti-dilution protection, information rights, and registration rights. As a governance token holder, they have none of these.
 
 a16z Crypto is raising $2B for its fifth fund (targeting H1 2026 close). Their "Read Write Own" Web3 thesis has underperformed. An equity-friendly narrative helps justify new capital allocation and portfolio company restructuring.
 
@@ -462,7 +462,7 @@ This report synthesizes data from three research briefs (token-to-equity convers
 
 **Key corrections applied:**
 - Total 2025 crypto M&A/IPO activity: ~$23.2B ($8.6B M&A + $14.6B IPOs per The Block), not $57.1B (no source found for the higher figure).
-- Coinbase market cap: ~$40.5B as of March 2026, not $52B.
+- Coinbase market cap: ~$40.5B at time of S&P 500 inclusion (May 2025); approximately $44-47B as of late March 2026.
 - Bullish first-day close: +84% (closing at $68), not +218% (which was the intraday peak).
 - Figure valuation: ~$5.3B, not $6B.
 - Kraken 2025 revenue: $2.2B (up from $1.5B in 2024).

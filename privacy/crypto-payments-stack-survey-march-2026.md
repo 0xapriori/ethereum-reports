@@ -64,7 +64,7 @@ The defining characteristic: account records are siloed, proprietary, and opaque
 
 **Where crypto inserts itself:** On a blockchain, messaging and settlement are not separate. When you send USDC to an address, the instruction and the settlement are the same transaction. There is no separate "tell the counterparty to expect a payment" step.
 
-Cross-chain messaging adds complexity: Circle CCTP processes cross-chain USDC transfers ($110B+ cumulative by November 2025, CCTP V2 live on 17+ blockchains). Chainlink CCIP handles cross-chain messaging for tokens and arbitrary data ($18B monthly as of March 2026, connecting 60+ blockchains). LayerZero handles 75% of cross-chain bridge volume with 1.2 million daily messages.
+Cross-chain messaging adds complexity: Circle CCTP processes cross-chain USDC transfers ($110B+ cumulative by November 2025, CCTP V2 live on 17+ blockchains). Chainlink CCIP handles cross-chain messaging for tokens and arbitrary data (Chainlink self-reports $18B monthly as of March 2026, connecting 60+ blockchains — this figure is not independently verifiable via DefiLlama and should be treated as a company-reported claim). LayerZero handles 75% of cross-chain bridge volume with 1.2 million daily messages.
 
 **What crypto solves:** The messaging/settlement separation is eliminated. In TradFi, messages travel instantly but settlement lags by days. Crypto collapses both into a single atomic operation. Intermediary chains are removed -- a SWIFT payment from the US to Nigeria may traverse 3-4 correspondent banks, each adding latency, cost, and failure risk. Smart contracts enable programmable messaging: "pay this amount IF these conditions are met." SWIFT cannot do this natively.
 
@@ -221,9 +221,9 @@ Stablecoins provide an alternative settlement rail that does not depend on havin
 
 | Protocol | What They Do | Stack Layer(s) | Traction | Status |
 |---|---|---|---|---|
-| **Chainlink CCIP** | Cross-chain messaging + token transfers | Messaging + Settlement | $18B monthly (March 2026); 60+ chains; Coinbase, Lido, Base integrations | LINK token ($8B+ market cap) |
+| **Chainlink CCIP** | Cross-chain messaging + token transfers | Messaging + Settlement | Chainlink self-reports $18B monthly (March 2026; not independently verified via DefiLlama); 60+ chains; Coinbase, Lido, Base integrations | LINK token ($8B+ market cap) |
 | **LayerZero** | Omnichain interoperability protocol | Messaging | 75% of cross-chain bridge volume (single source, may use favorable methodology); 1.2M daily messages | Raised $263M (Series B at $3B valuation) |
-| **Wormhole** | Cross-chain messaging; institutional partnerships | Messaging + Settlement | BlackRock BUIDL ($18B AUM by Feb 2026), Apollo, Securitize integration | W token; raised $225M |
+| **Wormhole** | Cross-chain messaging; institutional partnerships | Messaging + Settlement | BlackRock BUIDL integration (~$2.9B tokenized on-chain within $18B total fund AUM), Apollo, Securitize | W token; raised $225M |
 | **Across Protocol** | Intent-based bridge for ETH and stablecoins | Settlement | $35B+ bridged lifetime; 54% of daily active bridge users (Jan 2026); V4 with ZK proofs (July 2025) | Transitioning from DAO to C-corp (March 2026) |
 | **Circle CCTP V2** | Native USDC cross-chain burns and mints | Settlement | $110B+ cumulative; 17+ chains; V1 phase-out begins July 31, 2026 | Circle infrastructure |
 
@@ -524,7 +524,7 @@ This report synthesizes data from the following source types:
 
 **Official/Regulatory Sources:** World Bank Remittance Prices Worldwide (Q1 2025), Nacha (ACH 2025 statistics), Federal Reserve Services (Fedwire data), FATF 2025 Targeted Update on VA/VASPs, FASB ASU 2023-08 and related Deloitte/Bloomberg Tax analysis, IRS Notice 2014-21, GENIUS Act (Congress.gov), MiCA Transfer of Funds Regulation.
 
-**Company-Reported Data (flagged as such):** Stripe/Bridge ($4.8B monthly), JPMorgan Kinexys ($7B daily), Bitso ($6.5B US-Mexico), Chainlink CCIP ($18B monthly as of March 2026), Circle CCTP ($110B+ cumulative), Payy ($130M annualized, 100K users -- unverified seed-stage claims), Toku ($1B+ annual payroll), LayerZero (75% bridge volume share).
+**Company-Reported Data (flagged as such):** Stripe/Bridge ($4.8B monthly), JPMorgan Kinexys ($7B daily), Bitso ($6.5B US-Mexico), Chainlink CCIP (self-reported $18B monthly as of March 2026; not independently verified via DefiLlama), Circle CCTP ($110B+ cumulative), Payy ($130M annualized, 100K users -- unverified seed-stage claims), Toku ($1B+ annual payroll), LayerZero (75% bridge volume share).
 
 **Financial Press and Analyst Reports:** CoinDesk, The Block, American Banker, Bloomberg Tax, PYMNTS, Artemis Research, CoinTelegraph, Morningstar.
 
@@ -539,7 +539,7 @@ This report synthesizes data from the following source types:
 | FATF Travel Rule adoption | 85 of 163 jurisdictions (52%) | FATF 2025 Targeted Update | Official source |
 | Crypto-linked card spending | ~$18B annualized | CoinDesk (Jan 2026), Artemis Research | Verified |
 | Visa annual payment volume | ~$15T | Visa fiscal 2025 data | Range of $14.2T-$16.7T depending on methodology |
-| BlackRock BUIDL AUM | ~$18B (Feb 2026) | Multiple sources | Verified |
+| BlackRock BUIDL AUM | ~$18B total fund AUM (~$2.9B tokenized on-chain per rwa.xyz) | Multiple sources | Verified (with on-chain/off-chain distinction) |
 
 ### What Could Not Be Independently Verified
 
@@ -558,10 +558,10 @@ The five-layer payments stack model used in Section 1 is a custom analytical fra
 This report incorporates corrections identified in QA audits of the underlying research:
 
 - FATF Travel Rule: 85 of 163 jurisdictions (52%), not 85 of 117 (73%). The 117 figure uses an outdated FATF membership count; the actual survey covers 163 jurisdictions.
-- Chainlink CCIP: $18B monthly as of March 2026, updated from the $7.77B 2025 snapshot.
+- Chainlink CCIP: Chainlink self-reports $18B monthly as of March 2026 (company-sourced; not independently verified via DefiLlama bridges dashboard). The methodology for counting CCIP "volume" may differ from how DefiLlama counts bridge volume for other protocols, making direct comparisons unreliable.
 - Aztec Network: Described as alpha testnet with critical vulnerability (March 17, 2026), not production mainnet.
 - Marqeta revenue: $507M (2024), corrected from $700M+.
-- BlackRock BUIDL: $18B AUM, corrected from $1B.
+- BlackRock BUIDL: $18B total fund AUM, but only ~$2.9B exists as tokenized on-chain shares (per rwa.xyz). The original $1B figure was approximately correct for its timeframe (March 2025). Total tokenized US Treasuries on-chain: ~$8.7-9.2B.
 - Fedwire: Note added on October 2025 expansion announcement (Sunday operations, 2028+ implementation).
 - Gemini survey attribution added for 38% barrier statistic.
 
