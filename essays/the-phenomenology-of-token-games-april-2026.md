@@ -18,7 +18,6 @@ author: "apriori (human), with Claude (editor)"
 ### Contents
 
 - [Preface](#preface)
-- [A Brief History of Crypto Culture](#a-brief-history-of-crypto-culture)
 - [The Trader vs. Builder Dialectic](#the-trader-vs-builder-dialectic)
 - [What VCs Actually Made](#what-vcs-actually-made)
 - [Is Crowdfunding the Answer?](#is-crowdfunding-the-answer)
@@ -52,36 +51,6 @@ The non - venture backed coins are mostly pure modulo obvious grifts. Retail sta
 Is that the real tension though? No, its only a symptom. The real dialectic that needs a resolution is between traders and builders. Everything else builds on that foundation.
 
 Note this essay does not touch on the relationships between startups, investors, exchanges, market makers, or token launch strategies. Much of this subject matter has been covered on Twitter and various podcasts over the last two years. I am assuming a high context audience. Nowadays people barely read anything, so if you are reading this, you're likely searching for answers. In this process you will find many threads to pull on, dark alleys to lurk through. Good luck with that. Take this essay with a grain of salt.
-
----
-
-## A Brief History of Crypto Culture
-
-Crypto culture is quite fragmented. In the beginning there was only Bitcoin. And to embrace Bitcoin early on you we're either a cypherpunk, an innovator (as defined by Geoffrey Moore in Crossing the Chasm), a speculator, or someone who just had deep distrust of the existing financial apparatus, always on the look out for something beyond the horizon. In fact, just read the fucking Bitcoin genesis block, its quite clear really.
-
-> The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
-
-During the nadir of the global financial crisis (bottom March 2009 thereabout), a life raft emerged. That life raft was Bitcoin. Bitcoin solved the double spend problem. Money can be created and transferred without a centralized mint or intermediary tracking every transaction to ensure there is no double spend when a new coin is created. As a result, Bitcoin provided a new way to transact that does not require trusting an intermediary. It allowed end-users to participate in the network as first class citizens, both mining and validating the chain.
-
-Bitcoin was really only designed for sending around bitcoin. Bitcoin script is programmable but not Turing-complete. Many early crypto enthusiasts attempted to build extensible systems on top of Bitcoin. Eventually though, technologists recognized that a new type of architecture would be necessary for general purpose compute - namely Ethereum.
-
-Ethereum unlocked a new architecture for decentralized applications enabling the creation and exchange of ERC-20s, Ethereum Name Service (ENS) domains, Non-Fungible Tokens, and Decentralized Autonomous Organizations (DAOs). Ethereum, was founded by a small group of idealists working together with a shared set of goals and values to deliver a next generation smart contract and decentralized application platform technology to the world.
-
-Over time more chains and tokens were launched. The next wave of innovation came on the heels of the so-called ICO era. And while there were some good projects that received funding during that era that are still around today, there was a copious amount of grift.
-
-During the following bear market (2018-2020), Ethereum began to find product market fit with AMMs like Uniswap or borrow and lending protocols like Aave (Ethlend). And of course then you had the emergence of DeFi summer and Yield farming. Which later transitioned to DeFi summer 2.0 driven by NFT trading, rebasing coins, and later algorithmic stable coins.
-
-During 2020-2021, a new cohort of chains entered the zeitgeist to directly compete with Ethereum. These newer chains like the three headed SoLunAvax dragon featured novel consensus mechanisms, crypto economic incentives, sharding, and WASM execution environments. Some of these newer chains were just cheaper faster versions of Ethereum, forking the EVM and strapping it to a new consensus protocol (Fantom, Avalanche C-Chain, BSC, Polygon POS). At this time, people believed cryptocurrency would be integrated into almost every aspect of life. As it turns out, such positive sentiment was only ephemeral.
-
-After the blowups of the 2022-2023 bear market, there we're few believers left in the crypto industry. FTX was a go to for many crypto traders who lost significant portions of their holdings almost overnight. Terra's UST was marketed and shilled to retail as "basically risk free". CeFi also had other other headline wreckages including 3AC, Celsius and BlockFi. The industry had egg on its face.
-
-Somewhere around this time, the Securities and Exchange Commission began to target crypto with regulation by enforcement. Operation chokepoint 2.0 has since been acknowledged as real. Perhaps the climax came with the banking crisis when Silicon Valley bank and Signature bank were taken into FDIC receivership. Under Gary Gensler's reign as SEC chair, we saw lawsuits filed against Coinbase and issuance of a Wells notice to Uniswap Labs.
-
-However not all optimism was lost. Builders were still raising large rounds to build infrastructure. Many of these raises were for "modular" chains pitched as rollups or L2s. Other raises focused on ZK companies boasting prover marketplaces and highly performant ZK-VMs. Self-funded teams like Hyperliquid understood and took a distinctly different path from venture capital backed projects, but more on this later.
-
-At the end of 2023, Solana found product market fit. In particular, there was the Jito airdrop, a major wealth creation event for the ecosystem, and the emergence of Pump.fun. Pump fun made it extremely easy for anyone to "become a dev" and launch their own meme coins. During this time, the Crypto x AI meta took off and people started building so called onchain agents. All of these projects had coins, and for a time people wanted them because they just kept going up. But eventually they ran into a wall. The market officially topped when Trump launched a meme coin and hasn't looked back since.
-
-**Let's recap.** Cryptocurrency began in earnest with a vision of removing trust in intermediaries and the possibility of fundamentally changing the way we allocate trust on this planet. Later in concordance with technology improvements tokens became valuable in USD terms. More emphasis was placed on trading and decentralized finance use cases. Taken to the extreme memes live for five minutes at a time in the trenches. Focus on product market fit, building businesses that generate revenue, and finding use cases is the current meta for builders. On the surface, the values may not be in the room with us. But if you look deeper, they're still there.
 
 ---
 
