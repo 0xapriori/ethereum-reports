@@ -214,25 +214,22 @@ Cobie got to this argument first. His May 2024 essay *New launches (part 1) — 
 
 ### MOIC by token (high-confidence entry valuations only)
 
-| Token | TGE | VC entry FDV | VC $/token | Price @ 12mo | MOIC @ 12mo | Price @ 18mo | MOIC @ 18mo | Price @ 24mo | MOIC @ 24mo | Notes |
+| Token | TGE | VC $/token | Retail $/token (yr-1 VWAP) | Price @ 12mo | VC / Retail MOIC @ 12mo | Price @ 18mo | VC / Retail MOIC @ 18mo | Price @ 24mo | VC / Retail MOIC @ 24mo | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| OP | 2022-05-31 | $1.65B equity | $0.384 | $1.49 | 3.88x | $1.76 | 4.58x | $2.51 | 6.53x | Series B; Paradigm/a16z |
-| STG | 2022-03-17 | $250M (token FDV) | $2.144 | $0.77 | 0.36x | $0.48 | 0.22x | $0.80 | 0.37x | Low initial float (~1.2%); STG merged into ZRO 2025 |
-| APT | 2022-10-12 | $4B equity (range $2-4B) | $3.330 | $4.94 | 1.48x | $13.01 | 3.91x | $9.04 | 2.72x | Series A FTX/Jump; $2B–$4B sources disagree |
-| IMX | 2021-11-04 | $2.5B equity (Mar-2022) | $1.250 | $0.61 | 0.49x | $0.95 | 0.76x | $0.77 | 0.62x | Series C closed 4mo post-TGE; proxy |
-| SUI | 2023-05-03 | ~$4.3B implied token FDV | $0.430 | $1.15 | 2.67x | $1.89 | 4.39x | $3.45 | 8.03x | Implied from Series B $0.43/SUI allocation |
-| SEI | 2023-08-15 | $800M | $0.080 | $0.28 | 3.56x | $0.23 | 2.84x | $0.33 | 4.07x | Strategic round Apr-2023 |
-| TIA | 2023-10-31 | $1B equity | $0.858 | $5.00 | 5.83x | $2.85 | 3.32x | $0.99 | 1.15x | Polychain exited remaining stake at $62.5M in 2025 |
-| ARB | 2023-03-23 | $1.2B equity | $0.120 | $1.65 | 13.74x | $0.53 | 4.45x | $0.37 | 3.11x | Series B Lightspeed |
-| STRK | 2024-02-20 | $8B equity | $0.800 | $0.23 | 0.28x | $0.13 | 0.17x | $0.05 | 0.06x | Series D Greenoaks/Coatue; contested entry |
-| ENA | 2024-04-02 | $300M equity | $0.020 | $0.34 | 17.23x | $0.58 | 28.89x | $0.09 | 4.30x | Feb-2024 Dragonfly/Maelstrom; Dec-2024 post-TGE round re-priced at ~$6B |
-| W | 2024-04-03 | $2.5B token warrants | $0.250 | $0.08 | 0.33x | $0.11 | 0.43x | $0.01 | 0.06x | Rare clean token-FDV case |
-| ONDO | 2024-01-18 | $525M CoinList FDV | $0.0525 | $1.27 | 24.19x | $0.95 | 18.06x | $0.38 | 7.26x | Retail CoinList tier — not a pure VC entry |
-| OMNI | 2024-04-17 | $150M Series A token FDV | $1.500 | $1.85 | 1.23x | $2.50 | 1.67x | n/a | — | Direct per-token pricing at $1.50/OMNI |
-| SCROLL | 2024-10-22 | $1.8B combined (equity+token) | $1.800 | $0.17 | 0.09x | n/a | — | n/a | — | 12mo elapsed only |
-| ATH | 2024-06-12 | $150M Pre-A | $0.0036 | $0.05 | 12.94x | $0.01 | 3.79x | n/a | — | Aethir; 24mo pending (60 days out) |
+| IMX | 2021-11-04 | $1.2500 | $1.3912 | $0.611 | 0.49x / 0.44x | $0.947 | 0.76x / 0.68x | $0.770 | 0.62x / 0.55x | Series C $2.5B equity (Mar-2022) as proxy |
+| STG | 2022-03-17 | $2.1439 | $0.6672 | $0.768 | 0.36x / 1.15x | $0.480 | 0.22x / 0.72x | $0.801 | 0.37x / 1.20x | $250M token FDV at launch; low initial float (~1.2%); merged into ZRO 2025 |
+| OP | 2022-05-31 | $0.3842 | $1.7915 | $1.490 | 3.88x / 0.83x | $1.761 | 4.58x / 0.98x | $2.510 | 6.53x / 1.40x | Series B $1.65B equity; Paradigm/a16z |
+| APT | 2022-10-12 | $3.3301 | $9.4333 | $4.944 | 1.48x / 0.52x | $13.010 | 3.91x / 1.38x | $9.043 | 2.72x / 0.96x | Series A FTX/Jump; $2B–$4B sources disagree |
+| ARB | 2023-03-23 | $0.1200 | $1.4901 | $1.649 | 13.74x / 1.11x | $0.534 | 4.45x / 0.36x | $0.374 | 3.11x / 0.25x | Series B Lightspeed $1.2B equity |
+| SUI | 2023-05-03 | $0.4300 | $1.2839 | $1.146 | 2.67x / 0.89x | $1.886 | 4.39x / 1.47x | $3.451 | 8.03x / 2.69x | Implied from Series B $0.43/SUI allocation |
+| SEI | 2023-08-15 | $0.0800 | $0.5654 | $0.284 | 3.56x / 0.50x | $0.227 | 2.84x / 0.40x | $0.326 | 4.07x / 0.58x | Strategic round Apr-2023 at $800M |
+| TIA | 2023-10-31 | $0.8577 | $9.4096 | $5.003 | 5.83x / 0.53x | $2.846 | 3.32x / 0.30x | $0.987 | 1.15x / 0.10x | $1B equity; Polychain exited remaining stake at $62.5M in 2025 |
+| ONDO | 2024-01-18 | $0.0525 | $0.8709 | $1.270 | 24.19x / 1.46x | $0.948 | 18.06x / 1.09x | $0.381 | 7.26x / 0.44x | $525M CoinList FDV — retail tier, not a pure VC entry |
+| STRK | 2024-02-20 | $0.8000 | $0.4911 | $0.228 | 0.28x / 0.46x | $0.135 | 0.17x / 0.27x | $0.047 | 0.06x / 0.10x | Series D Greenoaks/Coatue $8B equity; contested entry |
+| ENA | 2024-04-02 | $0.0200 | $0.6455 | $0.344 | 17.22x / 0.53x | $0.578 | 28.89x / 0.90x | $0.086 | 4.31x / 0.13x | Feb-2024 Dragonfly/Maelstrom $300M equity; Dec-2024 post-TGE round re-priced at ~$6B |
+| W | 2024-04-03 | $0.2500 | $0.3250 | $0.084 | 0.33x / 0.26x | $0.107 | 0.43x / 0.33x | $0.014 | 0.06x / 0.04x | $2.5B token warrants (rare clean token-FDV case) |
 
-*Caption: `VC $/token` = entry FDV ÷ total supply. `MOIC` = price_at_horizon ÷ VC $/token. See [Appendix](#appendix-sources--methodology) for full derivation, the equity-vs-token-FDV caveat, and per-token sourcing.[^7]*
+*Caption: `VC $/token` = entry FDV ÷ total supply — the VC's implied per-token cost basis. `Retail $/token (yr-1 VWAP)` = volume-weighted average USD price across the first 365 days post-TGE — the realistic retail accumulation price before the 12-month cliff. `VC MOIC @ H` = price_at_H ÷ VC $/token. `Retail MOIC @ H` = price_at_H ÷ yr-1 VWAP. Year-1 VWAP pulled from CryptoCompare daily histo (close + volume). See [Appendix](#appendix-sources--methodology) for derivation and the equity-vs-token-FDV caveat.[^7][^8]*
 
 ### Data gaps — entry valuation not recoverable or too uncertain for MOIC
 
@@ -244,41 +241,35 @@ Cobie got to this argument first. His May 2024 essay *New launches (part 1) — 
 | ALT | Valuation withheld at Strategic ($14.4M / Polychain + Hack VC) |
 | DYM | CEO explicitly declined to disclose valuation |
 | PIXEL | Polygon → Ronin migration broke the paper trail; no clean source |
-| PORTAL | Medium confidence only (implied ~$87.9M FDMC); included in table above with a flag |
+| PORTAL | Medium confidence only (implied ~$87.9M FDMC) |
 | TNSR | Valuation withheld at $3M seed |
-| PRCL | Valuation withheld at Series A |
-| REZ | Only post-TGE Series A ($17M) is documented; pre-TGE was $3.2M seed at undisclosed valuation |
-| ZK | Press reports suggest ~$2B equity at Series C but never confirmed |
-| BLAST | $20M seed, valuation undisclosed |
-| EIGEN | $100M Series B a16z; valuation undisclosed |
-| AVAIL | "Several hundred million" — single-source, unattributed |
 | WLD | Series C ($115M) valuation undisclosed; prior $3B equity stale |
 | DIMO | $11.5M Series A pre-TGE, valuation undisclosed |
 
-*Caption: 16 tokens where either the last pre-TGE round went undisclosed or the round didn't exist. JUP is the important one — it is the 2024-cohort control: a token with no insider entry price. Any "VCs beat retail" claim has to exclude JUP from the VC side because there is no VC side.*
+*Caption: 10 cohort tokens where either the last pre-TGE round went undisclosed or the round didn't exist. JUP is the important one — it is the 2024-cohort control: a token with no insider entry price. Any "VCs beat retail" claim has to exclude JUP from the VC side because there is no VC side. Retail-side MOIC is still computed for all 22 cohort tokens (VWAP requires only price + volume).*
 
-### Cohort summary — retail-side drawdown by vintage
+### Cohort summary — VC vs. retail MOIC at 24 months
 
-| Cohort | n (24mo) | Median retail drawdown @ 24mo | Median retail MOIC @ 24mo | Tokens above TGE @ 24mo |
-|---|---|---|---|---|
-| 2021–22 | 5 | **+6.4%** | 1.06x | 3 of 5 |
-| 2023 | 7 | **−52.5%** | 0.48x | 2 of 7 |
-| 2024 | 10 | **−97.8%** | 0.02x | 1 of 10 |
-| **All (pooled)** | 22 | **−84.8%** | 0.15x | 6 of 22 |
+| Cohort | n (retail) | Median VC MOIC @ 24mo | Median Retail MOIC @ 24mo | Asymmetry (VC ÷ Retail) | Retail above yr-1 VWAP @ 24mo |
+|---|---|---|---|---|---|
+| 2021–22 | 5 | **1.67x** (n=4) | **0.96x** | ~1.7× | 2 of 5 |
+| 2023 | 7 | **3.59x** (n=4) | **0.25x** | ~14× | 1 of 7 |
+| 2024 | 10 | **2.18x** (n=4) | **0.08x** | ~28× | 0 of 10 |
+| **All (pooled)** | 22 | **2.91x** (n=12) | **0.19x** | **~15×** | 3 of 22 |
 
-*Caption: Retail MOIC = price_at_horizon / TGE_open. The 2024 cohort at 24 months is the headline number: the median token has lost 97.8% of its TGE value. Only ONDO is above TGE in that cohort at the 24-month mark.*
+*Caption: Retail entry baseline is the year-1 volume-weighted average price (TGE → TGE+365), not the day-1 TGE open. This is the more charitable retail proxy — it assumes retail DCA'd into the token across the full pre-cliff accumulation window rather than buying at the worst-possible day-1 top. At 24 months, the 2024 cohort median retail position is **down 92%** against their year-1 average cost, while the VCs who entered pre-TGE sit at a median **2.18× MOIC** on the same tokens. The pooled 15× asymmetry at 24mo is the central empirical claim.*
 
 ### What the data actually shows
 
-**One.** VCs in the 2021–22 cohort mostly did fine. OP returned 6.53x on entry FDV by the 24-month mark. APT 2.72x. The 2021–22 retail cohort is the only one where the median token is above TGE at 24 months (+6.4%). Said differently: back when the VC and retail windows overlapped in price, both sides had outcomes. The 2024 cohort is where the wedge opens.
+**One.** VCs in the 2021–22 cohort mostly did fine. OP returned 6.53x on entry FDV by 24 months. APT 2.72x. Retail who DCA'd through year 1 of those launches sat at **0.96x median** — essentially breakeven — at the 24-month mark. Back when VC entry and retail accumulation windows were overlapping in price, both sides had outcomes. The 2024 cohort is where the wedge opens.
 
-**Two.** In the 2024 cohort, VCs remain in the money at 12–18mo on almost every name where we can calculate MOIC — often by wide margins — while retail is down 90%+. ENA, ATH, ONDO, SUI all show this clearly. STRK is the exception in the 2024 cohort: VCs priced in at $8B equity and the token launched at $44B opening FDV, then proceeded to crater to a $469M FDV by month 24 — VCs are at 0.06x. The punchline there is not "VCs lost." It's that the TGE was priced so absurdly relative to the Series D that both sides got crushed in absolute terms, with retail crushed much harder.
+**Two.** In the 2024 cohort, VCs who had high-confidence entry data remained at a **2.18x median MOIC** at 24 months, while retail who DCA'd through year 1 sat at **0.08x** — a loss of 92% against their own average cost basis. ENA, ONDO, ARB, SUI, TIA all show the same pattern at different magnitudes. STRK is the exception in the 2024 cohort where both sides got crushed in absolute terms: VCs priced in at $8B equity and the token launched at $44B opening FDV, then cratered to a $469M FDV by month 24 — VCs are at 0.06x, retail at 0.10x. The punchline there is not "VCs lost." It's that the TGE was priced so absurdly relative to the Series D that both sides got crushed, with retail crushed marginally harder, and the entire outcome remained inaccessible to anyone who didn't have a Series D ticket.
 
-**Three.** The 12-month cliff is not a recovery moment. It's a drawdown moment. Of 22 tokens with both 12mo and 24mo data, **seven rose between the two horizons — and all seven were 2021–22 or 2023 launches.** Every single 2024-cohort token with both data points (ALT, JUP, DYM, PIXEL, STRK, PORTAL, ENA, W, TNSR, ONDO) **fell** between the 12-month cliff and the 24-month mark. The unlock schedule is aligned with further supply overhang, not mean reversion. You would expect this if the cliff initiates a linear-vest sell pressure into thin liquidity. You do not expect it if you believe the narrative that "tokens recover post-cliff."
+**Three.** The 12-month cliff is not a recovery moment for retail. It's a drawdown moment. Using year-1 VWAP as the retail baseline, every single 2024-cohort token (ALT, JUP, DYM, PIXEL, STRK, PORTAL, ENA, W, TNSR, ONDO) had retail MOIC **fall** between the 12mo cliff and the 24mo mark. The median 2024 retail MOIC dropped from 0.37x at the cliff to 0.08x at 24mo — retail lost another 4–5x of value across the linear-vest window after the cliff first hit. You would expect this if the cliff initiates a linear-vest sell pressure into thin liquidity. You do not expect it if you believe the narrative that "tokens recover post-cliff."
 
 **Four.** There is a hidden variable and it's called the post-TGE strategic round. ENA is the cleanest example. Dragonfly/Maelstrom entered at a $300M equity valuation in February 2024. The token opened at ~$0.60 in April 2024, implying a ~$9B FDV. **Then, in December 2024, Franklin Templeton + F-Prime + Polychain + Pantera + Dragonfly bought $100M of ENA tokens at $0.40 — a price below TGE open, implying a ~$6B FDV, not $9B.** This was not publicly announced until February 2025. The pattern — and WLD and EIGEN have close analogues — is that post-TGE strategic rounds let sophisticated capital re-enter at discounts to TGE once the public price discovery is done. The VC cohort that matters to retail's loss is therefore not just the pre-TGE cap table; it is the pre-TGE cap table plus the post-TGE re-entry at lower prices. Retail cannot access either.
 
-**Five.** JUP is a control case and should be treated as one. Jupiter raised zero VC capital pre-TGE. Meow's public position was explicit: "Horrible VC sales scarred Solana DeFi 1.0 — Solana DeFi 2.0 is changing that definitively." JUP still had a rough outcome for retail at the 24-month mark (−90.2%). So the "VCs cause retail losses" claim cannot be "VC presence is sufficient" — JUP had no VCs and fell anyway. The more careful claim the data supports is: **when VCs are present and priced meaningfully below TGE, the 24-month retail outcome is nearly always negative and the VC-retail return wedge is enormous.** When VCs are absent, the 24-month retail outcome can still be negative but the wedge claim doesn't apply because there's no other side.
+**Five.** JUP is a control case and should be treated as one. Jupiter raised zero VC capital pre-TGE. Meow's public position was explicit: "Horrible VC sales scarred Solana DeFi 1.0 — Solana DeFi 2.0 is changing that definitively." JUP retail at 24 months still sits at 0.20x against year-1 VWAP — a loss of 80%. So the "VCs cause retail losses" claim cannot be "VC presence is sufficient" — JUP had no VCs and fell anyway. The more careful claim the data supports is: **when VCs are present and priced meaningfully below TGE, the 24-month retail outcome is nearly always negative and the VC-retail return wedge is enormous.** When VCs are absent, the 24-month retail outcome can still be negative but the wedge claim doesn't apply because there's no other side.
 
 **Six — the "75%" fail claim and the fund-level backdrop.** The earlier VC subsection asserts "75% of venture-backed businesses fail." The canonical source is Shikhar Ghosh's Harvard Business School research on 2,000+ U.S. venture-backed companies funded 2004–2010.[^2] Ghosh's own framing is more careful than the headline suggests: 30–40% of venture-backed companies liquidate and lose all investor money; ~75% fail to return invested capital to LPs (the "75%" figure most-cited); over 95% fail to hit the return projections that underwrote the original investment. The NVCA's lower ~25–30% figure and Ghosh's 75% figure are not in disagreement — they use different definitions of "failure." For the essay's purposes, the return-of-capital definition is the relevant one.
 
@@ -475,6 +466,6 @@ _Thanks for reading this far. You dear reader are a cognitive altruist. Cheers._
 
 [^6]: Bill Gurley, quoted in Connie Loizos, "Bill Gurley doesn't think these giant new funds are such a great idea," *TechCrunch*, Apr 14, 2016. https://techcrunch.com/2016/04/14/bill-gurley-doesnt-think-these-giant-new-funds-are-such-a-great-idea/. See also Gurley, "On the Road to Recap," *Above the Crowd*, Apr 21, 2016, https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/ ("Unlike the 1999 bubble, everyone was 'successful' on paper, but there was little to show in real cash-on-cash returns").
 
-[^7]: **MOIC methodology.** `VC $/token` = entry FDV ÷ total token supply — the implied per-token cost basis of the last pre-TGE private round. `MOIC @ horizon` = (price_at_horizon × total supply) ÷ entry FDV, equivalently price_at_horizon ÷ VC $/token. Only tokens with high-confidence entry valuations are included in the primary MOIC table. Where only equity valuation was disclosed at the round (not token FDV), equity is used as a conservative proxy — this tends to *understate* VC MOIC because token warrant economics were typically richer than the nominal equity ticket (per ICO Analytics on SUI and similar). Total supply is the current fully-diluted supply per CoinGecko; where supply drifted post-TGE due to emissions or burns, ~5% noise enters the FDV calcs but does not move the qualitative picture.
+[^7]: **MOIC methodology.** `VC $/token` = entry FDV ÷ total token supply — the implied per-token cost basis of the last pre-TGE private round. `VC MOIC @ horizon` = (price_at_horizon × total supply) ÷ entry FDV, equivalently price_at_horizon ÷ VC $/token. `Retail $/token` = year-1 volume-weighted average price (VWAP) across TGE → TGE+365. `Retail MOIC @ horizon` = price_at_horizon ÷ Retail $/token. The cohort is 22 tokens with a full 24-month post-TGE window elapsed as of 2026-04-13. Only tokens with high-confidence entry valuations are included in VC MOIC; retail MOIC is computed for all 22 tokens because it only requires price and volume data. Where only equity valuation was disclosed at the round (not token FDV), equity is used as a conservative proxy — this tends to *understate* VC MOIC because token warrant economics were typically richer than the nominal equity ticket (per ICO Analytics on SUI and similar). Total supply is the current fully-diluted supply per CoinGecko; where supply drifted post-TGE due to emissions or burns, ~5% noise enters the FDV calcs but does not move the qualitative picture.
 
-[^8]: **Price data methodology.** Prices are 7-day means of daily closes from DefiLlama's historical API (`coins.llama.fi/chart`), centered on TGE+365, +545, +730. DefiLlama aggregates CoinGecko and on-chain DEX prices; it does not expose per-day volume on this free endpoint, so the windows are arithmetic means rather than true VWAPs. 23 of 31 elapsed horizons were cross-verified against CoinGecko's free `market_chart/range` API (365-day rolling cap meant earlier horizons could not be cross-checked). Max absolute deviation between sources was 2.21% (JUP 18mo); all deviations were below the 5% threshold. EIGEN's 18mo print is 14 days past horizon as of pull date and will shift as more days accumulate; cross-verified within 0.5% on CoinGecko at pull.
+[^8]: **Price data methodology.** Spot prices at 12/18/24-month horizons are 7-day means of daily closes from DefiLlama's historical API (`coins.llama.fi/chart`), centered on TGE+365, +545, +730. DefiLlama aggregates CoinGecko and on-chain DEX prices; it does not expose per-day volume on this free endpoint, so the horizon-anchor windows are arithmetic means rather than true VWAPs. 23 of 31 elapsed horizons were cross-verified against CoinGecko's free `market_chart/range` API (365-day rolling cap meant earlier horizons could not be cross-checked). Max absolute deviation between sources was 2.21% (JUP 18mo); all deviations were below the 5% threshold. **Year-1 VWAP** (retail entry baseline) is computed from CryptoCompare daily histo (`min-api.cryptocompare.com/data/v2/histoday`), which returns both daily close and daily USD volume (`volumefrom` × `volumeto`). VWAP = Σ(daily_USD_volume) ÷ Σ(daily_base_volume) across TGE → TGE+365. Days with zero close or zero volume (pre-listing on that exchange) are dropped; all 22 cohort tokens have ≥280 usable days in their year-1 window, most have 350+. Year-1 VWAP is a cross-exchange aggregate, not a single-venue VWAP.
