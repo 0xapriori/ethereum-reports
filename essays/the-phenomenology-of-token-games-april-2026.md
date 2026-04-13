@@ -16,8 +16,7 @@ author: "apriori (human), with Claude (editor)"
 - [II.b What VCs actually made](#iib-what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
 - [II.c If VCs are the problem, is crowdfunding the answer?](#iic-if-vcs-are-the-problem-is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
 - [III. The Mechanics That Sustain the Game](#iii-the-mechanics-that-sustain-the-game)
-- [IV. The Synthesis: Towards VC Signal](#iv-the-synthesis-towards-vc-signal)
-- [V. The equalizer was never the distribution mechanism](#v-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
+- [IV. The equalizer was never the distribution mechanism](#iv-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
 - [Closing](#closing)
 ---
 
@@ -415,73 +414,9 @@ Another way of stating this is act as if your action were to become through your
 
 ---
 
-## IV. The Synthesis: Towards VC Signal
+## IV. The equalizer was never the distribution mechanism
 
-The only way to resolve the conflict is moving to higher ground, where builders and traders trust each other, and speak openly—not to virtue signal but to learn from and be accountable to each other.
-
-We need to break out of this messed up system where founders and VCs collude to extract value while everyone else gets screwed. In our ideal state, we kill the misaligned incentives and information asymmetry bullshit, replacing it with direct builder-trader connections where everyone's incentives actually align. Capital still flows, but it flows organically to deserving projects through traders who recognize value rather than via inflated token launches and marketing hype. Builders create actual useful products, traders allocate capital and attention to builders who aren't running scams, and if VCs want to stay in the game, they have to add legitimate value rather than just orchestrating exit liquidity events.
-
-### The Problem with the Current Model
-
-This did not always used to be the case. In a previous era, projects would turn directly to the "internet capital markets" (crypto) to raise money. Ethereum raised $18.6M at ~ $37M FDV. Ethereum's current FDV ~ $217B. Anyone who purchased $1000 of ETH in the ICO and held now has ~ $58M. There was no further fundraise beyond the ICO, retail was able to participate and buy at the same valuation as everyone else. Price discovery happened in the public crypto markets where anyone had an opportunity to participate.
-
-Until retail can access coins backing credible teams at reasonable valuations, we will continue to see a bloodbath in price action for pure venture-backed coins (see all the Ethereum L2 charts as an example). More profit sharing between retail and investors is critical to the long-term sustainability of these projects. Without strong token distribution to community members who will trade, HODL, stake, participate in governance, re-stake, and use their receipt tokens in DeFi most of these VC projects will fail (the crypto economic flywheel needs to turn). But a continued failure of venture capital backed projects will push entrepreneurs to pivot to Silicon Valley backed startup product verticals like AI. If the crypto industry has fewer quality projects to back, we will see less innovation and disruption.
-
-### VC Signal: A Concrete Proposal
-
-From first principles, could we design a mechanism such that venture capital and retail investors can participate in funding projects together at fair valuations? Yes, we can. Both Echo and Legion today demonstrate examples of this. One key thing to note is that they require some form of intermediation. Projects need to be vetted before being listed and users may need to KYC or answer survey questions to participate in the platform's public sale offerings. One of the goals of crypto has been disintermediation. Where we can preserve these ideals and make our systems and applications verifiable, permissionless, and censorship-resistant, we should.
-
-VC Signal is an application that aims to create fairer token distributions by allowing both retail investors and venture capitalists to participate in crypto project funding at reasonable valuations, while retail investors benefit from VC signal.
-
-The basic idea is to build an intent-centric version of Kickstarter which, in addition to being supply-side driven, can be demand-side driven. In Kickstarter only the producers can interact with the platform, while the backer has no ability to express their preferences for what projects they want to see offered on the platform.
-
-In this type of game, a startup could decide to reserve a specific portion of the token allocation for venture investors, an allocation for public sale, an allocation for team and foundation, or DAO. For reference, Ethereum sold 60 million/72 million tokens in its ICO. Think about the typical pizza pie. You try and split the pie in the optimal way. Perhaps the optimal split is 1/3 for team/dao/foundation, 1/3 private investors, 1/3 public investors. Perhaps the optimal split is 40% VC, 40% retail, and 20% team and foundation/DAO.
-
-### Intent-Based Participation
-
-One specific use case of this application could be to back projects that both retail and VC backs. Retail users could have an intent that says if this array of Venture Capital projects back this startup, I will invest $XXXXXX.
-
-Intent Examples:
-
-- **Identity based;** you submit an intent that says you will donate 1 ETH to any project Vitalik donates at least 10 ETH to.
-- **Information based;** you submit an intent that says you will donate 1 ETH to any project doing superconductivity research.
-- **Incentive based;** you submit an intent that says you will donate 10 ETH to any project offering a refund bonus.
-- **Threshold based;** you submit an intent that says you will donate 10,000 NAM to any project that raises > 50% of their campaign goal in 1 week or less.
-
-From the demand side, another feature could be users via voting aggregate their demand into one intent that says we will commit 1/3 of funding (pizza) up to $10M (arbitrary amount) to any project backed by a combination of this array [investor 1, investor 2, investor 3.... ] of investors. This would give retail the ability to signal their preferences credibly.
-
-There are many ways to split the pie. The most important outcome is finding the right allocation between venture capital and public sale investors or retail. Discovering the optimal pie allocation will come as a positive side effect of VC signal.
-
-*VC Signal users may also want the ability to filter out particular venture capitalists based on past behavior as a way to not reward them, which will tip founders not to accept investment from these firms in the future. This creates a market-based accountability mechanism: retail gets a lever it has never had before. If a VC consistently backs projects that extract from retail, traders can collectively blacklist that firm. The VC doesn't lose their fund — they lose deal flow, because founders know that accepting their money now means losing retail participation. This is shorter-term accountability than the decade-long DPI cycle, and it comes from the people who actually bear the cost of bad VC behavior rather than from LPs who may not even know their capital is in crypto.*
-
-*VC Signal also functions as a credible information layer. Today, much of crypto's information environment — pay-to-play conferences, sponsored podcasts, KOLs with undisclosed compensation, press releases dressed up as news — is economically aligned with the extractive loop this essay diagnoses. VC Signal cuts through that noise because signal is expressed through capital commitment, not content. When a trader puts money behind a project conditional on specific VC participation, that's not an opinion — it's a bet. And bets, unlike tweets, have consequences.*
-
-### Challenges
-
-There are significant challenges in bootstrapping a new marketplace like this:
-
-- Bootstrapping VC and trader participation (need both)
-- Sourcing Deal Flow for the platform
-- Pricing mechanism
-- Game-theoretic challenges
-- Regulatory or legal hurdles
-- Reputation systems (slow game)
-
-More thought should be given to product requirements for a minimal viable version. Thinking through dominant strategies and edge cases of the game will also be important.
-
-### Why This Matters
-
-If this happens, we can unlock alternative funding models. Traders are fantastic at allocating capital. They are a discerning bunch that can allocate capital to deserving projects effectively, but not projects that simply exist to launch a token. In this environment there will still be a need for plenty of infrastructure research, which also needs to be understood. We are not close to the final forms of blockchain architectures. The endgame that you think is the endgame is much closer to the beginning than the end. But the research doesn't need to conflict with shipping great product features that traders care about today.
-
-In any game you play its good to have strategies for short term dynamics of game play whilst having an overall strategy for how to win in the long run. A delicate balance can be struck.
-
-The objective of this application is to better align incentives with retail, venture capitalists, and teams building moonshot technology. With the era of regulation by enforcement coming to a close, it's time to try some experiments that have the potential to not only save crypto but the other malfunctioning industry called Venture Capital.
-
----
-
-## V. The equalizer was never the distribution mechanism
-
-One more move before we close. Everything in this essay so far — the intermediation argument, the VC return data, the launchpad reality check, the structural and cultural mechanics, the VC Signal proposal — has been arguing over *who gets the allocation*. That framing assumes the thing being allocated — a built product, a running network, an economy worth coordinating capital around — already exists, and the fight is over who shares in the upside.
+One more move before we close. Everything in this essay so far — the intermediation argument, the VC return data, the launchpad reality check, the structural and cultural mechanics — has been arguing over *who gets the allocation*. That framing assumes the thing being allocated — a built product, a running network, an economy worth coordinating capital around — already exists, and the fight is over who shares in the upside.
 
 Walk that assumption back one step. The reason tokens, launchpads, and VC rounds exist as coordination infrastructure at all is that historically, building a protocol required coordinating capital across many people because no individual or tiny team could afford to ship the thing alone. That was the binding constraint. Everything downstream of that constraint — the dialectic, the intermediation, the allocation games — is coordination machinery built on top of the binding constraint. If the constraint loosens, the entire layer of machinery above it becomes overbuilt.
 
