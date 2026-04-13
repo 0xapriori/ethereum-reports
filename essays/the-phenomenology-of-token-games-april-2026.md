@@ -216,25 +216,25 @@ Cobie got to this argument first. His May 2024 essay *New launches (part 1) — 
 
 ### MOIC by token (high-confidence entry valuations only)
 
-| Token | TGE | VC entry FDV | Price @ 12mo | MOIC @ 12mo | Price @ 18mo | MOIC @ 18mo | Price @ 24mo | MOIC @ 24mo | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-| OP | 2022-05-31 | $1.65B equity | $1.49 | 3.88x | $1.76 | 4.58x | $2.51 | 6.53x | Series B; Paradigm/a16z |
-| STG | 2022-03-17 | $250M (token FDV) | $0.77 | 0.36x | $0.48 | 0.22x | $0.80 | 0.37x | Low initial float (~1.2%); STG merged into ZRO 2025 |
-| APT | 2022-10-12 | $4B equity (range $2-4B) | $4.94 | 1.48x | $13.01 | 3.91x | $9.04 | 2.72x | Series A FTX/Jump; $2B–$4B sources disagree |
-| IMX | 2021-11-04 | $2.5B equity (Mar-2022) | $0.61 | 0.49x | $0.95 | 0.76x | $0.77 | 0.62x | Series C closed 4mo post-TGE; proxy |
-| SUI | 2023-05-03 | ~$4.3B implied token FDV | $1.15 | 2.67x | $1.89 | 4.39x | $3.45 | 8.03x | Implied from Series B $0.43/SUI allocation |
-| SEI | 2023-08-15 | $800M | $0.28 | 3.56x | $0.23 | 2.84x | $0.33 | 4.07x | Strategic round Apr-2023 |
-| TIA | 2023-10-31 | $1B equity | $5.00 | 5.83x | $2.85 | 3.32x | $0.99 | 1.15x | Polychain exited remaining stake at $62.5M in 2025 |
-| ARB | 2023-03-23 | $1.2B equity | $1.65 | 13.74x | $0.53 | 4.45x | $0.37 | 3.11x | Series B Lightspeed |
-| STRK | 2024-02-20 | $8B equity | $0.23 | 0.28x | $0.13 | 0.17x | $0.05 | 0.06x | Series D Greenoaks/Coatue; contested entry |
-| ENA | 2024-04-02 | $300M equity | $0.34 | 17.23x | $0.58 | 28.89x | $0.09 | 4.30x | Feb-2024 Dragonfly/Maelstrom; Dec-2024 post-TGE round re-priced at ~$6B |
-| W | 2024-04-03 | $2.5B token warrants | $0.08 | 0.33x | $0.11 | 0.43x | $0.01 | 0.06x | Rare clean token-FDV case |
-| ONDO | 2024-01-18 | $525M CoinList FDV | $1.27 | 24.19x | $0.95 | 18.06x | $0.38 | 7.26x | Retail CoinList tier — not a pure VC entry |
-| OMNI | 2024-04-17 | $150M Series A token FDV | $1.85 | 1.23x | $2.50 | 1.67x | n/a | — | Direct per-token pricing at $1.50/OMNI |
-| SCROLL | 2024-10-22 | $1.8B combined (equity+token) | $0.17 | 0.09x | n/a | — | n/a | — | 12mo elapsed only |
-| ATH | 2024-06-12 | $150M Pre-A | $0.05 | 12.94x | $0.01 | 3.79x | n/a | — | Aethir; 24mo pending (60 days out) |
+| Token | TGE | VC entry FDV | VC $/token | Price @ 12mo | MOIC @ 12mo | Price @ 18mo | MOIC @ 18mo | Price @ 24mo | MOIC @ 24mo | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| OP | 2022-05-31 | $1.65B equity | $0.384 | $1.49 | 3.88x | $1.76 | 4.58x | $2.51 | 6.53x | Series B; Paradigm/a16z |
+| STG | 2022-03-17 | $250M (token FDV) | $2.144 | $0.77 | 0.36x | $0.48 | 0.22x | $0.80 | 0.37x | Low initial float (~1.2%); STG merged into ZRO 2025 |
+| APT | 2022-10-12 | $4B equity (range $2-4B) | $3.330 | $4.94 | 1.48x | $13.01 | 3.91x | $9.04 | 2.72x | Series A FTX/Jump; $2B–$4B sources disagree |
+| IMX | 2021-11-04 | $2.5B equity (Mar-2022) | $1.250 | $0.61 | 0.49x | $0.95 | 0.76x | $0.77 | 0.62x | Series C closed 4mo post-TGE; proxy |
+| SUI | 2023-05-03 | ~$4.3B implied token FDV | $0.430 | $1.15 | 2.67x | $1.89 | 4.39x | $3.45 | 8.03x | Implied from Series B $0.43/SUI allocation |
+| SEI | 2023-08-15 | $800M | $0.080 | $0.28 | 3.56x | $0.23 | 2.84x | $0.33 | 4.07x | Strategic round Apr-2023 |
+| TIA | 2023-10-31 | $1B equity | $0.858 | $5.00 | 5.83x | $2.85 | 3.32x | $0.99 | 1.15x | Polychain exited remaining stake at $62.5M in 2025 |
+| ARB | 2023-03-23 | $1.2B equity | $0.120 | $1.65 | 13.74x | $0.53 | 4.45x | $0.37 | 3.11x | Series B Lightspeed |
+| STRK | 2024-02-20 | $8B equity | $0.800 | $0.23 | 0.28x | $0.13 | 0.17x | $0.05 | 0.06x | Series D Greenoaks/Coatue; contested entry |
+| ENA | 2024-04-02 | $300M equity | $0.020 | $0.34 | 17.23x | $0.58 | 28.89x | $0.09 | 4.30x | Feb-2024 Dragonfly/Maelstrom; Dec-2024 post-TGE round re-priced at ~$6B |
+| W | 2024-04-03 | $2.5B token warrants | $0.250 | $0.08 | 0.33x | $0.11 | 0.43x | $0.01 | 0.06x | Rare clean token-FDV case |
+| ONDO | 2024-01-18 | $525M CoinList FDV | $0.0525 | $1.27 | 24.19x | $0.95 | 18.06x | $0.38 | 7.26x | Retail CoinList tier — not a pure VC entry |
+| OMNI | 2024-04-17 | $150M Series A token FDV | $1.500 | $1.85 | 1.23x | $2.50 | 1.67x | n/a | — | Direct per-token pricing at $1.50/OMNI |
+| SCROLL | 2024-10-22 | $1.8B combined (equity+token) | $1.800 | $0.17 | 0.09x | n/a | — | n/a | — | 12mo elapsed only |
+| ATH | 2024-06-12 | $150M Pre-A | $0.0036 | $0.05 | 12.94x | $0.01 | 3.79x | n/a | — | Aethir; 24mo pending (60 days out) |
 
-*Caption: MOIC = (7-day mean price at horizon × total supply) / last pre-TGE private round FDV. Only tokens with high-confidence VC entry valuations are shown. Equity valuations are used where token FDV was not disclosed at the round; this understates the VC's effective cost basis where the token warrant economics were richer than the nominal equity ticket. Totals and stats are in the cohort table below.*
+*Caption: VC $/token = VC entry FDV ÷ total token supply — i.e. the implied per-token cost basis of the last pre-TGE private round. MOIC = (7-day mean price at horizon × total supply) / last pre-TGE private round FDV, equivalently price_at_horizon ÷ VC $/token. Only tokens with high-confidence VC entry valuations are shown. Equity valuations are used where token FDV was not disclosed at the round; this understates the VC's effective cost basis where the token warrant economics were richer than the nominal equity ticket. Totals and stats are in the cohort table below.*
 
 ### Data gaps — entry valuation not recoverable or too uncertain for MOIC
 
