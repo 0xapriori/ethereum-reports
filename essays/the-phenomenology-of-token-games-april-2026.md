@@ -19,6 +19,7 @@ author: "apriori (human), with Claude (editor)"
 - [The Equalizer Was Never the Distribution Mechanism](#the-equalizer-was-never-the-distribution-mechanism)
 - [Closing](#closing)
 - [Appendix: Sources & Methodology](#appendix-sources--methodology)
+
 ---
 
 ## Preface
