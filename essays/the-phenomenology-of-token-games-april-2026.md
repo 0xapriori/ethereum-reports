@@ -6,14 +6,7 @@ author: "apriori (human), with Claude (editor)"
 
 # The Phenomenology of Token Games
 
-**tl;dr**
-
-- **The wedge is structural, not anecdotal.** A 22-token cohort 24 months post-TGE shows VCs at 2.91× TVPI vs retail at 0.19× using realistic year-1 VWAP cost bases — a ~15× asymmetry that widens to ~28× in the 2024 cohort.
-- **The launch isn't the crime.** Retail enters at a local top, but the real extraction plays out across the unlock schedule and in post-TGE strategic rounds (ENA, EIGEN, WLD) where sophisticated capital re-enters at discounts retail structurally cannot access.
-- **VC presence isn't a sufficient explanation.** JUP launched with no VC round and retail is still down 80% — the wedge requires meaningfully discounted private rounds to bite, but when those exist it dominates everything else.
-- **Launchpads are not the fix the discourse claims.** Echo is accredited angel democratization, Legion is access theater on broken economics (0.63× aggregate 6-month ROI), and MetaDAO — the only platform actually shifting incentives via futarchy and outcome-locked vesting — is outweighed ~100× by a single Sonar/Plasma event. The market funds access theater, not structural reform.
-- **AI dissolved the binding constraint.** Base44, Midjourney, and Hyperliquid show that for software-heavy builders, capital coordination is no longer a prerequisite to shipping — which retires the assumption every distribution-mechanism debate quietly depends on.
-- **The sublation is exit, not iteration.** Crowdfunding remains the honest answer where capital coordination is genuinely needed; everywhere else, ship first and only then decide whether a token is coordinating a network or coordinating nothing.
+- **tl;dr** Crypto's culture wars have calcified into a game where retail structurally cannot win, VCs can only play PvP against each other, and no distribution mechanism has fixed the underlying incentive problem — AI is the equalizer that will quietly rewrite the board in ways the current debate cannot see coming.
 
 ### Contents
 
