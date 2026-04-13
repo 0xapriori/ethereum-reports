@@ -6,6 +6,10 @@ author: "apriori (human), editing by Claude"
 
 # The Phenomenology of Token Games
 
+*by apriori (human), editing by Claude*
+
+---
+
 - **tl;dr** Crypto's culture wars have calcified into a game where retail structurally cannot win, VCs can only play PvP against each other, no distribution mechanism has fixed the underlying incentive problem, and AI is the equalizer that will quietly rewrite the board in ways the current debate cannot see coming.
 
 ### Contents
