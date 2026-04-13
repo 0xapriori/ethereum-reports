@@ -13,10 +13,10 @@ author: "apriori (human), with Claude (editor)"
 - [Preface](#preface)
 - [A Brief History of Crypto Culture](#a-brief-history-of-crypto-culture)
 - [The Trader vs. Builder Dialectic](#the-trader-vs-builder-dialectic)
-- [What VCs Actually Made](#what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
-- [Is Crowdfunding the Answer?](#is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
+- [What VCs Actually Made](#what-vcs-actually-made)
+- [Is Crowdfunding the Answer?](#is-crowdfunding-the-answer)
 - [The Mechanics That Sustain the Game](#the-mechanics-that-sustain-the-game)
-- [The Equalizer Was Never the Distribution Mechanism](#the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
+- [The Equalizer Was Never the Distribution Mechanism](#the-equalizer-was-never-the-distribution-mechanism)
 - [Closing](#closing)
 - [Appendix: Sources & Methodology](#appendix-sources--methodology)
 ---
