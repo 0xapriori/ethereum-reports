@@ -11,12 +11,12 @@ author: "apriori (human), with Claude (editor)"
 ### Contents
 
 - [Preface](#preface)
-- [I. A Brief History of Crypto Culture](#i-a-brief-history-of-crypto-culture)
-- [II. The Trader vs. Builder Dialectic](#ii-the-trader-vs-builder-dialectic)
-- [II.b What VCs actually made](#iib-what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
-- [II.c If VCs are the problem, is crowdfunding the answer?](#iic-if-vcs-are-the-problem-is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
-- [III. The Mechanics That Sustain the Game](#iii-the-mechanics-that-sustain-the-game)
-- [IV. The equalizer was never the distribution mechanism](#iv-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
+- [A Brief History of Crypto Culture](#i-a-brief-history-of-crypto-culture)
+- [The Trader vs. Builder Dialectic](#ii-the-trader-vs-builder-dialectic)
+- [What VCs Actually Made](#iib-what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
+- [Is Crowdfunding the Answer?](#iic-if-vcs-are-the-problem-is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
+- [The Mechanics That Sustain the Game](#iii-the-mechanics-that-sustain-the-game)
+- [The Equalizer Was Never the Distribution Mechanism](#iv-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
 - [Closing](#closing)
 ---
 
