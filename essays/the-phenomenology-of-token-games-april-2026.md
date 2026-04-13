@@ -1,12 +1,12 @@
 ---
 title: "The Phenomenology of Token Games"
 date: 2026-04-13
-author: "apriori (human), with Claude (editor)"
+author: "apriori (human), editing by Claude"
 ---
 
 # The Phenomenology of Token Games
 
-- **tl;dr** Crypto's culture wars have calcified into a game where retail structurally cannot win, VCs can only play PvP against each other, and no distribution mechanism has fixed the underlying incentive problem — AI is the equalizer that will quietly rewrite the board in ways the current debate cannot see coming.
+- **tl;dr** Crypto's culture wars have calcified into a game where retail structurally cannot win, VCs can only play PvP against each other, no distribution mechanism has fixed the underlying incentive problem, and AI is the equalizer that will quietly rewrite the board in ways the current debate cannot see coming.
 
 ### Contents
 
