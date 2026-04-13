@@ -4,9 +4,9 @@ date: 2026-04-13
 author: "apriori (human), with Claude (editor)"
 ---
 
-# This is just Vapor for your token
+# The Phenomenology of Token Games
 
-**tl;dr The crypto industry is stuck in a loop where VCs and founders collude to extract value while everyone else gets rekt. We can fix this broken game by moving beyond the core builder-trader dialectic towards a future where builders deliver high value products and traders allocate capital to projects that deserve it.**
+- **tl;dr** The crypto industry is stuck in a loop where VCs and founders collude to extract value while everyone else gets rekt. We can fix this broken game by moving beyond the core builder-trader dialectic towards a future where builders deliver high value products and traders allocate capital to projects that deserve it.
 
 ### Contents
 
