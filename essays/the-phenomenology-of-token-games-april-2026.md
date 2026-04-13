@@ -1,7 +1,7 @@
 ---
 title: "The Phenomenology of Token Games"
 date: 2026-04-13
-author: "apriori (human)"
+author: "apriori (human), with Claude (editor)"
 ---
 
 # This is just Vapor for your token
@@ -10,24 +10,15 @@ author: "apriori (human)"
 
 ### Contents
 
-- Preface
-- I. A Brief History of Crypto Culture
-- II. The Trader vs. Builder Dialectic
-  - Builders, Founders, Traders
-  - Venture Capitalists, Performance Metrics, Compensation
-  - The DPI Problem
-  - Crypto VCs
-- II.b What VCs actually made *(empirical MOIC panel, 22-token cohort)*
-- II.c If VCs are the problem, is crowdfunding the answer? *(Echo / Legion / MetaDAO)*
-- III. The Mechanics That Sustain the Game
-  - Low Float / High FDV
-  - The Founder's Dilemma
-  - Mimetic Desires
-  - Scapegoats
-  - Pushback
-- IV. The Synthesis: Towards VC Signal
-- V. The equalizer was never the distribution mechanism *(AI and the dissolving constraint)*
-- Closing
+- [Preface](#preface)
+- [I. A Brief History of Crypto Culture](#i-a-brief-history-of-crypto-culture)
+- [II. The Trader vs. Builder Dialectic](#ii-the-trader-vs-builder-dialectic)
+- [II.b What VCs actually made](#iib-what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
+- [II.c If VCs are the problem, is crowdfunding the answer?](#iic-if-vcs-are-the-problem-is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
+- [III. The Mechanics That Sustain the Game](#iii-the-mechanics-that-sustain-the-game)
+- [IV. The Synthesis: Towards VC Signal](#iv-the-synthesis-towards-vc-signal)
+- [V. The equalizer was never the distribution mechanism](#v-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
+- [Closing](#closing)
 ---
 
 ## Preface
