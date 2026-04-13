@@ -11,13 +11,14 @@ author: "apriori (human), with Claude (editor)"
 ### Contents
 
 - [Preface](#preface)
-- [A Brief History of Crypto Culture](#i-a-brief-history-of-crypto-culture)
-- [The Trader vs. Builder Dialectic](#ii-the-trader-vs-builder-dialectic)
-- [What VCs Actually Made](#iib-what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
-- [Is Crowdfunding the Answer?](#iic-if-vcs-are-the-problem-is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
-- [The Mechanics That Sustain the Game](#iii-the-mechanics-that-sustain-the-game)
-- [The Equalizer Was Never the Distribution Mechanism](#iv-the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
+- [A Brief History of Crypto Culture](#a-brief-history-of-crypto-culture)
+- [The Trader vs. Builder Dialectic](#the-trader-vs-builder-dialectic)
+- [What VCs Actually Made](#what-vcs-actually-made) *(empirical MOIC panel, 22-token cohort)*
+- [Is Crowdfunding the Answer?](#is-crowdfunding-the-answer) *(Echo / Legion / MetaDAO)*
+- [The Mechanics That Sustain the Game](#the-mechanics-that-sustain-the-game)
+- [The Equalizer Was Never the Distribution Mechanism](#the-equalizer-was-never-the-distribution-mechanism) *(AI and the dissolving constraint)*
 - [Closing](#closing)
+- [Appendix: Sources & Methodology](#appendix-sources--methodology)
 ---
 
 ## Preface
@@ -46,7 +47,7 @@ Note this essay does not touch on the relationships between startups, investors,
 
 ---
 
-## I. A Brief History of Crypto Culture
+## A Brief History of Crypto Culture
 
 Crypto culture is quite fragmented. In the beginning there was only Bitcoin. And to embrace Bitcoin early on you we're either a cypherpunk, an innovator (as defined by Geoffrey Moore in Crossing the Chasm), a speculator, or someone who just had deep distrust of the existing financial apparatus, always on the look out for something beyond the horizon. In fact, just read the fucking Bitcoin genesis block, its quite clear really.
 
@@ -76,7 +77,7 @@ At the end of 2023, Solana found product market fit. In particular, there was th
 
 ---
 
-## II. The Trader vs. Builder Dialectic
+## The Trader vs. Builder Dialectic
 
 Two archetypes. They are distinct.
 
@@ -201,17 +202,15 @@ Your fund may look great on paper. LPs may be impressed. But you can't eat IRR. 
 *Bridge: before we get into the structural and cultural mechanics that keep this game running, it's worth settling one piece of the argument empirically. The DPI problem above tells us what healthy VC math is supposed to look like. Crypto breaks that math in a specific, measurable way — because the token is itself the exit, and the buyer at the exit is retail.*
 ---
 
-## II.b What VCs actually made
+## What VCs Actually Made
 
 When people say "VCs won, retail lost," they are usually pointing at a chart. Arthur Hayes ran a version of this. Binance Research ran a version. Cobie ran a version in May 2024. Earlier drafts of this essay ran a version too. All of them used the day-1 close as the retail entry baseline, which is the right shorthand if you want a quick number but the wrong baseline if you want to know what happened to VCs across the unlock schedule.
 
 The cliff matters. Most 2024-era tokens unlock on a 12-month cliff with linear vesting after. The interesting question is not whether a token was up or down at TGE+1 — it's what the VC's position was worth at TGE+12mo, +18mo, +24mo, because that is when the realized-return clock starts. Day-1 close conflates "VCs are up on paper" with "VCs actually got out." They are different things.
 
-So we replicate the exercise with a 22-token panel that has entry-valuation data of acceptable quality and price data at three post-TGE horizons. Prices are 7-day means around TGE+365, +545, +730 days, pulled from DefiLlama's historical API and cross-verified against CoinGecko on 23 of the 31 total horizons (max deviation 2.21%, mean <1%). MOIC is computed as **(price_at_horizon × total supply) / VC entry FDV** — i.e., what a VC's token allocation would be worth at the relevant horizon relative to the implied per-token price they paid at their last pre-TGE round. Entry FDVs are sourced in full in the underlying research file; only tokens with **high-confidence** entry valuations are included in the primary MOIC table. Medium- and low-confidence tokens are kept in a separate data-gaps table so the reader can see what we know versus what we don't.
+So we replicate the exercise with a 22-token panel that has entry-valuation data of acceptable quality and price data at three post-TGE horizons. MOIC is computed as what a VC's token allocation would be worth at the relevant horizon relative to the implied per-token price they paid at their last pre-TGE round. Only tokens with high-confidence entry valuations are included in the primary MOIC table; medium- and low-confidence tokens are kept in a separate data-gaps table so the reader can see what we know versus what we don't. Methodology and sources are in the [Appendix](#appendix-sources--methodology).[^7][^8]
 
-Cobie got to this argument first. His May 2024 essay *New launches (part 1) — private capture, phantom pricing*¹ was the cleanest early statement of the asymmetry: price discovery has migrated into the private rounds, TGE is phantom pricing, retail buys at or near a local top while seed investors sit on 100x+ returns. The two illustrations everyone remembers from that piece are "OP seed $60M → $1.7B FDV, 183x" and "STRK seed $80M → $11B FDV, 138x." The numbers are rhetorical shorthand and deserve a footnote: the $1.7B in Cobie's OP comparison is a post-TGE open-market FDV low, not a private round valuation (Optimism's last pre-TGE round was a Series B at **$1.65B equity**, Paradigm + a16z, Mar 2022); the STRK "$80M at $11B" folds the seed amount together with the TGE *opening* FDV, and Starknet's last pre-TGE round was actually a **$100M Series D at $8B equity** (Greenoaks + Coatue, May 2022). This isn't a hit piece on Cobie's arithmetic — it's an invitation to restate the claim more carefully, because the directional point survives the correction. Seed investors in both projects received token allocations priced off those early equity rounds, and when those tokens unlocked against a TGE FDV that was multiples higher than the implied per-token cost basis of the seed, the 100x+ paper returns Cobie describes did accrue. The cleaner version is: *VCs entered at valuations orders of magnitude below TGE FDV, and retail entered at or near the top.* That claim holds under any reasonable recalculation — the corrected entries in the MOIC table below make it concrete.
-
-¹ Cobie, "New launches (part 1) — private capture, phantom pricing," cobie.substack.com, 19 May 2024, https://cobie.substack.com/p/new-launches-part-1-private-capture.
+Cobie got to this argument first. His May 2024 essay *New launches (part 1) — private capture, phantom pricing*[^1] was the cleanest early statement of the asymmetry: price discovery has migrated into the private rounds, TGE is phantom pricing, retail buys at or near a local top while seed investors sit on 100x+ returns. The two illustrations everyone remembers from that piece are "OP seed $60M → $1.7B FDV, 183x" and "STRK seed $80M → $11B FDV, 138x." The numbers are rhetorical shorthand and deserve a footnote: the $1.7B in Cobie's OP comparison is a post-TGE open-market FDV low, not a private round valuation (Optimism's last pre-TGE round was a Series B at **$1.65B equity**, Paradigm + a16z, Mar 2022); the STRK "$80M at $11B" folds the seed amount together with the TGE *opening* FDV, and Starknet's last pre-TGE round was actually a **$100M Series D at $8B equity** (Greenoaks + Coatue, May 2022). This isn't a hit piece on Cobie's arithmetic — it's an invitation to restate the claim more carefully, because the directional point survives the correction. Seed investors in both projects received token allocations priced off those early equity rounds, and when those tokens unlocked against a TGE FDV that was multiples higher than the implied per-token cost basis of the seed, the 100x+ paper returns Cobie describes did accrue. The cleaner version is: *VCs entered at valuations orders of magnitude below TGE FDV, and retail entered at or near the top.* That claim holds under any reasonable recalculation — the corrected entries in the MOIC table below make it concrete.
 
 ### MOIC by token (high-confidence entry valuations only)
 
@@ -233,7 +232,7 @@ Cobie got to this argument first. His May 2024 essay *New launches (part 1) — 
 | SCROLL | 2024-10-22 | $1.8B combined (equity+token) | $1.800 | $0.17 | 0.09x | n/a | — | n/a | — | 12mo elapsed only |
 | ATH | 2024-06-12 | $150M Pre-A | $0.0036 | $0.05 | 12.94x | $0.01 | 3.79x | n/a | — | Aethir; 24mo pending (60 days out) |
 
-*Caption: VC $/token = VC entry FDV ÷ total token supply — i.e. the implied per-token cost basis of the last pre-TGE private round. MOIC = (7-day mean price at horizon × total supply) / last pre-TGE private round FDV, equivalently price_at_horizon ÷ VC $/token. Only tokens with high-confidence VC entry valuations are shown. Equity valuations are used where token FDV was not disclosed at the round; this understates the VC's effective cost basis where the token warrant economics were richer than the nominal equity ticket. Totals and stats are in the cohort table below.*
+*Caption: `VC $/token` = entry FDV ÷ total supply. `MOIC` = price_at_horizon ÷ VC $/token. See [Appendix](#appendix-sources--methodology) for full derivation, the equity-vs-token-FDV caveat, and per-token sourcing.[^7]*
 
 ### Data gaps — entry valuation not recoverable or too uncertain for MOIC
 
@@ -281,28 +280,15 @@ Cobie got to this argument first. His May 2024 essay *New launches (part 1) — 
 
 **Five.** JUP is a control case and should be treated as one. Jupiter raised zero VC capital pre-TGE. Meow's public position was explicit: "Horrible VC sales scarred Solana DeFi 1.0 — Solana DeFi 2.0 is changing that definitively." JUP still had a rough outcome for retail at the 24-month mark (−90.2%). So the "VCs cause retail losses" claim cannot be "VC presence is sufficient" — JUP had no VCs and fell anyway. The more careful claim the data supports is: **when VCs are present and priced meaningfully below TGE, the 24-month retail outcome is nearly always negative and the VC-retail return wedge is enormous.** When VCs are absent, the 24-month retail outcome can still be negative but the wedge claim doesn't apply because there's no other side.
 
-**Six — the "75%" fail claim and the fund-level backdrop.** The earlier VC subsection asserts "75% of venture-backed businesses fail." The canonical source is Shikhar Ghosh's Harvard Business School research on 2,000+ U.S. venture-backed companies funded 2004–2010, reported by Deborah Gage in *The Wall Street Journal*, Sep 20, 2012.² Ghosh's own framing is more careful than the headline suggests: 30–40% of venture-backed companies liquidate and lose all investor money; ~75% fail to return invested capital to LPs (the "75%" figure most-cited); over 95% fail to hit the return projections that underwrote the original investment. The NVCA's lower ~25–30% figure and Ghosh's 75% figure are not in disagreement — they use different definitions of "failure." For the essay's purposes, the return-of-capital definition is the relevant one.
+**Six — the "75%" fail claim and the fund-level backdrop.** The earlier VC subsection asserts "75% of venture-backed businesses fail." The canonical source is Shikhar Ghosh's Harvard Business School research on 2,000+ U.S. venture-backed companies funded 2004–2010.[^2] Ghosh's own framing is more careful than the headline suggests: 30–40% of venture-backed companies liquidate and lose all investor money; ~75% fail to return invested capital to LPs (the "75%" figure most-cited); over 95% fail to hit the return projections that underwrote the original investment. The NVCA's lower ~25–30% figure and Ghosh's 75% figure are not in disagreement — they use different definitions of "failure." For the essay's purposes, the return-of-capital definition is the relevant one.
 
-What matters more for the argument is the fund-level consequence. AngelList's *State of U.S. Early-Stage Venture 2024* reports that the median 2017-vintage fund on its platform has **0.29x DPI at year eight** against **3.57x TVPI** — eight years in, the median fund has returned 29 cents on the dollar in cash while carrying 3.57x of paper markups.³ Industry-wide, the DPI-to-TVPI ratio fell from 16% in 2019 to 11% in 2024. Carta's Q4 2024 fund performance data cross-confirms: **63% of 2019-vintage funds on Carta had returned zero capital to LPs by Q1 2025**; the median 2017 IRR fell from 16.8% (Q4 2021) to 12.0% (Q4 2024).⁴ The Kauffman Foundation's 20-year LP audit remains the sharpest single-source indictment: **62 of 100 funds failed to beat a public-market equivalent after fees and carry**; of 30 funds above $400M in committed capital, only 4 beat a small-cap index.⁵ Bill Gurley's summary line is still the cleanest: *"The only type of return that's guaranteed is excessive fee income."*⁶
+What matters more for the argument is the fund-level consequence. AngelList's *State of U.S. Early-Stage Venture 2024* reports that the median 2017-vintage fund on its platform has **0.29x DPI at year eight** against **3.57x TVPI** — eight years in, the median fund has returned 29 cents on the dollar in cash while carrying 3.57x of paper markups.[^3] Industry-wide, the DPI-to-TVPI ratio fell from 16% in 2019 to 11% in 2024. Carta's Q4 2024 fund performance data cross-confirms: **63% of 2019-vintage funds on Carta had returned zero capital to LPs by Q1 2025**; the median 2017 IRR fell from 16.8% (Q4 2021) to 12.0% (Q4 2024).[^4] The Kauffman Foundation's 20-year LP audit remains the sharpest single-source indictment: **62 of 100 funds failed to beat a public-market equivalent after fees and carry**; of 30 funds above $400M in committed capital, only 4 beat a small-cap index.[^5] Bill Gurley's summary line is still the cleanest: *"The only type of return that's guaranteed is excessive fee income."*[^6]
 
 **This is the setup for why crypto changes the math.** In traditional VC, a failed company returns zero to the fund and the DPI drought is a function of exits that never arrive. In crypto-VC, the token itself is the exit event — retail becomes the buyer of last resort for paper positions that would otherwise sit illiquid on a balance sheet waiting for an IPO or acquirer that may never come. A "failed" project — no product-market fit, abandoned roadmap, zombie DAO — can still generate 3–10x MOIC for the VC on a pre-TGE cost basis, because the TGE is a liquidity event underwritten by retail bid rather than by a diligent acquirer. The same 75% failure rate therefore generates wildly different fund-level economics in crypto than in traditional venture. This is the mechanism that turns the DPI drought above into the launchpad reality check that follows. Traditional VC's bad math gets papered over with crypto's retail-funded exit, which is why the fund-size-destroying-returns dynamic Kauffman documented in 2012 doesn't fully apply to the crypto-VC books that matter to this essay — and why the asymmetry between VC MOIC and retail MOIC in the 2024 cohort above is so stark.
 
-² Shikhar Ghosh (Harvard Business School), reported in Deborah Gage, "The Venture Capital Secret: 3 Out of 4 Start-Ups Fail," *The Wall Street Journal*, Sep 20, 2012. HBS press summary: https://www.hbs.edu/news/Pages/item.aspx?num=487. Definitions: 30–40% total liquidation; ~75% fail to return invested capital (most-cited); >95% miss projected returns.
-
-³ AngelList, *The State of U.S. Early-Stage Venture & Startups: 2024*, https://www.angellist.com/data-center/the-state-of-venture-2024.
-
-⁴ Carta, *VC Fund Performance Q4 2024*, https://carta.com/data/vc-fund-performance-q4-2024/.
-
-⁵ Diane Mulcahy, Bill Weeks, Harold S. Bradley, *We Have Met the Enemy… and He Is Us: Lessons from Twenty Years of the Kauffman Foundation's Investments in Venture Capital*, Kauffman Foundation, May 2012, https://www.kauffman.org/wp-content/uploads/2012/05/we_have_met_the_enemy_venture_capital_report_kauffman_foundation.pdf.
-
-⁶ Bill Gurley, quoted in Connie Loizos, "Bill Gurley doesn't think these giant new funds are such a great idea," *TechCrunch*, Apr 14, 2016, https://techcrunch.com/2016/04/14/bill-gurley-doesnt-think-these-giant-new-funds-are-such-a-great-idea/. See also Gurley, "On the Road to Recap," *Above the Crowd*, Apr 21, 2016, https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/ ("Unlike the 1999 bubble, everyone was 'successful' on paper, but there was little to show in real cash-on-cash returns").
-
-### Methodology note
-
-Prices are 7-day means of daily closes from DefiLlama's historical API (`coins.llama.fi/chart`), centered on TGE+365, +545, +730. DefiLlama aggregates CoinGecko and on-chain DEX prices; it does not expose per-day volume on this free endpoint, so the windows are arithmetic means rather than true VWAPs. 23 of 31 elapsed horizons were cross-verified against CoinGecko's free `market_chart/range` API (365-day rolling cap meant earlier horizons could not be cross-checked). Max absolute deviation between sources was 2.21% (JUP 18mo); all deviations were below the 5% threshold. Entry FDVs are the **last private round before TGE** where the round's valuation was disclosed with High confidence; where equity valuation was disclosed but token FDV was not, equity is used as a conservative proxy (this tends to *understate* VC MOIC because token warrant economics were typically richer than equity tickets, per ICO Analytics on SUI and similar). Total supply is the current fully-diluted supply per CoinGecko; where total supply drifted post-TGE due to emissions or burns, this introduces ~5% noise in FDV calcs but does not move the qualitative picture. EIGEN's 18mo print is 14 days past horizon as of pull date and will shift as more days accumulate; cross-verified within 0.5% on CoinGecko at pull.
 ---
 
-## II.c If VCs are the problem, is crowdfunding the answer?
+## Is Crowdfunding the Answer?
 
 The clean response to everything above is: fine, build the launchpad that routes around VCs. Let retail enter at VC prices. Let reputation-based allocation replace logo-based signal. Let a fair launch decide the cap table. This has been the thesis animating Echo, Legion, and MetaDAO — three platforms that have absorbed most of the "ICO 2.0" oxygen over the last eighteen months.
 
@@ -329,7 +315,7 @@ The dialectic predicts exactly this outcome. The trader-builder frame says that 
 Crowdfunding is not a wrong answer. It is a right answer being drowned out by the persistence of the intermediation signal that the original promise of the space said we were going to eliminate. And until the signal problem is solved, the structural solution stays at $34M and the access-theater solution keeps raising hundreds of millions per launch.
 ---
 
-## III. The Mechanics That Sustain the Game
+## The Mechanics That Sustain the Game
 
 The empirical frame above cuts against a story you may have seen elsewhere: the launch event as the crime — retail buys vapor, VCs dump, price collapses. That framing isn't quite right. The launch is where retail enters at a local top, but the real extraction plays out over the unlock horizons and in the post-TGE strategic rounds that retail can't access. VCs remain in the money at 24 months on almost every 2024-cohort token where MOIC is calculable, while retail is down 90%+. That's not a launch-day crime. It's a schedule-long asymmetry.
 
@@ -414,7 +400,7 @@ Another way of stating this is act as if your action were to become through your
 
 ---
 
-## IV. The equalizer was never the distribution mechanism
+## The Equalizer Was Never the Distribution Mechanism
 
 One more move before we close. Everything in this essay so far — the intermediation argument, the VC return data, the launchpad reality check, the structural and cultural mechanics — has been arguing over *who gets the allocation*. That framing assumes the thing being allocated — a built product, a running network, an economy worth coordinating capital around — already exists, and the fight is over who shares in the upside.
 
@@ -472,3 +458,23 @@ If you want to get rich then create value. If its not cash flows articulate the 
 ---
 
 _Thanks for reading this far. You dear reader are a cognitive altruist. Cheers._
+
+---
+
+## Appendix: Sources & Methodology
+
+[^1]: Cobie, "New launches (part 1) — private capture, phantom pricing," cobie.substack.com, 19 May 2024. https://cobie.substack.com/p/new-launches-part-1-private-capture
+
+[^2]: Shikhar Ghosh (Harvard Business School), reported in Deborah Gage, "The Venture Capital Secret: 3 Out of 4 Start-Ups Fail," *The Wall Street Journal*, Sep 20, 2012. HBS press summary: https://www.hbs.edu/news/Pages/item.aspx?num=487. Ghosh's three failure definitions: 30–40% total liquidation; ~75% fail to return invested capital (most-cited); >95% miss projected returns. Sample: 2,000+ U.S. venture-backed companies funded 2004–2010.
+
+[^3]: AngelList, *The State of U.S. Early-Stage Venture & Startups: 2024*. https://www.angellist.com/data-center/the-state-of-venture-2024
+
+[^4]: Carta, *VC Fund Performance Q4 2024*. https://carta.com/data/vc-fund-performance-q4-2024/
+
+[^5]: Diane Mulcahy, Bill Weeks, Harold S. Bradley, *We Have Met the Enemy… and He Is Us: Lessons from Twenty Years of the Kauffman Foundation's Investments in Venture Capital*, Kauffman Foundation, May 2012. https://www.kauffman.org/wp-content/uploads/2012/05/we_have_met_the_enemy_venture_capital_report_kauffman_foundation.pdf
+
+[^6]: Bill Gurley, quoted in Connie Loizos, "Bill Gurley doesn't think these giant new funds are such a great idea," *TechCrunch*, Apr 14, 2016. https://techcrunch.com/2016/04/14/bill-gurley-doesnt-think-these-giant-new-funds-are-such-a-great-idea/. See also Gurley, "On the Road to Recap," *Above the Crowd*, Apr 21, 2016, https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/ ("Unlike the 1999 bubble, everyone was 'successful' on paper, but there was little to show in real cash-on-cash returns").
+
+[^7]: **MOIC methodology.** `VC $/token` = entry FDV ÷ total token supply — the implied per-token cost basis of the last pre-TGE private round. `MOIC @ horizon` = (price_at_horizon × total supply) ÷ entry FDV, equivalently price_at_horizon ÷ VC $/token. Only tokens with high-confidence entry valuations are included in the primary MOIC table. Where only equity valuation was disclosed at the round (not token FDV), equity is used as a conservative proxy — this tends to *understate* VC MOIC because token warrant economics were typically richer than the nominal equity ticket (per ICO Analytics on SUI and similar). Total supply is the current fully-diluted supply per CoinGecko; where supply drifted post-TGE due to emissions or burns, ~5% noise enters the FDV calcs but does not move the qualitative picture.
+
+[^8]: **Price data methodology.** Prices are 7-day means of daily closes from DefiLlama's historical API (`coins.llama.fi/chart`), centered on TGE+365, +545, +730. DefiLlama aggregates CoinGecko and on-chain DEX prices; it does not expose per-day volume on this free endpoint, so the windows are arithmetic means rather than true VWAPs. 23 of 31 elapsed horizons were cross-verified against CoinGecko's free `market_chart/range` API (365-day rolling cap meant earlier horizons could not be cross-checked). Max absolute deviation between sources was 2.21% (JUP 18mo); all deviations were below the 5% threshold. EIGEN's 18mo print is 14 days past horizon as of pull date and will shift as more days accumulate; cross-verified within 0.5% on CoinGecko at pull.
