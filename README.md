@@ -4,6 +4,7 @@ Research reports covering DEX markets, DeFi protocols, lending, and the Ethereum
 
 ## DeFi
 
+- [The rsETH Bridge Drain: LayerZero DVN Compromise, Aave Contagion, and a CROPS Audit](defi/rseth-layerzero-aave-incident-april-2026.md) — Incident report on the April 18, 2026 Kelp DAO exploit ($290M+), the LayerZero 1-of-1 DVN failure, Aave's $123–230M bad-debt exposure, the unresolved Kelp/LayerZero blame dispute, and a party-by-party accountability audit through the CROPS framework
 - [Risk Labs Comprehensive Report: UMA Protocol, Across Protocol & ACX-to-Equity Conversion](defi/risk-labs-uma-across-report-march-2026.md) — Deep dive into Risk Labs (UMA + Across), Polymarket oracle controversies, bridge competitive landscape, and the precedent-setting ACX token-to-equity conversion proposal
 - [DIEM vs Direct API Pricing: The Economics of Tokenized Inference](defi/diem-vs-direct-api-pricing.md) — Analysis of Venice's DIEM token economics vs direct API pricing from Anthropic, OpenAI, and open-source providers
 - [State of Monad: Architecture, Ecosystem & Open Questions](defi/state-of-monad-march-2026.md) — Comprehensive analysis of Monad's technical architecture, on-chain metrics, MEV dynamics under deferred execution, governance gaps, and structural risks
