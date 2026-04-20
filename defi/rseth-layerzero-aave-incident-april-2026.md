@@ -351,12 +351,25 @@ The audit below maps each party's accountability against the relevant CROPS pill
 
 The deeper lesson cuts across CROPS as a whole. Cross-chain LRTs concentrate value across many independent protocols whose individual security postures sum to far less than the headline TVL suggests. The CROPS framework treats Ethereum mainnet as the sanctuary; assets that *claim* to be Ethereum-equivalent on remote chains are only as sanctuary-grade as the bridge holding the backing.
 
-Four ecosystem-level mitigations:
+#### The restaking narrative as amplifier
+
+It is worth being precise about the restaking layer's role. The exploit itself is **not** a restaking failure: EigenLayer slashing did not trigger, no AVS misbehaved, and a vanilla LST bridged through the same 1-of-1 LayerZero DVN would have been drained identically. The restaking primitive is technically blameless for the trigger.
+
+But the LRT business model is not blameless for the **blast radius**. Three conditions made this contagion materially worse than a comparable LST drain would have been:
+
+1. **Cross-chain proliferation as product strategy.** LRTs compete on "earn layered yield everywhere." That pitch pushed Kelp to bridge rsETH to 20+ chains — far more aggressive deployment than vanilla LSTs typically pursue. Bridge surface area scales with chain count; more routes = more configuration choices that can be wrong.
+2. **Deep DeFi composability.** rsETH was wired into Aave (11 deployments), Compound, Euler, Fluid, SparkLend, Lido Earn, Morpho, and Kamino — most as collateral, several as yield primitives. LRTs sit deeper in the composability stack than LSTs because the yield narrative *demands* re-use. The $6–8.5B Aave TVL outflow happened because the *category* of risk (LRT-as-collateral) suddenly became visible across that whole stack at once.
+3. **The "backed by mainnet ETH" illusion.** LRT marketing frames the asset as ETH-equivalent, eliding the actual risk stack: validator slashing + EigenLayer/AVS slashing + operator delegation + *bridge custody*. L2 holders of rsETH were holding a bridge claim on a single Ethereum adapter contract — a fact most of them had not priced.
+
+The deeper structural critique is that LRT issuance is concentrated in a small number of large protocols (Kelp, Renzo, EtherFi, Puffer), each of which becomes a single-point dependency for huge swaths of DeFi. **It is the same anti-pattern as the bridge — centralization disguised as decentralization** — and the CROPS Resistance-to-Capture failure runs through both layers simultaneously. The restaking narrative did not pull the trigger, but it built the room.
+
+#### Ecosystem mitigations
 
 1. **Bridged-asset attestation standard.** A public schema for bridges to publish (DVN config, verifier identities, rate limits, custody ratio) and for lending markets to consume programmatically.
 2. **Upgrade the bar for "blue-chip" status.** A token's blue-chip status today is largely market-cap and TVL based. It should also include *bridge-level fault tolerance*. An asset bridged via 1-of-1 is not blue-chip on the L2, regardless of its mainnet status.
 3. **Default-secure tooling.** Cross-chain SDKs, wallet libraries, and bridge templates should ship with secure defaults. The maintainer owes the population-level outcome, not just the documentation footnote.
 4. **Sanctuary-grade collateral preference.** Lending markets should prefer collateral whose backing lives on Ethereum L1 over collateral whose backing lives behind any bridge — the CROPS-aligned default. Bridged-collateral exposure should be priced (lower LTV, higher liquidation incentive) rather than treated as fungible.
+5. **LRT risk disclosure standard.** LRT issuers should publish, per chain, the full risk stack: backing location, bridge configuration, AVS exposure, operator set, and slashing conditions. Lending markets should consume that disclosure machine-readably and price it into LTV and liquidation parameters. The "ETH-equivalent" framing should be retired.
 
 ---
 
