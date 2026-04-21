@@ -165,6 +165,8 @@ The attacker treated Aave V3 as the primary monetization venue. Per Aave's incid
 
 ### 5.2 Bad Debt Scenarios
 
+> **Reading the two numbers correctly.** The loss is a single fixed fact: the bridge adapter is missing **112,204 rsETH** of backing. That number does not change between scenarios. What changes is the **policy choice** about who absorbs that shortfall — and rsETH is fungible by *branding* but not by *mechanics*. Mainnet rsETH is a direct claim on Kelp's Ethereum staking contracts (still fully backed). L2 rsETH is an OFT-bridged claim against the adapter that was drained. So the same 112,204 rsETH shortfall maps to two very different Aave exposures depending on whether Kelp treats all rsETH as mutually backed (Scenario 1) or honors the underlying mechanics (Scenario 2). The "$123.7M vs $230.1M" range is not Aave guessing the loss — it is Aave modeling **two outcomes of a Kelp governance decision that has not yet happened**.
+
 Aave's exposure depends on how Kelp DAO ultimately structures rsETH redemption. The incident report models two scenarios:
 
 **Scenario 1 — Uniform loss socialization (15.12% haircut on all rsETH):**
@@ -189,6 +191,25 @@ Aave's exposure depends on how Kelp DAO ultimately structures rsETH redemption. 
 | **Total** | | **$230.1M** | |
 
 The choice between these scenarios is **external to Aave** — it depends entirely on whether Kelp DAO opts to socialize losses across the full rsETH holder base or concentrate them on remote-chain holders whose backing was the portion drained.
+
+#### The principled answer is Scenario 2 — but with a caveat
+
+Bridge risk is on the bridge user. That is the only consistent rule that produces correct long-term incentives in DeFi:
+
+- **Mainnet rsETH was never bridged.** Its backing is intact on Ethereum. Forcing mainnet holders to absorb the bridge failure would mean people who took *no* bridge risk subsidize people who did. That breaks the price signal that should make markets demand better bridge configurations.
+- **Socialization rewards bad bridge configs.** If issuers can ship a 1-of-1 DVN, custody $290M, lose it, and have the loss spread evenly across all holders, they have no incentive to ship 3-of-5. The cheapest configuration wins. That is the world the broader CROPS audit (§9) is trying to prevent.
+- **It is consistent with the CROPS framing.** Ethereum mainnet is the sanctuary. Bridges are not. Treating bridged claims as fully fungible with mainnet claims **erases the distinction the framework exists to preserve**.
+- **It is what the mechanics actually say.** OFT-bridged rsETH on Mantle is, literally, a claim against an Ethereum adapter that no longer holds the assets. Calling it equivalent to mainnet rsETH is a marketing choice, not a mechanical fact.
+
+The caveat: **the L2 holders did not choose the bridge configuration — Kelp did.** "Bridge risk is on the user" is the right rule for *loss allocation* (mechanically, the L2 holders are the ones holding the broken claim). But it is the wrong stopping point for *responsibility*. The user took the bridge risk; they did not take the "1-of-1 DVN configured by Kelp against LayerZero's stated best practice" risk. Those are different.
+
+The clean structure is therefore:
+
+1. **Loss falls on bridged supply (Scenario 2 mechanics).** L2 rsETH absorbs the haircut; mainnet rsETH stays whole.
+2. **Restitution flows from Kelp (and where applicable, LayerZero).** Kelp DAO treasury, future protocol revenue, KERNEL token issuance, and any LayerZero contribution are deployed to make L2 holders progressively whole. The L2 user is the *first-loss tranche*, but they are not the *only* tranche.
+3. **Aave models the worst case (Scenario 2, $230.1M) for solvency planning** even if a Kelp-led recovery later compresses the realized loss.
+
+Socialization (Scenario 1) is the politically easy answer — spread the pain — but it is the wrong precedent. The next 1-of-1 bridge that loses $500M will cite this case as the reason to socialize again, and the cost of insecure bridge defaults will continue to be paid by holders who never touched the bridge.
 
 ### 5.3 Defensive Actions Taken
 
