@@ -21,6 +21,8 @@ date: 2026-04-27
 
 - **THE COUNCIL IS A MULTISIG WITH THE TECHNICAL AUTHORITY TO OVERRIDE THE ROLLUP'S STATED TRUST MODEL WHEN IT JUDGES THAT MODEL WOULD OTHERWISE PRODUCE AN ILLEGITIMATE OUTCOME** — Stage 1 explicitly permits this. The deeper truth is that decentralization in 2026 is not a property of any live L2; it is a roadmap. The councils exist precisely because no production rollup has yet built a proof system, governance, and exit mechanism trustworthy enough to operate without one.
 
+- **STAGE 2 DOES NOT ACTUALLY RETIRE INSTANT-ACTION AUTHORITY** — L2Beat's framework explicitly carves out instant upgrades for "adjudicable on-chain bugs," with no timelock and no exit window. Because the trigger is community-defined and the action is instant, the volume of "bug interventions" is structurally likely to rise over the next 5-10 years rather than fall. The honest endpoint, following Polynya's Stage 3 framing, is council dissolution — not council narrowing. High-value applications that depend on credible neutrality belong on a chain whose security council does not exist.
+
 ---
 
 ## Table of Contents
@@ -31,7 +33,8 @@ date: 2026-04-27
 4. [The Arbitrum Security Council in Practice](#4-the-arbitrum-security-council-in-practice)
 5. [The Same Action on Other Stacks — A Counterfactual](#5-the-same-action-on-other-stacks--a-counterfactual)
 6. [Closing — What the Council Actually Is](#6-closing--what-the-council-actually-is)
-7. [Sources](#7-sources)
+7. [The Adjudicable-Bug Loophole and the Case for Stage 3](#7-the-adjudicable-bug-loophole-and-the-case-for-stage-3)
+8. [Sources](#8-sources)
 
 ---
 
@@ -205,7 +208,44 @@ Whether they will continue to exist after that is a question with one honest ans
 
 ---
 
-# 7. Sources
+# 7. The Adjudicable-Bug Loophole and the Case for Stage 3
+
+The closing argument above lands the report at a comfortable place — Stage 2 as the destination, the council as the artifact of an unfinished journey, the work being to make the council retirable. That framing is incomplete. It is incomplete because Stage 2, as currently defined, does not actually retire the council's instant-action authority. It narrows the *trigger* and constrains the *answer-space*, but the council still holds keys, and those keys can still execute upgrades in zero seconds. The honest reading is harder than the closing pretended, and the harder reading points at a destination beyond Stage 2.
+
+**The Stage 2 carve-out is explicit.** L2Beat's stages framework, in its own published methodology:
+
+> *"One exception that we make is given the existence of a on chain bug detection system (e.g. two valid contradicting zk proofs) instant upgrades are allowed for detected bugs."*
+
+So Stage 2 has two upgrade paths. Normal upgrades require a 30-day exit window — long enough that any user who disagrees with the change can withdraw before it takes effect. The adjudicable-bug path requires no delay at all. ([L2Beat — Stages framework](https://l2beat.com/stages))
+
+There are three problems with this carve-out, and the user-facing impact of each compounds on the others.
+
+**Problem 1: the trigger is community-elastic.** "Adjudicable on-chain bug" is a category whose contents are defined by social consensus, not by the contract. The Polygon zkEVM example — Emergency Mode triggered when two valid proofs can be submitted for the same batch — is the strict reading: a literal cryptographic contradiction, machine-detectable, deniable by no one. North Korea attribution is the loose reading: depends on Chainalysis heuristics, OFAC designations, intelligence-community judgment, and prosecutorial discretion. These are categorically different things. A Stage 2 rollup whose community accepts the loose reading is, functionally, a Stage 1 rollup with a marketing budget. The boundary between the two readings is *not* enforced by the protocol. It is enforced by whatever the council and the surrounding social layer agree counts as a bug at any given moment.
+
+**Problem 2: the action is instant.** Once a "bug" is declared, the council can upgrade contracts in a single block. There is no exit window. There is no period during which a user who disagrees with the bug-classification can withdraw their assets before the override takes effect. Polygon zkEVM's documentation states this directly: *"Instead of employing the 2-out-of-3 Admin Multisig Contract and waiting for the time-delay imposed by the Timelock Contract, the Security Council Multisig may activate the emergency state to bypass such time-delay."* The 10-day standard timelock, gone. This was used in production once already, on March 23, 2024. ([L2Beat — Polygon zkEVM](https://l2beat.com/scaling/projects/polygonzkevm))
+
+**Problem 3: Vitalik's published work is silent on the speed question.** *Different types of layer 2s* (October 2023) constrains the trigger (*"security council can only act in case of provable bugs"*) and the answer-space (*"it can only choose between one of the proposed answers; it cannot answer arbitrarily"*) but says nothing about whether the action itself should be timelocked. *Scaling Ethereum L1 and L2s in 2025 and beyond* (January 2025) does not address Stage 2 at all. *The math of when Stage 1 and Stage 2 make sense* (May 2025) models failure probabilities but specifies no delay parameter for emergency action. So the question of whether the bug-path should be subject to a forced exit window is, in the published literature, unsettled. ([Vitalik, *Different types of layer 2s*, 2023](https://vitalik.eth.limo/general/2023/10/31/l2types.html); [*Scaling Ethereum L1 and L2s in 2025 and beyond*, 2025](https://vitalik.eth.limo/general/2025/01/23/l1l2future.html))
+
+**The drift trajectory follows mechanically from these three together.** If any transaction by any author can be classified as an adjudicable on-chain bug, and the classification is community-defined, and the action is instant, then the volume of "bug interventions" is going to rise over the next 5-10 years rather than fall. The drift is not driven by bad faith; it is driven by the structure of the carve-out:
+
+- Sanction lists expand. Each new entity creates a new class of fund-flows the council has authority over the moment a community accepts those flows as bug conditions.
+- Probabilistic attribution gets cheaper. Chain-analytics firms publish more granular heuristics; "likely DPRK" or "likely state actor" becomes a credible bug-trigger; the threshold for action drifts downward because the cost of a false negative feels worse than the cost of a false positive.
+- Pre-attribution pressure builds. States, regulators, and stakeholders demand intervention *before* funds settle. The 7-day withdrawal window on a native bridge, or the 30-day exit window on a normal upgrade, becomes a surveillance window in which the council is expected to act.
+- Adjacent categories accrete. Mixers, privacy tools, "high-risk" jurisdictions, and eventually any address pattern a sufficiently determined classifier flags. Each precedent makes the next one easier.
+
+The endpoint is not difficult to describe: a Stage 2 rollup whose council adjudicates dozens of "bugs" per year, most of which are not cryptographic contradictions but policy-classifications, is a rollup that has decided to be more like a payment processor than like Ethereum. There is nothing structurally preventing this trajectory under the current framework. The Stage 2 designation does not constrain it.
+
+**Polynya's Stage 3 framing — dissolve the council.** [Polynya](https://polynya.mirror.xyz/) has, across multiple essays, made the argument that high-value applications belong on a chain whose Security Council does not exist at all. The argument is not that councils are illegitimate during the proof-system maturation phase — it is that for assets where the trust assumption needs to be *cryptographic* rather than *political*, the council is a centralization vector that must eventually be removed entirely. A multi-prover setup, an immutable verifier, sufficient delay on every upgrade path, and no privileged signers: that is the destination. The chain becomes, in the limit, a pure execution surface whose state is whatever the proofs say it is, full stop. The Polygon zkEVM Emergency Mode trigger — auto-activation on contradicting proofs, no human in the loop — gestures at the right shape, but the surrounding upgrade authority does not.
+
+A Stage 3 chain, in this framing, is a chain whose properties are *inherited* from Ethereum L1 in a way no Stage 2 chain currently is. Ethereum L1 has no multisig with the authority to redirect ETH on the basis of attribution. That absence is not an oversight; it is the condition that makes ETH a credibly neutral asset. A Stage 2 chain with a council that holds adjudicable-bug authority is not credibly neutral in the same sense. The asset on it inherits the council's discretion, not Ethereum's neutrality.
+
+**The honest restatement of the closing.** The work is to move from Stage 1 to Stage 2, and then from Stage 2 to a state in which the council does not exist. For any application whose value depends on credible neutrality — sanctuary applications, immutable financial primitives, settlement-layer instruments, anything that wants to inherit Ethereum's properties rather than the L2 council's policy stance — Stage 2 is not the destination. Stage 2 is the second-to-last step. The last step is dissolution: no council, no privileged keys, no carve-out. The volume of council interventions across the major rollups will tell us, over the next several years, whether any chain is actually moving toward that endpoint or whether the Stage 2 carve-out has become the new resting place. The base rate so far suggests the latter is the easier institutional path.
+
+The right question to put to every L2 team, in 2026 and after, is the one Polynya has been asking for years: *what is your timeline for retiring the security council, not narrowing its scope?* If the answer is "we don't have one," the chain is not on the Stage 3 trajectory; it is on the trajectory of becoming a more centralized version of itself in the long run, with whatever drift the political weather of the next decade produces. The honest framing of "how much power does a security council actually have" is therefore not the answer the report's closing gave — *enough* — but the harder one: **enough, and likely more over time, until the council is dissolved.**
+
+---
+
+# 8. Sources
 
 **Stage framework and rollup classification:**
 - [L2Beat — Stages framework](https://l2beat.com/stages) — Stage 0/1/2 definitions
@@ -214,6 +254,10 @@ Whether they will continue to exist after that is a question with one honest ans
 **Vitalik Buterin essays:**
 - [*Different types of layer 2s* (October 31, 2023)](https://vitalik.eth.limo/general/2023/10/31/l2types.html)
 - [*Scaling Ethereum L1 and L2s in 2025 and beyond* (January 23, 2025)](https://vitalik.eth.limo/general/2025/01/23/l1l2future.html)
+- *The math of when Stage 1 and Stage 2 make sense* (May 2025)
+
+**Polynya — Stage 3 / council-dissolution framing:**
+- Polynya's essays on rollup decentralization endpoints, multi-prover requirements, and the case for retiring the Security Council entirely for high-value applications: [polynya.mirror.xyz](https://polynya.mirror.xyz/)
 
 **Arbitrum / rsETH freeze:**
 - [Arbitrum forum #30803 — Security Council Emergency Action 21/04/2026](https://forum.arbitrum.foundation/t/security-council-emergency-action-21-04-2026/30803) — primary source on the rsETH freeze, including the `sendUnsignedTransactionOverride` mechanism, transaction hashes, and post-action justification
