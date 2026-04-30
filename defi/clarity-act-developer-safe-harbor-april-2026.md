@@ -1,3 +1,8 @@
+---
+title: "The Safe Harbor That Matters: Developer Protections, Stablecoin Yield, and the Roman Storm Retrial"
+date: 2026-04-30
+---
+
 # The Safe Harbor That Matters: Developer Protections, Stablecoin Yield, and the Roman Storm Retrial
 
 *The CLARITY Act's most consequential provision is buried beneath a fight over bank deposit spreads*
