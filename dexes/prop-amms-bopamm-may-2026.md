@@ -1,3 +1,8 @@
+---
+title: "Prop AMMs, Block Oracles, and Bebop's bopAMM Bet"
+date: 2026-05-12
+---
+
 # Prop AMMs, Block Oracles, and Bebop's bopAMM Bet
 
 > Bringing Solana-style propAMM design to Ethereum via builder coordination — and what gets imported with it.
